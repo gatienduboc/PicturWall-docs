@@ -1,4 +1,4 @@
-Bienvenue sur la documentation de PicturWall!
+Documentation de PicturWall!
 =============================================
 
 .. toctree::
