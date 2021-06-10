@@ -3,7 +3,7 @@
 Présentation du panel invité
 ===============================
 
-Le panel invité, c'est la page que les convives de la soirées vont utiliser pour mettre en ligne leurs médias.
+Le panel invité, c'est la page que les convives de la soirée vont utiliser pour mettre en ligne leurs médias.
 Elle est très facile d'utilisation.
 
 Dans la suite de cette page, je vais utiliser le pronom "vous". Cela désigne toute personne voulant envoyer un média sur PicturWall. Ce n'est pas uniquement réservé à l'animateur.
@@ -12,7 +12,7 @@ Comment se rendre sur le panel invité ?
 ========================================
 
 Afin de ce connecter au panel invité, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
-Ensuite, vous allez ouvrir votre navigateur préféré, puis taper l'adresse URL suivante: picturwall.tv_
+Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: picturwall.tv_
 
 Bien-sûr, c'est exactement la même chose sur téléphone. 
 Vous ouvrez votre navigateur et tapper picturwall.tv_ dans votre barre de recherche.
@@ -35,7 +35,7 @@ Envoyer un média
 L'envoi de média sur PicturWall est très simple:
 
 * Sélectionner son média dans votre galerie photo, ou de prendre la photo en direct !
-* Écrire un :ref:`Commentaire <invite_media_commentaire>` ;)
+* Écrire un :ref:`Commentaire <invite_media_commentaire>` (facultatif) ;)
 * Cocher (ou non) la case pour :ref:`"imprimer le souvenir" <invite_media_imprimer>` !
 
 
@@ -52,8 +52,8 @@ Commentaire
    :alt: Ajouter un commentaire sur l'envoi de son image.
    :align: center
 
-Avec PicturWall, vous avez la possibilitée d'ajouter un commentaire avec l'envoi de votre souvenir.
-Celui ci s'affichera sur le diaporama (ajouter lien), en haut de l'écran.
+Avec PicturWall, vous avez la possibilité d'ajouter un commentaire avec l'envoi de votre souvenir.
+Celui-ci s'affichera sur le diaporama (ajouter lien), en haut de l'écran.
 
 Le commentaire doit être composé d'au moins 5 caractères. 
 
@@ -61,9 +61,9 @@ De plus, vous pouvez y ajouter un smiley, via l'icone associé à droite de la b
 
 Pour finir, vous pouvez personalisez la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
 
-.. admonition:: Personalisation
+.. admonition:: Personnalisation
 
-    Vous pouvez changer la couleur par défaut des commentaire via un paramètre du panel animateur (ajouter lien).
+    Vous pouvez changer la couleur par défaut des commentaires via un paramètre du panel animateur (ajouter lien).
 
 
 .. _invite_media_imprimer:
@@ -77,7 +77,7 @@ Imprimer le souvenir
 
 .. important:: Pour que cette case soit visible, il faut activer le service d'impression (ajouter lien).
 
-Grâce à PicturWall, les invités peuvent eux-mêmes instantanément imprimer leur souvenir !
+Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leur souvenir !
 
 Bien sûr, tout est prévu sur le panel animateur (ajouter lien) pour que vous puissiez définir des limites d'impressions par utilisateurs, impresssions maximales... (ajouter lien).
 
@@ -106,7 +106,7 @@ Ensuite, il ne vous restera plus qu'à cliquer sur le média que vous voulez imp
    :alt: Imprimer un souvenir après coup, lancer l'impression.
    :align: center
 
-Et vous pouvez-vous rendre jusqu'à l'imprimante pour récupérer votre média ;)
+Et vous pouvez vous rendre jusqu'à l'imprimante pour récupérer votre média ;)
 
 .. admonition:: Autoriser les invités à imprimer après coup
 
@@ -124,7 +124,7 @@ Sur PicturWall, il existe un concept que l'on nomme "**média en or**".
 
 C'est en réalité un ou plusieurs médias que l'animateur met à disposition de tous pour l'impression. Nous détaillons cette fonction dans le panel animateur, page "Édition de médias" (ajouter lien).
 
-Les invités voient les médias mit à disposition de cette façon:
+Les invités voient les médias mis à disposition de cette façon:
 
 .. figure:: _images/invite_impressions_media_or.PNG
    :alt: Imprimer un média en or.
@@ -134,7 +134,7 @@ Vous pouvez imprimer ce type de média comme tous les autres.
 
 .. admonition:: Médias en or
 
-    Les médias en or sont tous sélectionnées par l'animateur. Par exemple, cela peut-être des photos d'autres invités ou du photographe.
+    Les médias en or sont tous sélectionnés par l'animateur. Par exemple, cela peut-être des photos d'autres invités ou du photographe.
 
 
 .. |bouton_envoyer| image:: _images/invite_bouton_envoyer.PNG
@@ -146,7 +146,7 @@ Vous pouvez imprimer ce type de média comme tous les autres.
 .. |bouton_commentaire_couleur| image:: _images/invite_bouton_commentaire_couleur.PNG
     :alt: Ajouter une couleur au commentaire.
     :scale: 75%
-    
+
 .. |bouton_impression| image:: _images/invite_bouton_impression.PNG
     :alt: Bouton pour accéder aux impressions après coup.
     :scale: 75%
