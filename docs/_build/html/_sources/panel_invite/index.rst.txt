@@ -59,7 +59,7 @@ Le commentaire doit être composé d'au moins 5 caractères.
 
 De plus, vous pouvez y ajouter un smiley, via l'icone associé à droite de la barre de commentaire |bouton_smiley|.
 
-Pour finir, vous pouvez personaliser la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
+Pour finir, vous pouvez personnaliser la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
 
 .. admonition:: Personnalisation
 
