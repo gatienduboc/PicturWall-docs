@@ -15,7 +15,7 @@ Afin de ce connecter au panel invité, vous devrez être préalablement connect�
 Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: picturwall.tv_
 
 Bien-sûr, c'est exactement la même chose sur téléphone. 
-Vous ouvrez votre navigateur et tapper picturwall.tv_ dans votre barre de recherche.
+Vous ouvrez votre navigateur et tapez picturwall.tv_ dans votre barre de recherche.
 
 Inscription
 ------------
@@ -59,7 +59,7 @@ Le commentaire doit être composé d'au moins 5 caractères.
 
 De plus, vous pouvez y ajouter un smiley, via l'icone associé à droite de la barre de commentaire |bouton_smiley|.
 
-Pour finir, vous pouvez personalisez la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
+Pour finir, vous pouvez personaliser la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
 
 .. admonition:: Personnalisation
 
