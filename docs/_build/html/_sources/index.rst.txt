@@ -8,7 +8,7 @@ Ici, vous retrouvez la plupart des fonctionnalités de PicturWall, mais aussi co
 Cette documentation sera regroupée en 3 grands thèmes:
  * :ref:`Le panel invité <panel-invite>`: Présentation et utilisation du panel destiné aux convives.
  * **Le panel animateur**: Votre outil ! Celui qui va vous permettre de gérer PicturWall.
- * **Le diaporama**: Présentation des différents modules du diaporama.
+ * :ref:`Le diaporama <diaporama>`: Présentation des différents modules du diaporama.
 
 
 .. toctree::
@@ -27,3 +27,5 @@ Cette documentation sera regroupée en 3 grands thèmes:
    :maxdepth: 2
    :caption: Diaporama:
    :hidden:
+
+   diaporama/index

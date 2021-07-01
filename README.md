@@ -1,1 +1,1 @@
-Initial commit:  Documentation PicturWall !
+PicturWall:  Documentation de PicturWall !

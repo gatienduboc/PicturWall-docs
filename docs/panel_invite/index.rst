@@ -94,7 +94,7 @@ Vous pouvez aussi vouloir imprimer un média après coup !
 
 Pour cela, vous devez cliquer sur ce bouton: |bouton_impression|
 
-Vous allez donc atterir sur cette page:
+Vous allez donc atterrir sur cette page:
 
 .. figure:: _images/invite_impressions.PNG
    :alt: Imprimer un souvenir après coup.
