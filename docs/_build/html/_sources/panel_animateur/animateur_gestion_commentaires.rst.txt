@@ -18,7 +18,7 @@ Supprimer un commentaire envoyé
 -----------------------------------
 
 Afin de supprimer un commentaire qui a déjà été envoyé, il vous suffit de cliquer sur le commentaire en question.
-Ensuite, vous allez voir cette fenêtre aparaître:
+Ensuite, vous allez voir cette fenêtre apparaître:
 
 .. figure:: _images/gestion_commentaires/gestion_commentaires_commentaire.PNG
    :alt: Panel animateur de PicturWall, page gestion des commentairesn, supprimer un commentaire.
@@ -26,6 +26,6 @@ Ensuite, vous allez voir cette fenêtre aparaître:
 
 Pour refuser le média, il suffit de cliquer sur "Oui!".
 
-.. note:: Le suppression d'un commentaire n'engendre pas la suppression du média associé.
+.. note:: La suppression d'un commentaire n'engendre pas la suppression du média associé.
 
 .. important:: Une fois qu'un commentaire à été supprimé, vous ne pourrez pas le restaurer.

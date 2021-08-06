@@ -9,7 +9,7 @@ La page tri des médias est l'accueil du panel animateur, elle ressemble à ceci
    :alt: Panel animateur de PicturWall, page tri des médias.
    :align: center
 
-Cette page vous permet d'accepter ou non les médias envoyées sur PicturWall.
+Cette page vous permet d'accepter ou non les médias envoyés sur PicturWall.
 
 .. important:: Selon vos paramètres, PicturWall peut automatiquement approuver les :ref:`photos <animateur_parametres_generale_approbation_auto_photos>` photos et/ou :ref:`vidéos <animateur_parametres_videos_approbation_auto_videos>`.
 
@@ -73,7 +73,7 @@ Afin de tourner un média, il vous suffit de cliquer sur l'un des trois boutons 
 Approbation automatique
 --------------------------
 
-Si vous êtes en approbation automatique, vous n'avez pas besoin d'approuver chaque photo et/ou vidéos.
+Si vous êtes en approbation automatique, vous n'avez pas besoin d'approuver chaque photo et/ou vidéo.
 Dans ce cas la, la page "tri des medias" ressemblera à cela:
 
 .. figure:: _images/tri_medias/tri_medias_approbation_auto.PNG

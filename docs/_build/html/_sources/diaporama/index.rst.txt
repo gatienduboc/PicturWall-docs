@@ -190,7 +190,7 @@ Bien sûr, tout est personnalisable sur ce bandeau, vous pouvez :ref:`contrôler
  * Sa taille
  * Sa vitesse de défilement
 
-Tout ceci est controlable depuis la page de pramètres de PicturWall, :ref:`Section bandeau défilant <animateur_parametres_section_bandeau>`
+Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section bandeau défilant <animateur_parametres_section_bandeau>`
 
 Voici à quoi ressemble la rubrique de réglage du bandeau défilant:
 
@@ -245,7 +245,7 @@ Une fois de plus, vous pouvez personnaliser :ref:`l'affichage de l'identité <an
  * Sa couleur
  * Sa taille
 
-Tout ceci est controlable depuis la page de pramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`.
+Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`.
 
 Voici à quoi ressemble la rubrique projecteur:
 
@@ -268,7 +268,7 @@ L'arrière-plan peut se personnaliser, par exemple, vous pouvez mettre :ref:`en 
  * Une couleur
  * Une image
 
-Tout ceci est controlable depuis la page de pramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
+Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
 
 Voici à quoi ressemble la rubrique projecteur:
 
@@ -291,7 +291,7 @@ Voila ce que vous pouvez :ref:`personaliser <animateur_parametres_projecteur_log
  * Son image
  * Son opacité
 
-Tout ceci est controlable depuis la page de pramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
+Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
 
 Voici à quoi ressemble la rubrique projecteur:
 
@@ -311,7 +311,7 @@ Entre les médias, il y a des transitions, que vous pouvez :ref:`personaliser <a
  * Leurs types
  * Leurs durées
 
-Tout ceci est controlable depuis la page de pramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
+Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
 
 Voici à quoi ressemble la rubrique projecteur:
 

@@ -106,7 +106,7 @@ Ensuite, il ne vous restera plus qu'à cliquer sur le média que vous voulez imp
    :alt: Imprimer un souvenir après coup, lancer l'impression.
    :align: center
 
-Et vous pouvez vous rendre jusqu'à l'imprimante pour récupérer votre média ;)
+Et vous pouvez vous rendre jusqu'à l'imprimante pour récupérer votre média.
 
 .. admonition:: Autoriser les invités à imprimer après coup
 

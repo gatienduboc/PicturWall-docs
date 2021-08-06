@@ -23,7 +23,7 @@ Sur PicturWall, il existe plusieurs compteurs d'impressions. Ils ressemblent à 
    :alt: Panel animateur de PicturWall, page gestion des impressions, compteur
    :align: center
 
-* Première ligne: Nombre d'impressions au total / Limite d'impressions totales (configurable depuis la page de paramètres, rubrique "Impression"). (ajouter lien)
+* Première ligne: Nombre d'impressions au total / :ref:`Limite d'impressions totales <animateur_parametres_impression_max>`
 * Seconde ligne: Nombre de médias en or imprimés
 * Troisième ligne: Nombre d'impressions effectués depuis un répertoire réseau (pour les photobooth fixe par exemple)
 * Quatrième ligne: Nombre d'impressions sur la file d'attente de l'imprimante
@@ -34,7 +34,7 @@ Limite d'impressions par utilisateur
 ----------------------------------------
 
 Afin d'augmenter la limite d'impression d'un utilisateur, il vous suffit de cliquer sur la case "Nombre d'impression(s)" de ce dernier.
-Ensuite, vous allez voir cette fenêtre aparaître:
+Ensuite, vous allez voir cette fenêtre apparaître:
 
 .. figure:: _images/gestion_impressions/gestion_impressions_limit.PNG
    :alt: Panel animateur de PicturWall, page gestion des impressions, limite d'impression par utilisateur
@@ -46,7 +46,7 @@ Valider le nombre d'impression en cliquant sur "OK".
 
 .. important:: Le nombre d'impressions par utilisateur global est à définir sur la page de paramètres, rubrique "Impression". (ajouter lien)
 
-Vous pouvez également mettre un nombre d'impressions illimités pour un utilisateur en défénissant sa limite sur "999":
+Vous pouvez également mettre un nombre d'impressions illimités pour un utilisateur en définissant sa limite sur "999":
 
 .. figure:: _images/gestion_impressions/gestion_impressions_limit_no.PNG
    :alt: Panel animateur de PicturWall, page gestion des impressions, limite d'impression par utilisateur - MAX
@@ -60,10 +60,10 @@ Voir impression d'un utilisateur
 ----------------------------------------
 
 Afin de voir les impressions d'un utilisateur, il vous suffit de cliquer sur la case "Impression(s)" de ce dernier.
-Ensuite, vous allez voir cette fenêtre aparaître:
+Ensuite, vous allez voir cette fenêtre apparaître:
 
 .. figure:: _images/gestion_impressions/gestion_impressions_utilisateur.PNG
    :alt: Panel animateur de PicturWall, page gestion des impressions, Impression d'un utilisateur
    :align: center
 
-Vous voyez désormais les photos imprimé par un utilisateur.
+Vous voyez désormais les photos imprimés par un utilisateur.
