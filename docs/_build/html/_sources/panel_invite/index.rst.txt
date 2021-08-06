@@ -79,7 +79,7 @@ Imprimer le souvenir
 
 Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leur souvenir !
 
-Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir des :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>`, :ref:`impressions maximales <animateur_parametres_impression_max>`.
+Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir une :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>`, et une limite d' :ref:`impressions globale <animateur_parametres_impression_max>`.
 
 .. admonition:: Autoriser les invités à imprimer
 
@@ -90,7 +90,7 @@ Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_se
 Imprimer après coup
 =====================
 
-Vous pouvez aussi vouloir imprimer un média après coup !
+Vous pouvez aussi vouloir imprimer un de vos médias ultérieurement !
 
 Pour cela, vous devez cliquer sur ce bouton: |bouton_impression|
 

@@ -20,7 +20,7 @@ Refuser un média envoyé
 ---------------------------
 
 Afin de refuser un média qui a déjà été envoyé, il vous suffit de cliquer sur la photo correspondante au média que vous voulez refuser.
-Vous allez voir cette fenêtre aparaître:
+Vous allez voir cette fenêtre apparaître:
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, modification d'un média.
@@ -41,7 +41,7 @@ Imprimer un média
 ------------------------
 
 Afin d'imprimer un média qui a déjà été envoyé, il vous suffit de cliquer sur la photo correspondante au média que vous voulez imprimer.
-Vous allez voir cette fenêtre aparaître:
+Vous allez voir cette fenêtre apparaître:
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, imprimer un média.
@@ -54,7 +54,7 @@ Pour imprimer le média, il suffit de cliquer sur |bouton_imprimer| dans la part
    :scale: 75%
 
 
-.. important:: Pour pouvoir imprimer, il faut qu'une imprimante soit configuré et active. Pour cela, veuillez vous rendre dans la section "Impression" des paramètres. (insérer lien)
+.. important:: Pour pouvoir imprimer, il faut qu'une imprimante soit configurée et active. Pour cela, veuillez vous rendre dans la :ref:`Section impression <animateur_parametres_section_impression>` des paramètres.
 
 
 .. _animateur_gestion_medias_tourner:
@@ -63,7 +63,7 @@ Tourner un média
 ------------------------
 
 Afin de tourner un média qui a déjà été envoyé, il vous suffit de cliquer sur la photo correspondante au média que vous voulez tourner.
-Vous allez voir cette fenêtre aparaître:
+Vous allez voir cette fenêtre apparaître:
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, tourner un média.
@@ -73,7 +73,7 @@ Pour retourner verticalement le média, il suffit de cliquer sur |bouton_tourner
 
 Pour tourner de 90° vers la gauche le média, il suffit de cliquer sur |bouton_tourner_gauche| dans la partie "Rotation du média".
 
-Pour tourner de 90° vers la droite le média, il suffit de cliquer sur |bouton_tourner_gauche| dans la partie "Rotation du média".
+Pour tourner de 90° vers la droite le média, il suffit de cliquer sur |bouton_tourner_droite| dans la partie "Rotation du média".
 
 .. |bouton_tourner_vertical| image:: _images/gestion_medias/gestion_medias_media_rotation_verticale.PNG
    :alt: Gestion des médias: Tourner un média envoyé verticalement.
@@ -161,7 +161,7 @@ Afin de sélectionner les médias en or, vous devez cliquer sur chaque média qu
 
 Pour le mettre en avant, il suffit de cliquer sur |bouton_media_or|.
 
-.. warning:: Vous ne pouvez pas tager une vidéo comme "média en or". Ce qui est logique, puisque que vous ne pourrez pas l'imprimer
+.. warning:: Vous ne pouvez pas tager une vidéo comme "média en or". Ce qui est logique, puisque que vous ne pourrez pas l'imprimer.
 
 .. note:: Afin de supprimer le média de la liste, il suffit recliquer sur le bouton |bouton_media_or|.
 
@@ -194,7 +194,7 @@ Une fois actif, les invités pourront imprimer les médias sélectionnés (secti
    :alt: Panel animateur de PicturWall, page gestion des médias, médias en or: ON.
    :align: center
 
-.. warning:: Pour pouvoir mettre le mode "médias en or", il faut qu'une imprimante soit configurée et active. Pour cela, veuillez vous rendre dans la section "Impression" des paramètres. (insérer lien)
+.. warning:: Pour pouvoir mettre le mode "médias en or", il faut qu'une imprimante soit configurée et active. Pour cela, veuillez vous rendre dans la :ref:`section impression <animateur_parametres_section_impression>` des paramètres.
 
 
 .. _animateur_gestion_medias_recuperer_medias_refuses:
@@ -238,7 +238,7 @@ Voir rapidement les nouveaux médias
 
 Il existe une façon de vérifier rapidement les nouveaux médias qui ont été envoyé sur PicturWall. Il existe une page qui vous montre les nouveaux médias envoyés depuis sont dernier chargement.
 
-C'ets à dire qu'il vous suffit de recharger la page qunand vous avez une minute à perdre pouir voir uniquement les nouveaux médias.
+C'ets à dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
 
 Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve:
 

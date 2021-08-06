@@ -3,7 +3,7 @@
 Page paramètre
 ===================
 
-La page de paramètre de PicturWall ressemble à ceci:
+La page de paramètres de PicturWall ressemble à ceci:
 
 .. figure:: _images/parametres/parametres.PNG
    :alt: Panel animateur de PicturWall, page paramètres, vue globale.
@@ -135,8 +135,8 @@ Vue de la section générale:
 Approbation automatique des photos
 ##########################################
 
-Les photos peuvent soit être approuvé automatique, soit manuellement.
-Si les photos sont approuvés automatiquement, elles seront affichable sur le diaporama juste après l'envoi.
+Les photos peuvent soit être approuvées automatique, soit manuellement.
+Si les photos sont approuvées automatiquement, elles seront affichable sur le diaporama juste après l'envoi.
 En mode manuel, l'animateur doit approuver chaque photo avant que cette dernière puisse passer sur le diaporama.
 
 Paramètre en question:
@@ -274,7 +274,7 @@ Options du paramètre:
 Approbation automatique des vidéos
 ###################################################
 
-Les vidéos peuvent soit être approuvé automatique, soit manuellement.
+Les vidéos peuvent soit être approuvées automatique, soit manuellement.
 Si les vidéos sont approuvés automatiquement, elles seront affichable sur le diaporama juste après l'envoi.
 En mode manuel, l'animateur doit approuver chaque vidéo avant que cette dernière puisse passer sur le diaporama.
 
@@ -308,7 +308,7 @@ Paramètre en question:
 Option du paramètre:
  * **Temps max**: Durée maximale de la vidéo lue (*durée par défaut: 15 secondes*)
   
-.. note:: En cas de dépassement de limite, la vidéo de l'invité sera tout de même envoyé à PicturWall (si vous avez :ref:`autorisé la sauvegarde des vidéos "trop longues" <animateur_parametres_videos_sauvegarder>` ), mais elle ne sera pas lue. Vous pouvez choisir de l'intégrer au diaporama depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
+.. note:: En cas de dépassement de limite, la vidéo de l'invité sera tout de même envoyée à PicturWall (si vous avez :ref:`autorisé la sauvegarde des vidéos "trop longues" <animateur_parametres_videos_sauvegarder>` ), mais elle ne sera pas lue. Vous pouvez choisir de l'intégrer au diaporama depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
 
 .. _animateur_parametres_videos_sauvegarder:
 
@@ -327,7 +327,7 @@ Options du paramètre:
  * **Non**: Vidéo non sauvegardé (impossibilité d'envoi pour l'invité)
  * **Oui**: Vidéo sauvegardé mais non diffusé (*paramètre par défaut*)
   
- .. note:: La vidéo trop longues seront récupérables depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
+ .. note:: Les vidéos trop longues seront récupérables depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
 
 .. _animateur_parametres_videos_sortie:
 
@@ -485,7 +485,7 @@ Afficher le "commentaire de test" lors du chargement
 
 Vous pouvez choisir d'activer, ou non, le "commentaire de test" lors du chargement du diaporama.
 
-Il vous permet de vérifieir rapidement vos paramètres de commentaires (taille, couleur, etc) sans envoyer de média.
+Il vous permet de vérifier rapidement vos paramètres de commentaires (taille, couleur, etc) sans envoyer de média.
 
 Paramètre en question:
 
@@ -632,7 +632,7 @@ Paramètre en question:
 Option du paramètre:
  * **Vitesse**: Vitesse de défilement du bandeau (*vitesse par défaut: 14 secondes*)
   
-.. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmenter la longueur du texte.
+.. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmentez la longueur du texte.
 
 
 .. _animateur_parametres_bandeau_texte:
@@ -640,7 +640,7 @@ Option du paramètre:
 Texte du bandeau défilant
 ###################################################
 
-Vous pouvez définir le textee du bandeau défilant.
+Vous pouvez définir le texte du bandeau défilant.
 
 Paramètre en question:
 
@@ -651,7 +651,7 @@ Paramètre en question:
 Option du paramètre:
  * **Texte**: Texte défilant (*texte par défaut: Connectez-vous sur le wifi : PICTURWALL, puis dans votre navigateur entrez l'adresse : picturwall.tv*)
   
-.. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmenter la longueur du texte.
+.. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmentez la longueur du texte.
 
 
 
@@ -667,8 +667,7 @@ Vue globale de la section bandeau projecteur:
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur
    :align: center
 
-.. important:: La partie projecteur fait référence à la partie visible du
- :ref:`diaporama <diaporama>`.
+.. important:: La partie projecteur fait référence à la partie visible du :ref:`diaporama <diaporama>`.
 
 
 .. _animateur_parametres_projecteur_vitesse:
@@ -694,7 +693,7 @@ Option du paramètre:
 Type de transitions
 ###################################################
 
-Vous pouvez définir le type de transitions entre les médias
+Vous pouvez définir le type de transitions utilisées entre les médias
 
 Paramètre en question:
 
@@ -702,7 +701,7 @@ Paramètre en question:
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, type de transition
    :align: center
 
-Option du paramètre:
+Options du paramètre:
  * **Arrivé rebond droit**: Les médias viennent par la droite, par rebond
  * **Arrivé linéaire droit**: Les médias viennent par la droite, de manière linéaire
  * **Arrivé progressive droit**: Les médias viennent par la droite, de manière progressive
@@ -716,7 +715,7 @@ Option du paramètre:
 Effet de fond des médias
 ###################################################
 
-Vous pouvez définir le type d'effet de fond des médias. Ce paramètre est utile pour les photos ne prenant pas toute la place du diaporama. Cela permet "de remplir" le fond du diaporama
+Vous pouvez définir le type d'effet de fond des médias. Ce paramètre est utile pour les photos ne prenant pas toute la place du diaporama. Cela permet "de remplir" le fond du diaporama.
 
 Paramètre en question:
 
@@ -724,7 +723,7 @@ Paramètre en question:
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, fond des médias
    :align: center
 
-Option du paramètre:
+Options du paramètre:
  * **Flou**: L'arrière du média est flou (*Paramètre par défaut*)
  * :ref:`Couleur <animateur_parametres_projecteur_fond_couleur>`: L'arrière du média est une couleur
  * :ref:`Fond personalisé <animateur_parametres_projecteur_fond_personalise>`: L'arrière du média est un fond personalisé
@@ -762,7 +761,7 @@ Paramètre en question:
    :align: center
 
 Option du paramètre:
- * **Fichier**: Fichier du de fond des médias
+ * **Fichier**: Fichier de fond des médias
 
  .. note:: Le fichier doit être au format .png et doit faire 1920x1080px max.
 
@@ -1038,10 +1037,10 @@ Paramètre en question:
    :alt: Panel animateur de PicturWall, page paramètres, section impression, autoriser les utilisateurs à imprimer. Nombre max
    :align: center
 
-Options du paramètre:
- * **Nombre d'impressions**: Nombre d'impreessions par utilisateur (*Nombre d'impressions max par défaut: 5 impressions*)
+Option du paramètre:
+ * **Nombre d'impressions**: Nombre d'impressions par utilisateur (*Nombre d'impressions max par défaut: 5 impressions*)
 
- .. note:: Vous pouvez spécifier le nombre d'impression max pour un utilisateur particulié sur la page :ref:`gestion des impressions <animateur_gestion_impressions_limite>`.
+ .. note:: Vous pouvez spécifier le nombre d'impression max pour un utilisateur particulié depuis la page :ref:`gestion des impressions <animateur_gestion_impressions_limite>`.
 
   
 .. _animateur_parametres_impression_utilisateur_envoi:
@@ -1093,7 +1092,7 @@ Paramètre en question:
    :alt: Panel animateur de PicturWall, page paramètres, section impression, nombre max d'impression par soirée
    :align: center
 
-Options du paramètre:
+Option du paramètre:
  * **Nombre d'impressions**: Nombre d'impreessions maximum pour la soirée (*Nombre d'impressions max par défaut: 1000 impressions*)
 
  .. note:: Si vous mettez la limite à 0: le nombre d'impressions sera illimité.
@@ -1131,7 +1130,7 @@ Vue globale de la section envoi réseau:
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau
    :align: center
 
-.. important:: Je vais bientôt sortir une vidéo sur toute la partie envoi réseau. Je vous tient au courant.
+.. important:: Je vais bientôt sortir une vidéo sur toute la partie envoi réseau. Je vous tiens informés.
 
 
 .. _animateur_parametres_envoi-reseau_pw-add:
@@ -1171,7 +1170,7 @@ Options du paramètre:
 
 Plus d'informations sur la :ref:`Page de tri des médias <animateur_tri_medias>`.
 
-.. note:: Même si les médias sont approuvées automatiquement, vous pouvez ensuite les retirer depuis la :ref:`page de gestion des médias <animateur_gestion_medias_media_refuser>`.
+.. note:: Même si les médias sont approuvés automatiquement, vous pouvez ensuite les retirer depuis la :ref:`page de gestion des médias <animateur_gestion_medias_media_refuser>`.
 
 
 .. _animateur_parametres_envoi-reseau_pw-add_imprimer:
@@ -1313,7 +1312,7 @@ Paramètre en question:
 Option du paramètre:
  * **URL**: Ajouter une URL de connexion à PicturWall (*sous la forme domaine.extension*)
 
-.. note:: Ajouter des URL de connexions vous permet de personaliser votre exemplaire de PicturWall ou même la soirée ou vous êtes. Par exemple, vous pouvez très bien créeer une URL caux-event.tv ou gatien.com pour que les invités puissent ce connecter à PicturWall.
+.. note:: Ajouter des URL de connexions vous permet de personaliser votre exemplaire de PicturWall ou même la soirée que vous animez. Par exemple, vous pouvez très bien créer une URL caux-event.tv ou gatien.com pour que les invités puissent se connecter à PicturWall.
 
 URL déjà présentes "de base" dans PicturWall:
  * picturwall.tv

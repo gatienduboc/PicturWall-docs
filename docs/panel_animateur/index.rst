@@ -7,7 +7,7 @@ Le panel animateur sert à contrôler l'ensemble de PicturWall.
 Des médias envoyés aux paramètres de personalisation du diaporama, tout en passant par le nombre maximum d'impressions par personne...
 Il est très complet et relativement facile d'utilisation une fois prit en main.
 
-Dans la suite de ces pages, je vais utiliser le pronom "vous". Cela désigne l'animatuer ou toute personnee ayant un accès au panel animateur de PicturWall.
+Dans la suite de ces pages, je vais utiliser le pronom "vous". Cela désigne l'animateur ou toute personne ayant un accès au panel animateur de PicturWall.
 Pour le moment, nous recommandons l'utilisation d'un ordinateur avec un écran de taille standard afin d'utiliser le panel.
 
 Le panel animateur ressemble à ceci:
@@ -23,18 +23,6 @@ Vous pouvez accéder aux différentes pages de gestion en cliquant sur le menu:
    :align: center
 
 Voici les points que nous allons détailler lors de cette documentation:
-
-..
-    * :ref:`Tri des médias <animateur_tri_medias>`
-    * :ref:`Gestion des médias <animateur_gestion_medias>`
-    * :ref:`Gestion des commentaires <animateur_gestion_commentaires>`
-    * :ref:`Gestion des utilisateurs <animateur_gestion_utilisateurs>`
-    * :ref:`Gestion des impressions <animateur_gestion_impressions>`
-    * :ref:`Paramètres <animateur_parametres>` (environ 60)
-    * :ref:`Envoi de fichiers <animateur_envoi>`
-    * :ref:`Sauvegarder les médias <animateur_sauvegarde>`
-    * :ref:`Remise à 0 <animateur_reset>`
-    * :ref:`Changelogs <animateur_changelogs>` (historique des mises à jour)
 
 .. toctree::
     :maxdepth: 2
