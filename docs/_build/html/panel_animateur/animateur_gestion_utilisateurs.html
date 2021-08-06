@@ -1,0 +1,326 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Page gestion des utilisateurs &mdash; Documentation Documentation de PicturWall 1.16</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Page gestion des impressions" href="animateur_gestion_impressions.html" />
+    <link rel="prev" title="Page gestion des commentaires" href="animateur_gestion_commentaires.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Documentation de PicturWall
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Panel invité:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html">Présentation du panel invité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#se-rendre-sur-le-panel-invite">Se rendre sur le panel invité ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#envoyer-un-media">Envoyer un média</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#imprimer-apres-coup">Imprimer après coup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Panel animateur:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Présentation du panel animateur</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="animateur_tri_medias.html">Page tri des médias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_medias.html">Page gestion des médias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_commentaires.html">Page gestion des commentaires</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Page gestion des utilisateurs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#bannir-un-utilisateur">Bannir un utilisateur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#debannir-un-utilisateur">Debannir un utilisateur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#voir-les-medias-d-un-invite">Voir les médias d’un invité</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#voir-les-commentaires-d-un-invite">Voir les commentaires d’un invité</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_impressions.html">Page gestion des impressions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#se-rendre-sur-le-panel-animateur">Se rendre sur le panel animateur ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_tri_medias.html">Page tri des médias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_medias.html">Page gestion des médias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_commentaires.html">Page gestion des commentaires</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Page gestion des utilisateurs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bannir-un-utilisateur">Bannir un utilisateur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#debannir-un-utilisateur">Debannir un utilisateur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#voir-les-medias-d-un-invite">Voir les médias d’un invité</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#voir-les-commentaires-d-un-invite">Voir les commentaires d’un invité</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_impressions.html">Page gestion des impressions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Diaporama:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html">Présentation du diaporama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#mettre-en-place-le-diaporama">Mettre en place le diaporama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#les-differents-modes-de-diffusion">Les différents modes de diffusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#le-bandeau-defilant">Le bandeau défilant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#les-commentaires">Les commentaires</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#l-identite-de-l-invite">L’identité de l’invité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#l-arriere-plan">L’arrière-plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#le-logo">Le logo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#les-transitions">Les transitions</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Documentation de PicturWall</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Présentation du panel animateur</a> &raquo;</li>
+        
+      <li>Page gestion des utilisateurs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/panel_animateur/animateur_gestion_utilisateurs.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="page-gestion-des-utilisateurs">
+<span id="animateur-gestion-utilisateurs"></span><h1>Page gestion des utilisateurs<a class="headerlink" href="#page-gestion-des-utilisateurs" title="Lien permanent vers ce titre">¶</a></h1>
+<p>La page de gestion des utilisateurs ressemble à ceci:</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page gestion des utilisateurs." src="../_images/gestion_utilisateurs.PNG" />
+</div>
+<p>Cette page vous permet de gérer les utilisateurs de PicturWall. C’est à dire que vous pourrez bannir et « débannir » les utilisateurs.</p>
+<div class="section" id="bannir-un-utilisateur">
+<span id="animateur-gestion-utilisateurs-bannir"></span><h2>Bannir un utilisateur<a class="headerlink" href="#bannir-un-utilisateur" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Afin de bannir un utilisateur, il vous suffit de cliquer sur la case « Bannis » en question.
+Ensuite, vous allez voir cette fenêtre aparaître:</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page gestion des utilisateurs, bannir un utilisateur" src="../_images/gestion_utilisateurs_utilisateur_ban.PNG" />
+</div>
+<p>Pour bannir l’utilisateur, il suffit de cliquer sur « Oui! ».</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les médias d’un utilisateurs bannis ne passeront plus sur le diaporama. Néanmoins, vous pouvez :ref:` récupérer tous ses médias &lt;animateur_sauvegarde&gt;`.</p>
+</div>
+</div>
+<div class="section" id="debannir-un-utilisateur">
+<span id="animateur-gestion-utilisateurs-debannir"></span><h2>Debannir un utilisateur<a class="headerlink" href="#debannir-un-utilisateur" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Afin de « debannir » (CF. Pardonner) un utilisateur, il vous suffit de cliquer sur la case « Bannis » en question.
+Ensuite, vous allez voir cette fenêtre aparaître:</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page gestion des utilisateurs, debannir un utilisateur" src="../_images/gestion_utilisateurs_utilisateur_ban_unban.PNG" />
+</div>
+<p>Pour debannir l’utilisateur, il suffit de cliquer sur « Oui! ».</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les médias d’un utilisateurs bannis seront restaurés. C’est à dire qu’ils pourront repasser sur le diaporama.</p>
+</div>
+</div>
+<div class="section" id="voir-les-medias-d-un-invite">
+<span id="animateur-gestion-utilisateurs-user"></span><h2>Voir les médias d’un invité<a class="headerlink" href="#voir-les-medias-d-un-invite" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Pour visualiser les médias d’un seul invité, il faut que vous cliquez sur la colonne « Voir médias (médias acceptés / médias envoyés) » de l’utilisateur souhaité.
+Ensuite, vous allez voir cette fenêtre aparaître:</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page gestion des utilisateurs, média d'un utilisateur" src="../_images/gestion_utilisateurs_user.PNG" />
+</div>
+<p>Vous avez maintenant accès à ses médias.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les médias encadrés en rouge sont refusés.</p>
+</div>
+</div>
+<div class="section" id="voir-les-commentaires-d-un-invite">
+<span id="animateur-gestion-utilisateurs-commentaire"></span><h2>Voir les commentaires d’un invité<a class="headerlink" href="#voir-les-commentaires-d-un-invite" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Pour visualiser les commentaires d’un seul invité, il faut que vous cliquez sur la colonne « Voir commentaires » de l’utilisateur souhaité.
+Ensuite, vous allez voir cette fenêtre aparaître:</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page gestion des utilisateurs, commentaire d'un utilisateur" src="../_images/gestion_utilisateurs_commentaire.PNG" />
+</div>
+<p>Vous avez maintenant accès à ses commentaires.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Vous ne pouvez pas administrer des commentaires depuis cette page.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="animateur_gestion_impressions.html" class="btn btn-neutral float-right" title="Page gestion des impressions" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="animateur_gestion_commentaires.html" class="btn btn-neutral float-left" title="Page gestion des commentaires" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Gatien DUBOC.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

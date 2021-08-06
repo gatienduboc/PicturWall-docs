@@ -8,8 +8,8 @@ Elle est très facile d'utilisation.
 
 Dans la suite de cette page, je vais utiliser le pronom "vous". Cela désigne toute personne voulant envoyer un média sur PicturWall. Ce n'est pas uniquement réservé à l'animateur.
 
-Comment se rendre sur le panel invité ?
-========================================
+Se rendre sur le panel invité ?
+===================================
 
 Afin de ce connecter au panel invité, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
 Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: picturwall.tv_
@@ -34,8 +34,8 @@ Envoyer un média
 ===================
 L'envoi de média sur PicturWall est très simple:
 
-* Sélectionner son média dans votre galerie photo, ou de prendre la photo en direct !
-* Écrire un :ref:`Commentaire <invite_media_commentaire>` (facultatif) ;)
+* Sélectionner votre média dans votre galerie photo, ou de prendre la photo en direct !
+* Écrire un :ref:`Commentaire <invite_media_commentaire>` (optionnel)
 * Cocher (ou non) la case pour :ref:`"imprimer le souvenir" <invite_media_imprimer>` !
 
 
@@ -53,7 +53,7 @@ Commentaire
    :align: center
 
 Avec PicturWall, vous avez la possibilité d'ajouter un commentaire avec l'envoi de votre souvenir.
-Celui-ci s'affichera sur le diaporama (ajouter lien), en haut de l'écran.
+Celui-ci s'affichera sur le :ref:`diaporama <diaporama_commentaire>`, en haut de l'écran.
 
 Le commentaire doit être composé d'au moins 5 caractères. 
 
@@ -63,7 +63,7 @@ Pour finir, vous pouvez personnaliser la couleur du commentaire envoyé grâce a
 
 .. admonition:: Personnalisation
 
-    Vous pouvez changer la couleur par défaut des commentaires via un paramètre du panel animateur (ajouter lien).
+    Vous pouvez changer la :ref:`Couleur (par défaut) des commentaires <animateur_parametres_commentaires_couleur>` via un paramètre du panel animateur.
 
 
 .. _invite_media_imprimer:
@@ -75,15 +75,15 @@ Imprimer le souvenir
    :alt: Imprimer le souvenir via PicturWall (fonction photobooth)
    :align: center
 
-.. important:: Pour que cette case soit visible, il faut activer le service d'impression (ajouter lien).
+.. important:: Pour que cette case soit visible, il faut :ref:`activer le service d'impression <animateur_parametres_impression_activer>`.
 
 Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leur souvenir !
 
-Bien sûr, tout est prévu sur le panel animateur (ajouter lien) pour que vous puissiez définir des limites d'impressions par utilisateurs, impresssions maximales... (ajouter lien).
+Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir des :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>`, :ref:`impressions maximales <animateur_parametres_impression_max>`.
 
 .. admonition:: Autoriser les invités à imprimer
 
-    Pour que cette case soit active, il faut autoriser les invités à imprimer (ajouter lien).
+    Pour que cette case soit active, il faut :ref:`Autoriser les invités à imprimer <animateur_parametres_impression_utilisateur>`.
 
 .. _invite_impression_apres_coup:
 
@@ -110,7 +110,7 @@ Et vous pouvez vous rendre jusqu'à l'imprimante pour récupérer votre média ;
 
 .. admonition:: Autoriser les invités à imprimer après coup
 
-    Pour que les invités puissent accéder à cette page, il faut autoriser l'impression après coup (ajouter lien).
+    Pour que les invités puissent accéder à cette page, il faut :ref:`autoriser les utilisateurs à imprimer après coup <animateur_parametres_impression_utilisateur_envoi_differe>`.
 
 
 Afin de revenir à la page d'envoi de médias, il faut cliquer sur ce bouton: |bouton_impression_envoyer_souvenir|
@@ -122,7 +122,7 @@ Média en or
 
 Sur PicturWall, il existe un concept que l'on nomme "**média en or**".
 
-C'est en réalité un ou plusieurs médias que l'animateur met à disposition de tous pour l'impression. Nous détaillons cette fonction dans le panel animateur, page "Édition de médias" (ajouter lien).
+C'est en réalité un ou plusieurs médias que l'animateur met à disposition de tous pour l'impression. Nous détaillons cette fonction dans le panel animateur, page :ref:`Édition de médias <animateur_gestion_medias_or>`.
 
 Les invités voient les médias mis à disposition de cette façon:
 
