@@ -6,7 +6,7 @@ Présentation du diaporama
 Le diaporama, c'est ce qui est disponible via la prise HDMI de PicturWall.
 Il est totalement automatisé et personnalisable.
 
-Une fois en place, le diaporama ressemblera à ceci:
+Une fois en place, le diaporama ressemblera à ceci :
 
 .. figure:: _images/diaporama.jpg
    :alt: Diaporama de PicturWall.
@@ -24,7 +24,7 @@ Visuellement, vous pourrez changer l'apparence :
  * Des :ref:`transitions <diaporama_transition>`
 
 Bien-sûr, tout est personnalisable sur le diaporama, vous le découvrez par la suite.
-Par exemple, vous pouvez-personnaliser la vitesse de défilement des médias:
+Par exemple, vous pouvez-personnaliser la vitesse de défilement des médias :
 
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_vitesse.PNG
    :alt: Paramètre: Vitesse de défilement des médias.
@@ -34,7 +34,7 @@ Par exemple, vous pouvez-personnaliser la vitesse de défilement des médias:
 
    La vitesse de défilement des médias s'applique uniquement aux photos. Pour les vidéos, elles sont entièrement lues.
 
-A force de personnalisation, vous pouvez arriver sur des résultats très différents, en voici quelques exemples:
+A force de personnalisation, vous pouvez arriver sur des résultats très différents, en voici quelques exemples :
 
 .. figure:: _images/diaporama_custom1.PNG
    :alt: Diaporama: Affichage custom
@@ -66,7 +66,7 @@ Vous devez compter environ 30 secondes après le démarrage de la carte électro
 Les différents modes de diffusion
 ==================================
 
-Vous avez 4 modes de diffusion sur PicturWall:
+Vous avez 4 modes de diffusion sur PicturWall :
  * Le mode ":ref:`Normal <diaporama_mode_normal>`": permettant la diffusion des médias envoyés par les invités
  * Le mode de ":ref:`Présentation <diaporama_mode_presentation>`": forcant la diffusion du média de présentation de PicturWall même si les invités ont envoyé des médias
  * Le mode ":ref:`Explication <diaporama_mode_explication>`": forcant la diffusion d'un média d'explication (exemple: média permettant de ce connecter au Wifi PicturWall
@@ -80,7 +80,7 @@ Mode "Normal"
 
 Ce que l'on appelle **"Mode Normal"**, c'est la diffusion classique des médias.
 
-Vous pouvez faire passer les médias dans deux ordres:
+Vous pouvez faire passer les médias dans deux ordres :
  * **Ordre chronologique**: Les médias défilent de l'envoi le plus ancien au plus récent, en bouton_commentaire_couleur.
  * **Ordre aléatoire**: Les médias défilent de manière aléatoire (un média ne peut pas être diffusé deux fois à la suite.
 
@@ -93,7 +93,7 @@ Mode "Présentation"
 
 Ce que l'on appelle **"Mode Présentation"** c'est la diffusion d'une image particulière dite "de présentation".
 
-Le mode de présentation s'active via la page de paramètres (rubrique Générales), voici le paramètre en question:
+Le mode de présentation s'active via la page de paramètres (rubrique Générales), voici le paramètre en question :
 
 .. figure:: ../panel_animateur/_images/parametres/general/parametres_general_mode_presentation.PNG
    :alt: Paramètre: mode de présentation.
@@ -107,7 +107,7 @@ Si vous l'activez, vous devriez voir ceci sur le diaporama:
 
 Le média de présentation reste affiché sur l'écran jusqu'à temps que vous désactiviez le mode de présentation pour revenir sur le mode :ref:`"Normal" <diaporama_mode_normal>`.
 
-Vous pouvez personnaliser le média de présentation sur la page de paramètre, rubrique "Projecteur":
+Vous pouvez personnaliser le média de présentation sur la page de paramètre, rubrique "Projecteur" :
 
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_demarrage.PNG
    :alt: Paramètre: mode de présentation, choix de l'image.
@@ -120,7 +120,7 @@ Mode "Explication"
    
 Ce que l'on appelle **"Mode Explication"** c'est la diffusion d'une image particulière dite "d'explication".
    
-Le mode d'explication s'active via la page de paramètres (rubrique Générales), voici le paramètre en question:
+Le mode d'explication s'active via la page de paramètres (rubrique Générales), voici le paramètre en question :
    
 .. figure:: ../panel_animateur/_images/parametres/general/parametres_general_mode_explication.PNG
    :alt: Paramètre: mode d'explication.
@@ -134,7 +134,7 @@ Si vous l'activez, vous devriez voir ceci sur le diaporama:
    
 Le média d'explication reste affiché sur l'écran jusqu'à temps que vous désactiviez le mode d'explication pour revenir sur le mode :ref:`"Normal" <diaporama_mode_normal>`.
    
-Vous pouvez personnaliser le média d'explication sur la page de paramètre, rubrique "Projecteur":
+Vous pouvez personnaliser le média d'explication sur la page de paramètre, rubrique "Projecteur" :
    
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_explication.PNG
    :alt: Paramètre: mode d'explication, choix de l'image.
@@ -148,13 +148,13 @@ Mode "Mise en Avant"
    
 Ce que l'on appelle **"Mode Mise en Avant"** c'est la diffusion d'un ou plusieurs médias sélectionnés par l'animateur.
    
-Le mode mise en avant s'active via la :ref:`page de gestion des médias <animateur_gestion_medias>`, voici le paramètre en question:
+Le mode mise en avant s'active via la :ref:`page de gestion des médias <animateur_gestion_medias>`, voici le paramètre en question :
    
 .. figure:: ../panel_animateur/_images/gestion_medias/gestion_medias_avant.PNG
    :alt: Gestion des médias: Médias mis en avant.
    :align: center
    
-Dans le cas ou vous avez une imprimante reliée à picturWall, le paramètre ce trouvera dans la rubrique "Mise en avant & Médias en OR":
+Dans le cas ou vous avez une imprimante reliée à picturWall, le paramètre ce trouvera dans la rubrique "Mise en avant & Médias en OR" :
 
 .. figure:: ../panel_animateur/_images/gestion_medias/gestion_medias_avant_or.PNG
    :alt: Gestion des médias: Médias mis en avant & médias en OR.
@@ -174,7 +174,7 @@ Si vous l'activez, seuls les médias choisis comme Médias en Or" seront affich�
 Le bandeau défilant
 ======================
 
-Sur le diaporama de PicturWall, vous avez la possibilité de faire défiler un texte en haut de l'écran, dans notre cas, il ressemble à cela:
+Sur le diaporama de PicturWall, vous avez la possibilité de faire défiler un texte en haut de l'écran, dans notre cas, il ressemble à cela :
 
 .. figure:: _images/diaporama_bandeau.PNG
    :alt: Paramètre: mode d'explication, choix de l'image.
@@ -192,7 +192,7 @@ Bien sûr, tout est personnalisable sur ce bandeau, vous pouvez :ref:`contrôler
 
 Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section bandeau défilant <animateur_parametres_section_bandeau>`
 
-Voici à quoi ressemble la rubrique de réglage du bandeau défilant:
+Voici à quoi ressemble la rubrique de réglage du bandeau défilant :
 
 .. figure:: ../panel_animateur/_images/parametres/bandeau/parametres_bandeau.PNG
    :alt: Paramètre: Rubrique bandeau défilant.
@@ -208,7 +208,7 @@ Les commentaires
 
 Lorsque les invités envoient des médias, ils ont la possibilité d'envoyer des commentaires afin de les afficher sur l'écran. Vous pouvez personaliser l'affichages des commentaires !
 
-Voici à quoi ressemble un commentaire:
+Voici à quoi ressemble un commentaire :
 
 .. figure:: _images/diaporama_commentaire.PNG
    :alt: Exemple de commentaire sur PicturWall
@@ -224,7 +224,7 @@ Bien sûr, tout est personnalisable, par exemple, vous pouvez changer :ref:`ceci
 
 Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`rubique commentaires <animateur_parametres_section_commentaires>`:
 
-Voici à quoi ressemble la rubrique de réglage des commentaires:
+Voici à quoi ressemble la rubrique de réglage des commentaires :
 
 .. figure:: ../panel_animateur/_images/parametres/commentaires/parametres_commentaires.PNG
    :alt: Paramètre: Rubrique commentaires.
@@ -247,7 +247,7 @@ Une fois de plus, vous pouvez personnaliser :ref:`l'affichage de l'identité <an
 
 Tout ceci est controlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`.
 
-Voici à quoi ressemble la rubrique projecteur:
+Voici à quoi ressemble la rubrique projecteur :
 
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur.PNG
    :alt: Paramètre: Rubrique projecteur.

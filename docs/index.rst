@@ -3,9 +3,9 @@ Documentation de PicturWall !
 
 Bienvenue sur la Documentation de PicturWall !
 
-Ici, vous retrouvez la plupart des fonctionnalités de PicturWall, mais aussi comment les utiliser. Vous allez y trouver des fonctionnalitées basique comme la mise en ligne de médias mais également des fonctions bien plus avancées comme le partage d'imprimante via PicturWall.
+Ici, vous retrouvez la plupart des fonctionnalités de PicturWall, mais aussi comment les utiliser. De la mise en ligne de médias jusqu'à la configuration du partage d'imprimante en passant par la mise en forme des commentaires, vous retrouverez tout ce dont vous avez besoin pour maîtriser PicturWall.
 
-Cette documentation sera regroupée en 3 grands thèmes:
+Cette documentation sera regroupée en 3 grands thèmes :
  * :ref:`Le panel invité <panel-invite>`: Présentation et utilisation du panel destiné aux convives.
  * :ref:`Le panel animateur <panel-animateur>`: Votre outil ! Celui qui va vous permettre de gérer PicturWall.
  * :ref:`Le diaporama <diaporama>`: Présentation des différents modules du diaporama.

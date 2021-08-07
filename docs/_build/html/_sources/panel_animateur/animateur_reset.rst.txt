@@ -3,7 +3,7 @@
 Page remise à 0
 ===================
 
-La page de remise à 0 de PicturWall ressemble à ceci:
+La page de remise à 0 de PicturWall ressemble à ceci :
 
 .. figure:: _images/reset/reset.PNG
    :alt: Panel animateur de PicturWall, page remise à 0 de PicturWall.
@@ -26,7 +26,7 @@ Remettre à 0 PicturWall
 
 Afin de remettre à 0 PicturWall, vous allez devoir cliquer sur le bouton "Remise à 0".
 
-Ensuite, vous allez voir cette fenêtre apparraître:
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/reset/reset_confirm.PNG
    :alt: Panel animateur de PicturWall, page remise à 0 de PicturWall, confirmer la remise à 0.

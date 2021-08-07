@@ -3,7 +3,7 @@
 Page gestion des utilisateurs
 ================================
 
-La page de gestion des utilisateurs ressemble à ceci:
+La page de gestion des utilisateurs ressemble à ceci :
 
 .. figure:: _images/gestion_utilisateurs/gestion_utilisateurs.PNG
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs.
@@ -18,7 +18,7 @@ Bannir un utilisateur
 -------------------------------
 
 Afin de bannir un utilisateur, il vous suffit de cliquer sur la case "Bannis" en question.
-Ensuite, vous allez voir cette fenêtre apparaître:
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_utilisateurs/gestion_utilisateurs_utilisateur_ban.PNG
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs, bannir un utilisateur
@@ -35,7 +35,7 @@ Debannir un utilisateur
 -------------------------------
 
 Afin de "débannir" (CF. Pardonner) un utilisateur, il vous suffit de cliquer sur la case "Bannis" en question.
-Ensuite, vous allez voir cette fenêtre apparaître:
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_utilisateurs/gestion_utilisateurs_utilisateur_ban_unban.PNG
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs, debannir un utilisateur
@@ -51,8 +51,8 @@ Pour debannir l'utilisateur, il suffit de cliquer sur "Oui!".
 Voir les médias d'un invité
 -------------------------------
 
-Pour visualiser les médias d'un seul invité, il faut que vous cliquez sur la colonne "Voir médias (médias acceptés / médias envoyés)" de l'utilisateur souhaité.
-Ensuite, vous allez voir cette fenêtre apparaître:
+Pour visualiser les médias d'un seul invité, il faut que vous cliquiez sur la colonne "Voir médias (médias acceptés / médias envoyés)" de l'utilisateur souhaité.
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_utilisateurs/gestion_utilisateurs_user.PNG
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs, média d'un utilisateur
@@ -68,8 +68,8 @@ Vous avez maintenant accès à ses médias.
 Voir les commentaires d'un invité
 --------------------------------------
 
-Pour visualiser les commentaires d'un seul invité, il faut que vous cliquez sur la colonne "Voir commentaires" de l'utilisateur souhaité.
-Ensuite, vous allez voir cette fenêtre apparaître:
+Pour visualiser les commentaires d'un seul invité, il faut que vous cliquiez sur la colonne "Voir commentaires" de l'utilisateur souhaité.
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_utilisateurs/gestion_utilisateurs_commentaire.PNG
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs, commentaire d'un utilisateur

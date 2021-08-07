@@ -3,7 +3,7 @@
 Page envoi de fichiers
 ========================
 
-La page des envois de fichiers ressemble à ceci:
+La page des envois de fichiers ressemble à ceci :
 
 .. figure:: _images/envoi_medias/envoi_medias.PNG
    :alt: Panel animateur de PicturWall, page gestion des fichiers animateur.

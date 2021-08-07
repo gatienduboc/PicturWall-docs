@@ -3,7 +3,7 @@
 Page changelogs
 ===================
 
-La page de changelogs de PicturWall ressemble à ceci:
+La page de changelogs de PicturWall ressemble à ceci :
 
 .. figure:: _images/changelogs/changelogs.PNG
    :alt: Panel animateur de PicturWall, page Changelogs de PicturWall.

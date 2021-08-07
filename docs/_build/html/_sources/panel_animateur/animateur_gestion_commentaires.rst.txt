@@ -3,7 +3,7 @@
 Page gestion des commentaires
 ================================
 
-La page de gestion des commentaires ressemble à ceci:
+La page de gestion des commentaires ressemble à ceci :
 
 .. figure:: _images/gestion_commentaires/gestion_commentaires.PNG
    :alt: Panel animateur de PicturWall, page gestion des commentaires.
@@ -18,13 +18,13 @@ Supprimer un commentaire envoyé
 -----------------------------------
 
 Afin de supprimer un commentaire qui a déjà été envoyé, il vous suffit de cliquer sur le commentaire en question.
-Ensuite, vous allez voir cette fenêtre apparaître:
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_commentaires/gestion_commentaires_commentaire.PNG
    :alt: Panel animateur de PicturWall, page gestion des commentairesn, supprimer un commentaire.
    :align: center
 
-Pour refuser le média, il suffit de cliquer sur "Oui!".
+Pour refuser le média, il suffit de cliquer sur "Oui !".
 
 .. note:: La suppression d'un commentaire n'engendre pas la suppression du média associé.
 

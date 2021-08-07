@@ -3,7 +3,7 @@
 Page gestion des médias
 ==========================
 
-La page de gestion des médias ressemble à ceci:
+La page de gestion des médias ressemble à ceci :
 
 .. figure:: _images/gestion_medias/gestion_medias.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias.
@@ -20,7 +20,7 @@ Refuser un média envoyé
 ---------------------------
 
 Afin de refuser un média qui a déjà été envoyé, il vous suffit de cliquer sur la photo correspondante au média que vous voulez refuser.
-Vous allez voir cette fenêtre apparaître:
+Vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, modification d'un média.
@@ -41,7 +41,7 @@ Imprimer un média
 ------------------------
 
 Afin d'imprimer un média qui a déjà été envoyé, il vous suffit de cliquer sur la photo correspondante au média que vous voulez imprimer.
-Vous allez voir cette fenêtre apparaître:
+Vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, imprimer un média.
@@ -63,7 +63,7 @@ Tourner un média
 ------------------------
 
 Afin de tourner un média qui a déjà été envoyé, il vous suffit de cliquer sur la photo correspondante au média que vous voulez tourner.
-Vous allez voir cette fenêtre apparaître:
+Vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, tourner un média.
@@ -94,9 +94,9 @@ Médias en avant
 ------------------------
 
 Le mode mise en avant vous permet de sélectionner certains médias qui seront affichés à l'écran. En effet, pendant un instant plus ou moins long, vous voulez peut-être pouvoir afficher seulement certains médias sur le vidéoprojecteur.
-Pour cela, vous allez devoir sélectionner toutes les médias que vous voulez mettre en avant. Ensuite il ne vous restera plus qu'à activer le mode "mise en avant".
+Pour cela, vous allez devoir sélectionner tous les médias que vous voulez mettre en avant. Ensuite il ne vous restera plus qu'à activer le mode "mise en avant".
 
-Afin de sélectionner les médias à mettre en avant, vous devez cliquer sur chaque média que vous voulez mettre en avant. Vous arriverez sur cette fenêtre:
+Afin de sélectionner les médias à mettre en avant, vous devez cliquer sur chaque média que vous voulez mettre en avant. Vous arriverez sur cette fenêtre :
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, mettre en avant un média.
@@ -116,7 +116,7 @@ Pour le mettre en avant, il suffit de cliquer sur |bouton_mise_avant|.
    :alt: Gestion des médias: Mettre en avant un média envoyé sur PicturWall, diffusion classique.
    :scale: 75%
 
-Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela:
+Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_avant_off.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, mise en avant: désactivé.
@@ -151,9 +151,9 @@ Médias en or
 
 Comme expliqué dans la partie :ref:`Imprimer après coup <invite_impression_apres_coup>` du panel invité, les "médias en or" sont une liste de médias accessible à chaque invité pour qu'ils puissent les imprimer.
 
-Vous pouvez par exemple mettre les plus belles photos de familles dans cette partie afin que chaque invité puisse l'imprimer depuis sa page invité.
+Vous pouvez par exemple mettre les plus belles photos de familles dans cette partie afin que chaque invité puisse l'imprimer depuis sa page invitée.
  
-Afin de sélectionner les médias en or, vous devez cliquer sur chaque média que vous voulez sélectionner comme média en or. Vous arriverez sur cette fenêtre:
+Afin de sélectionner les médias en or, vous devez cliquer sur chaque média que vous voulez sélectionner comme média en or. Vous arriverez sur cette fenêtre :
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, média en or.
@@ -169,7 +169,7 @@ Pour le mettre en avant, il suffit de cliquer sur |bouton_media_or|.
    :alt: Gestion des médias: Mettre en or un média envoyé sur PicturWall.
    :scale: 75%
 
-Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela:
+Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_or_off.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Média en or: désactivé.
@@ -178,7 +178,7 @@ Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cel
 
 Vous remarquez que les médias sélectionnés possèdent une étoile rouge. Cela signifie qu'ils sont bien des médias sélectionnés pour être des médias en or, mais que le mode "média en or" est inactif.
 
-Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur 'Activer le mode "médias en or"' dans la section "Mise en avant & Médias en OR":
+Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur 'Activer le mode "médias en or"' dans la section "Mise en avant & Médias en OR" :
 
 .. figure:: _images/gestion_medias/gestion_medias_avant_or.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, médias en or.
@@ -188,10 +188,10 @@ Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas 
    
    Pour remettre rapidement à 0 la liste des médias en or, il vous suffit de cliquer sur le bouton "Supression" de la section "Mise en avant & Médias en OR !". 
 
-Une fois actif, les invités pourront imprimer les médias sélectionnés (section :ref:`Impression après coup <invite_impression_apres_coup>`). D'ailleurs, si le mode "médias en or" est actif, les médias sélectionnés posséderont une étoile verte:
+Une fois actif, les invités pourront imprimer les médias sélectionnés (section :ref:`Impression après coup <invite_impression_apres_coup>`). D'ailleurs, si le mode "médias en or" est actif, les médias sélectionnés posséderont une étoile verte :
 
 .. figure:: _images/gestion_medias/gestion_medias_or_on.PNG
-   :alt: Panel animateur de PicturWall, page gestion des médias, médias en or: ON.
+   :alt: Panel animateur de PicturWall, page gestion des médias, médias en or : ON.
    :align: center
 
 .. warning:: Pour pouvoir mettre le mode "médias en or", il faut qu'une imprimante soit configurée et active. Pour cela, veuillez vous rendre dans la :ref:`section impression <animateur_parametres_section_impression>` des paramètres.
@@ -210,13 +210,13 @@ Vous pouvez les retrouver en cliquant sur les trois petits points en haut à dro
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Médias refusés":
+Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Médias refusés" :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_supp.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Vous allez donc atterir sur la page des médias refusés, qui ressemblera à cela:
+Vous allez donc atterir sur la page des médias refusés, qui ressemblera à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_refuse.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias refusés
@@ -240,13 +240,13 @@ Il existe une façon de vérifier rapidement les nouveaux médias qui ont été 
 
 C'ets à dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
 
-Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve:
+Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve :
 
 .. figure:: _images/gestion_medias/gestion_medias_page.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Nouveaux médias":
+Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Nouveaux médias" :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_supp.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
@@ -272,7 +272,7 @@ Les vidéos qui ont été envoyés sur PicturWall et qui dépassent le temps max
 Sur cette page, vous pourrez forcer la prise en compte d'une vidéo trop longue.
 
 
-Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve:
+Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve :
 
 .. figure:: _images/gestion_medias/gestion_medias_page.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
@@ -294,7 +294,7 @@ Vous allez donc atterir sur la page des vidéos trop longues, qui ressemblera à
 Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média puis cliquer sur "Oui!" pour le restaurer.
 
 .. figure:: _images/gestion_medias/gestion_medias_page_longue_media.PNG
-   :alt: Panel animateur de PicturWall, page gestion des vidéos longues. Restaurer unee vidéo
+   :alt: Panel animateur de PicturWall, page gestion des vidéos longues. Restaurer une vidéo
    :align: center
 
 .. note:: La :ref:`durée maximale des vidéos lues <animateur_parametres_videos_duree_maximale>` est définie sur la page paramètre de PicturWall, :ref:`section vidéos <animateur_parametres_videos_duree_maximale>`

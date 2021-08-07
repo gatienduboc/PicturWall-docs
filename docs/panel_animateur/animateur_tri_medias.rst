@@ -3,7 +3,7 @@
 Page tri des médias
 =====================
 
-La page tri des médias est l'accueil du panel animateur, elle ressemble à ceci:
+La page tri des médias est l'accueil du panel animateur, elle ressemble à ceci :
 
 .. figure:: _images/tri_medias/tri_medias.PNG
    :alt: Panel animateur de PicturWall, page tri des médias.
@@ -13,7 +13,7 @@ Cette page vous permet d'accepter ou non les médias envoyés sur PicturWall.
 
 .. important:: Selon vos paramètres, PicturWall peut automatiquement approuver les :ref:`photos <animateur_parametres_generale_approbation_auto_photos>` photos et/ou :ref:`vidéos <animateur_parametres_videos_approbation_auto_videos>`.
 
-Si aucun média n'est en attente d'approbation, votre page ressemblera à ceci:
+Si aucun média n'est en attente d'approbation, votre page ressemblera à ceci :
 
 .. figure:: _images/tri_medias/tri_medias_approbation_manuelles.PNG
    :alt: Panel animateur, tri des médias, approbation manuelle.
@@ -24,7 +24,7 @@ Si aucun média n'est en attente d'approbation, votre page ressemblera à ceci:
 Accepter un média
 ------------------
 
-Afin d'accepter un média, il vous suffit de cliquer sur la case verte |bouton_accepter| à côté de la photo visible:
+Afin d'accepter un média, il vous suffit de cliquer sur la case verte |bouton_accepter| à côté de la photo visible :
 
 .. figure:: _images/tri_medias/tri_medias_media.PNG
    :alt: Panel animateur, tri des médias, accepter.
@@ -39,7 +39,7 @@ Afin d'accepter un média, il vous suffit de cliquer sur la case verte |bouton_a
 Refuser un média
 ------------------
 
-Afin de refuser un média, il vous suffit de cliquer sur la case rouge |bouton_refuser| à côté de la photo visible:
+Afin de refuser un média, il vous suffit de cliquer sur la case rouge |bouton_refuser| à côté de la photo visible :
 
 .. figure:: _images/tri_medias/tri_medias_media.PNG
    :alt: Panel animateur, tri des médias, refuser.
@@ -54,7 +54,7 @@ Afin de refuser un média, il vous suffit de cliquer sur la case rouge |bouton_r
 Tourner un média
 ------------------
 
-Afin de tourner un média, il vous suffit de cliquer sur l'un des trois boutons |bouton_retourner| à côté de la photo visible:
+Afin de tourner un média, il vous suffit de cliquer sur l'un des trois boutons |bouton_retourner| à côté de la photo visible :
 
 .. figure:: _images/tri_medias/tri_medias_media.PNG
    :alt: Panel animateur, tri des médias, retourner.
@@ -74,7 +74,7 @@ Approbation automatique
 --------------------------
 
 Si vous êtes en approbation automatique, vous n'avez pas besoin d'approuver chaque photo et/ou vidéo.
-Dans ce cas la, la page "tri des medias" ressemblera à cela:
+Dans ce cas la, la page "tri des medias" ressemblera à cela :
 
 .. figure:: _images/tri_medias/tri_medias_approbation_auto.PNG
    :alt: Panel animateur, tri des médias, approbation automatique.

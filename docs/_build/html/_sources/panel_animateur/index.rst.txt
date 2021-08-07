@@ -10,7 +10,7 @@ Il est très complet et relativement facile d'utilisation une fois prit en main.
 Dans la suite de ces pages, je vais utiliser le pronom "vous". Cela désigne l'animateur ou toute personne ayant un accès au panel animateur de PicturWall.
 Pour le moment, nous recommandons l'utilisation d'un ordinateur avec un écran de taille standard afin d'utiliser le panel.
 
-Le panel animateur ressemble à ceci:
+Le panel animateur ressemble à ceci :
 
 .. figure:: _images/tri_medias/tri_medias.PNG
    :alt: Panel animateur de PicturWall.
@@ -22,7 +22,7 @@ Vous pouvez accéder aux différentes pages de gestion en cliquant sur le menu:
    :alt: Panel animateur de PicturWall, menu.
    :align: center
 
-Voici les points que nous allons détailler lors de cette documentation:
+Voici les points que nous allons détailler lors de cette documentation :
 
 .. toctree::
     :maxdepth: 2
@@ -42,10 +42,10 @@ Voici les points que nous allons détailler lors de cette documentation:
 Se rendre sur le panel animateur ?
 =======================================
 
-Afin de ce connecter au panel animateur, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
+Afin de se connecter au panel animateur, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
 Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: `picturwall.tv/panel <http://picturwall.tv/panel/>`_
 
-Vous arriverez sur une page d'authentification que voici:
+Vous arriverez sur une page d'authentification que voici :
 
 .. figure:: _images/login.PNG
    :alt: Connexion au panel animateur de PicturWall.
