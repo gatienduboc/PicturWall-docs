@@ -1,3 +1,12 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}\\docs"
+    "restructuredtext.confPath": "",
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "jsonc",
+        "restructuredtext"
+    ],
+    "spellright.groupDictionaries": false,
+    "spellright.language": ["fr"]
 }

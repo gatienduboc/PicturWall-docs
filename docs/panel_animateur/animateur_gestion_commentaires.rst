@@ -21,7 +21,7 @@ Afin de supprimer un commentaire qui a déjà été envoyé, il vous suffit de c
 Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_commentaires/gestion_commentaires_commentaire.PNG
-   :alt: Panel animateur de PicturWall, page gestion des commentairesn, supprimer un commentaire.
+   :alt: Panel animateur de PicturWall, page gestion des commentaires, supprimer un commentaire.
    :align: center
 
 Pour refuser le média, il suffit de cliquer sur "Oui !".

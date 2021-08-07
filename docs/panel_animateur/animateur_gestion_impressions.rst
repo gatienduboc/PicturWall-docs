@@ -40,8 +40,8 @@ Ensuite, vous allez voir cette fenêtre apparaître :
    :alt: Panel animateur de PicturWall, page gestion des impressions, limite d'impression par utilisateur
    :align: center
 
-En déplacant le curseur, vous allez pouvoir définir la limite d'impression pour l'utilisateur.
-   
+En déplaçant le curseur, vous allez pouvoir définir la limite d'impression pour l'utilisateur.
+
 Valider le nombre d'impression en cliquant sur "OK".
 
 .. important:: Le nombre d'impressions par utilisateur global est à définir sur la page de paramètres, :ref:`section impression <animateur_parametres_section_impression>`.

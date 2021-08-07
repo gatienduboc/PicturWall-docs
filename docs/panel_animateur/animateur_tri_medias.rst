@@ -74,7 +74,7 @@ Approbation automatique
 --------------------------
 
 Si vous êtes en approbation automatique, vous n'avez pas besoin d'approuver chaque photo et/ou vidéo.
-Dans ce cas la, la page "tri des medias" ressemblera à cela :
+Dans ce cas la, la page "tri des médias" ressemblera à cela :
 
 .. figure:: _images/tri_medias/tri_medias_approbation_auto.PNG
    :alt: Panel animateur, tri des médias, approbation automatique.

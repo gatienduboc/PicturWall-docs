@@ -14,13 +14,13 @@ Se rendre sur le panel invité ?
 Afin de ce connecter au panel invité, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
 Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: picturwall.tv_
 
-Bien-sûr, c'est exactement la même chose sur téléphone. 
+Bien-sûr, c'est exactement la même chose sur téléphone.
 Vous ouvrez votre navigateur et tapez picturwall.tv_ dans votre barre de recherche.
 
 Inscription
 ------------
 
-Pour s'incrire sur le panel invité, vous devez simplement remplir votre nom et prénom.
+Pour s'inscrire sur le panel invité, vous devez simplement remplir votre nom et prénom.
 Ensuite, vous acceptez les conditions d'utilisations, et vous cliquez sur |bouton_envoyer|.
 
 .. figure:: _images/invite_inscription.PNG
@@ -55,7 +55,7 @@ Commentaire
 Avec PicturWall, vous avez la possibilité d'ajouter un commentaire avec l'envoi de votre souvenir.
 Celui-ci s'affichera sur le :ref:`diaporama <diaporama_commentaire>`, en haut de l'écran.
 
-Le commentaire doit être composé d'au moins 5 caractères. 
+Le commentaire doit être composé d'au moins 5 caractères.
 
 De plus, vous pouvez y ajouter un smiley, via l'icone associé à droite de la barre de commentaire |bouton_smiley|.
 
@@ -156,4 +156,3 @@ Vous pouvez imprimer ce type de média comme tous les autres.
     :scale: 75%
 
 .. _picturwall.tv: http://picturwall.tv/
-

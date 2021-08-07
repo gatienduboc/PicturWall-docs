@@ -29,7 +29,7 @@ La méthode reste identique pour les autres récupérations.
 Sauvegarder tous les médias et commentaires
 ---------------------------------------------
 
-Afin de sauvegarder tous les médias, vous allez cliquer sur le bouton "Valider" de la ligne "Créer l'archive de tous les médias [...].
+Afin de sauvegarder tous les médias, vous allez cliquer sur le bouton "Valider" de la ligne "Créer l'archive de tous les médias […].
 Ensuite, vous allez voir cette fenêtre apparraître :
 
 .. figure:: _images/sauvegarde/sauvegarde_archive.PNG
@@ -54,4 +54,3 @@ Vous allez voir apparaître cette fenêtre :
    :align: center
 
 Afin de télécharger l'archive, il suffit de cliquer sur "Oui!".
-

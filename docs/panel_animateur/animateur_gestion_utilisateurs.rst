@@ -31,17 +31,17 @@ Pour bannir l'utilisateur, il suffit de cliquer sur "Oui!".
 
 .. _animateur_gestion_utilisateurs_debannir:
 
-Debannir un utilisateur
+Débannir un utilisateur
 -------------------------------
 
 Afin de "débannir" (CF. Pardonner) un utilisateur, il vous suffit de cliquer sur la case "Bannis" en question.
 Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/gestion_utilisateurs/gestion_utilisateurs_utilisateur_ban_unban.PNG
-   :alt: Panel animateur de PicturWall, page gestion des utilisateurs, debannir un utilisateur
+   :alt: Panel animateur de PicturWall, page gestion des utilisateurs, débannir un utilisateur
    :align: center
 
-Pour debannir l'utilisateur, il suffit de cliquer sur "Oui!".
+Pour débannir l'utilisateur, il suffit de cliquer sur "Oui!".
 
 .. note:: Les médias d'un utilisateurs bannis seront restaurés. C'est à dire qu'ils pourront repasser sur le diaporama.
 

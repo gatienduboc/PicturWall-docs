@@ -9,7 +9,7 @@ La page de gestion des médias ressemble à ceci :
    :alt: Panel animateur de PicturWall, page gestion des médias.
    :align: center
 
-Cette page vous permet de gérer les médias déjà envoyés. C'est à dire que vous pourrez les refuser, les tourner, les imprimer, les mettre en avant....
+Cette page vous permet de gérer les médias déjà envoyés. C'est à dire que vous pourrez les refuser, les tourner, les imprimer, les mettre en avant….
 
 .. important:: Pour que les médias apparaissent ici, il faut qu'ils soient préalablement acceptées (de manière automatique ou manuelle).
 
@@ -132,8 +132,8 @@ Afin d'activer le mode mise en avant, vous allez devoir vous rendre sur le bas d
    :align: center
 
 .. admonition:: Remettre à zéro la liste des médias mis en avant:
-   
-   Pour remettre rapidement à 0 la liste des médias mis en avant, il vous suffit de cliquer sur le bouton "Supression" de la section "Mise en avant !". 
+
+   Pour remettre rapidement à 0 la liste des médias mis en avant, il vous suffit de cliquer sur le bouton "Suppression" de la section "Mise en avant !".
 
 Une fois actif, le diaporama affichera uniquement les médias sélectionnés. D'ailleurs, si le mode de mise en avant est actif, les médias sélectionnés seront encadrés en vert:
 
@@ -152,7 +152,7 @@ Médias en or
 Comme expliqué dans la partie :ref:`Imprimer après coup <invite_impression_apres_coup>` du panel invité, les "médias en or" sont une liste de médias accessible à chaque invité pour qu'ils puissent les imprimer.
 
 Vous pouvez par exemple mettre les plus belles photos de familles dans cette partie afin que chaque invité puisse l'imprimer depuis sa page invitée.
- 
+
 Afin de sélectionner les médias en or, vous devez cliquer sur chaque média que vous voulez sélectionner comme média en or. Vous arriverez sur cette fenêtre :
 
 .. figure:: _images/gestion_medias/gestion_medias_media.PNG
@@ -185,8 +185,8 @@ Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas 
    :align: center
 
 .. admonition:: Remettre à zéro la liste des médias en or:
-   
-   Pour remettre rapidement à 0 la liste des médias en or, il vous suffit de cliquer sur le bouton "Supression" de la section "Mise en avant & Médias en OR !". 
+
+   Pour remettre rapidement à 0 la liste des médias en or, il vous suffit de cliquer sur le bouton "Surpression" de la section "Mise en avant & Médias en OR !".
 
 Une fois actif, les invités pourront imprimer les médias sélectionnés (section :ref:`Impression après coup <invite_impression_apres_coup>`). D'ailleurs, si le mode "médias en or" est actif, les médias sélectionnés posséderont une étoile verte :
 
@@ -202,7 +202,7 @@ Une fois actif, les invités pourront imprimer les médias sélectionnés (secti
 Récupérer les médias refusés
 ---------------------------------
 
-Les médias refusés ne sont pas perdus. 
+Les médias refusés ne sont pas perdus.
 
 Vous pouvez les retrouver en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici ou il se trouve:
 
@@ -210,7 +210,7 @@ Vous pouvez les retrouver en cliquant sur les trois petits points en haut à dro
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Médias refusés" :
+Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectionner "Médias refusés" :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_supp.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
@@ -228,7 +228,7 @@ Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média
    :alt: Panel animateur de PicturWall, page gestion des médias refusés. Restaurer un média3
    :align: center
 
-.. note:: Si vous voulez intéragir avec le média restauré, pensez à vous rendre sur la page "Gestion des médias".
+.. note:: Si vous voulez interagir avec le média restauré, pensez à vous rendre sur la page "Gestion des médias".
 
 
 .. _animateur_gestion_medias_new:
@@ -238,7 +238,7 @@ Voir rapidement les nouveaux médias
 
 Il existe une façon de vérifier rapidement les nouveaux médias qui ont été envoyé sur PicturWall. Il existe une page qui vous montre les nouveaux médias envoyés depuis sont dernier chargement.
 
-C'ets à dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
+C'est à dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
 
 Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve :
 
@@ -246,19 +246,19 @@ Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Nouveaux médias" :
+Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectionner "Nouveaux médias" :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_supp.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Vous allez donc atterir sur la page des nouveaux médias, qui ressemblera à cela:
+Vous allez donc atterrir sur la page des nouveaux médias, qui ressemblera à cela:
 
 .. figure:: _images/gestion_medias/gestion_medias_page_nouveau.PNG
    :alt: Panel animateur de PicturWall, page des nouveaux médias
    :align: center
 
-Comme pour la page gestion des médias, vous pourrez intéragir avec un média en cliquant dessus.
+Comme pour la page gestion des médias, vous pourrez interagir avec un média en cliquant dessus.
 
 .. note:: N'oubliez pas de recharger la page pour voir les nouveaux médias. Il n'y a pas de rechargement automatique sur la page des nouveaux médias.
 
@@ -278,13 +278,13 @@ Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectioner "Vidéos trop longues":
+Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectionner "Vidéos trop longues":
 
 .. figure:: _images/gestion_medias/gestion_medias_page_supp.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Vous allez donc atterir sur la page des vidéos trop longues, qui ressemblera à cela:
+Vous allez donc atterrir sur la page des vidéos trop longues, qui ressemblera à cela:
 
 .. figure:: _images/gestion_medias/gestion_medias_page_longue.PNG
    :alt: Panel animateur de PicturWall, page des vidéos longues

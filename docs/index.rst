@@ -22,7 +22,7 @@ Cette documentation sera regroupée en 3 grands thèmes :
    :maxdepth: 3
    :caption: Panel animateur:
    :hidden:
-   
+
    panel_animateur/index
    panel_animateur/animateur_tri_medias
    panel_animateur/animateur_gestion_medias

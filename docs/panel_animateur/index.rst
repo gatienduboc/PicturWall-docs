@@ -27,7 +27,7 @@ Voici les points que nous allons détailler lors de cette documentation :
 .. toctree::
     :maxdepth: 2
     :caption: Panel animateur:
- 
+
     animateur_tri_medias
     animateur_gestion_medias
     animateur_gestion_commentaires
@@ -53,4 +53,4 @@ Vous arriverez sur une page d'authentification que voici :
 
 .. admonition:: Identification
 
-    Les identifiants que vous devez utiliser pour vous connecter sont ceux que vous avez renseigné lors de l'achat de PicturWall. 
+    Les identifiants que vous devez utiliser pour vous connecter sont ceux que vous avez renseigné lors de l'achat de PicturWall.
