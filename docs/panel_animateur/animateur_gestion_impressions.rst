@@ -9,7 +9,7 @@ La page de gestion des impressions ressemble à ceci :
    :alt: Panel animateur de PicturWall, page gestion des impressions.
    :align: center
 
-Cette page vous permet de gérer les impressions par utilisateur. C'est à dire que c'est ici que vous pouvez définir le nombre d'impressions max de chaque utilisateur. Vous pouvez également visualiser le nombre d'impressions ici.
+Cette page vous permet de gérer les impressions par utilisateur. C'est à dire que c'est ici que vous pouvez définir le nombre d'impressions maximum de chaque utilisateur. Vous pouvez également visualiser le nombre d'impressions ici.
 
 
 .. _animateur_gestion_impressions_compteur:
@@ -25,7 +25,7 @@ Sur PicturWall, il existe plusieurs compteurs d'impressions. Ils ressemblent à 
 
 * Première ligne : Nombre d'impressions au total / :ref:`Limite d'impressions totales <animateur_parametres_impression_max>`
 * Seconde ligne : Nombre de médias en or imprimés
-* Troisième ligne : Nombre d'impressions effectués depuis un répertoire réseau (pour les photobooth fixe par exemple)
+* Troisième ligne : Nombre d'impressions effectuées depuis un répertoire réseau (pour les photobooth fixe par exemple)
 * Quatrième ligne : Nombre d'impressions sur la file d'attente de l'imprimante
 
 .. _animateur_gestion_impressions_limite:
@@ -42,11 +42,11 @@ Ensuite, vous allez voir cette fenêtre apparaître :
 
 En déplaçant le curseur, vous allez pouvoir définir la limite d'impression pour l'utilisateur.
 
-Valider le nombre d'impression en cliquant sur "OK".
+Valider le nombre d'impressions en cliquant sur "OK".
 
 .. important:: Le nombre d'impressions par utilisateur global est à définir sur la page de paramètres, :ref:`section impression <animateur_parametres_section_impression>`.
 
-Vous pouvez également mettre un nombre d'impressions illimités pour un utilisateur en définissant sa limite sur "999" :
+Vous pouvez également mettre un nombre d'impressions illimitées pour un utilisateur en définissant sa limite sur "999" :
 
 .. figure:: _images/gestion_impressions/gestion_impressions_limit_no.PNG
    :alt: Panel animateur de PicturWall, page gestion des impressions, limite d'impression par utilisateur - MAX

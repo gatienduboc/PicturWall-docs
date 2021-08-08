@@ -11,7 +11,7 @@ La page tri des médias est l'accueil du panel animateur, elle ressemble à ceci
 
 Cette page vous permet d'accepter ou non les médias envoyés sur PicturWall.
 
-.. important:: Selon vos paramètres, PicturWall peut automatiquement approuver les :ref:`photos <animateur_parametres_generale_approbation_auto_photos>` photos et/ou :ref:`vidéos <animateur_parametres_videos_approbation_auto_videos>`.
+.. important:: Selon vos paramètres, PicturWall peut automatiquement approuver les :ref:`photos <animateur_parametres_generale_approbation_auto_photos>` et/ou :ref:`vidéos <animateur_parametres_videos_approbation_auto_videos>`.
 
 Si aucun média n'est en attente d'approbation, votre page ressemblera à ceci :
 
@@ -84,4 +84,4 @@ Dans ce cas la, la page "tri des médias" ressemblera à cela :
 
 .. admonition:: Mise en place du diaporama
 
-   Les paramètres d'approbations se changent sur la :ref:`page paramètre <animateur_parametres>`.
+   Les paramètres d'approbation se changent sur la :ref:`page paramètre <animateur_parametres>`.

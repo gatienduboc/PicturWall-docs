@@ -4,7 +4,7 @@ Présentation du panel animateur
 =================================
 
 Le panel animateur sert à contrôler l'ensemble de PicturWall.
-Des médias envoyés aux paramètres de personalisation du diaporama, tout en passant par le nombre maximum d'impressions par personne...
+Des médias envoyés aux paramètres de personnalisation du diaporama, tout en passant par le nombre maximum d'impressions par personne...
 Il est très complet et relativement facile d'utilisation une fois prit en main.
 
 Dans la suite de ces pages, je vais utiliser le pronom "vous". Cela désigne l'animateur ou toute personne ayant un accès au panel animateur de PicturWall.

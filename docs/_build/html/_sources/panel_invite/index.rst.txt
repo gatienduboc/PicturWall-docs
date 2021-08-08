@@ -11,16 +11,16 @@ Dans la suite de cette page, je vais utiliser le pronom "vous". Cela désigne to
 Se rendre sur le panel invité ?
 ===================================
 
-Afin de ce connecter au panel invité, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
-Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: picturwall.tv_
+Afin de se connecter au panel invité, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
+Ensuite, vous allez ouvrir votre navigateur préféré, puis taper l'adresse URL suivante: picturwall.tv_
 
-Bien-sûr, c'est exactement la même chose sur téléphone. 
+Bien-sûr, c'est exactement la même chose sur téléphone.
 Vous ouvrez votre navigateur et tapez picturwall.tv_ dans votre barre de recherche.
 
 Inscription
 ------------
 
-Pour s'incrire sur le panel invité, vous devez simplement remplir votre nom et prénom.
+Pour s'inscrire sur le panel invité, vous devez simplement remplir votre nom et prénom (sans espace).
 Ensuite, vous acceptez les conditions d'utilisations, et vous cliquez sur |bouton_envoyer|.
 
 .. figure:: _images/invite_inscription.PNG
@@ -34,7 +34,7 @@ Envoyer un média
 ===================
 L'envoi de média sur PicturWall est très simple:
 
-* Sélectionner votre média dans votre galerie photo, ou de prendre la photo en direct !
+* Sélectionner votre média dans votre galerie photo, ou prendre la photo en direct !
 * Écrire un :ref:`Commentaire <invite_media_commentaire>` (optionnel)
 * Cocher (ou non) la case pour :ref:`"imprimer le souvenir" <invite_media_imprimer>` !
 
@@ -55,7 +55,7 @@ Commentaire
 Avec PicturWall, vous avez la possibilité d'ajouter un commentaire avec l'envoi de votre souvenir.
 Celui-ci s'affichera sur le :ref:`diaporama <diaporama_commentaire>`, en haut de l'écran.
 
-Le commentaire doit être composé d'au moins 5 caractères. 
+Le commentaire doit être composé d'au moins 5 caractères.
 
 De plus, vous pouvez y ajouter un smiley, via l'icone associé à droite de la barre de commentaire |bouton_smiley|.
 
@@ -79,7 +79,7 @@ Imprimer le souvenir
 
 Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leur souvenir !
 
-Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir une :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>`, et une limite d' :ref:`impressions globale <animateur_parametres_impression_max>`.
+Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir une :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>`, et une limite d':ref:`impression globale <animateur_parametres_impression_max>`.
 
 .. admonition:: Autoriser les invités à imprimer
 
@@ -156,4 +156,3 @@ Vous pouvez imprimer ce type de média comme tous les autres.
     :scale: 75%
 
 .. _picturwall.tv: http://picturwall.tv/
-

@@ -26,7 +26,7 @@ Ensuite, vous allez voir cette fenêtre apparaître :
 
 Pour bannir l'utilisateur, il suffit de cliquer sur "Oui!".
 
-.. note:: Les médias d'un utilisateurs bannis ne passeront plus sur le diaporama. Néanmoins, vous pouvez :ref:` récupérer tous ses médias <animateur_sauvegarde>`.
+.. note:: Les médias d'un utilisateur banni ne passeront plus sur le diaporama. Néanmoins, vous pouvez :ref:`récupérer tous ses médias <animateur_sauvegarde>`.
 
 
 .. _animateur_gestion_utilisateurs_debannir:
@@ -43,7 +43,7 @@ Ensuite, vous allez voir cette fenêtre apparaître :
 
 Pour débannir l'utilisateur, il suffit de cliquer sur "Oui!".
 
-.. note:: Les médias d'un utilisateurs bannis seront restaurés. C'est à dire qu'ils pourront repasser sur le diaporama.
+.. note:: Les médias d'un utilisateur banni seront restaurés. C'est à dire qu'ils pourront repasser sur le diaporama.
 
 
 .. _animateur_gestion_utilisateurs_user:

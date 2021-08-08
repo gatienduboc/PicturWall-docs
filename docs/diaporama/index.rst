@@ -18,13 +18,13 @@ Vous noterez les différentes parties du diaporama (entouré en rouge).
 Visuellement, vous pourrez changer l'apparence :
  * Du :ref:`bandeau défilant <diaporama_bandeau>`
  * Des :ref:`commentaires <diaporama_commentaire>`
- * De l':ref:`identité de l'invité <diaporama_invite>`
- * De l':ref:`arrière-plan <diaporama_arriere_plan>`
+ * De :ref:`l'identité de l'invité <diaporama_invite>`
+ * De :ref:`l'arrière-plan <diaporama_arriere_plan>`
  * Du :ref:`logo affiché <diaporama_logo>`
  * Des :ref:`transitions <diaporama_transition>`
 
-Bien-sûr, tout est personnalisable sur le diaporama, vous le découvrez par la suite.
-Par exemple, vous pouvez-personnaliser la vitesse de défilement des médias :
+Bien-sûr, tout est personnalisable sur le diaporama, vous le découvrirez par la suite.
+Par exemple, vous pouvez personnaliser la vitesse de défilement des médias :
 
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_vitesse.PNG
    :alt: Paramètre: Vitesse de défilement des médias.
@@ -53,7 +53,7 @@ Mettre en place le diaporama
 ================================
 
 Pour projeter le diaporama via un vidéoprojecteur ou via un écran, il vous suffit de brancher votre support vidéo sur la prise HDMI de la carte de PicturWall.
-Ensuite, vous avez plus qu'à brancher PicturWall. Le diaporama va s'afficher sur l'écran dès que la carte sera opérationnelle.
+Ensuite, vous n'avez plus qu'à brancher PicturWall. Le diaporama va s'afficher sur l'écran dès que la carte sera opérationnelle.
 
 Vous devez compter environ 30 secondes après le démarrage de la carte électronique avant de voir le diaporama s'afficher à l'écran.
 
@@ -81,7 +81,7 @@ Mode "Normal"
 Ce que l'on appelle **"Mode Normal"**, c'est la diffusion classique des médias.
 
 Vous pouvez faire passer les médias dans deux ordres :
- * **Ordre chronologique**: Les médias défilent de l'envoi le plus ancien au plus récent, en bouton_commentaire_couleur.
+ * **Ordre chronologique**: Les médias défilent de l'envoi le plus ancien au plus récent.
  * **Ordre aléatoire**: Les médias défilent de manière aléatoire (un média ne peut pas être diffusé deux fois à la suite.
 
  L'ordre des médias est défini sur la page paramètre (rubrique Générales).
@@ -154,7 +154,7 @@ Le mode mise en avant s'active via la :ref:`page de gestion des médias <animate
    :alt: Gestion des médias: Médias mis en avant.
    :align: center
 
-Dans le cas ou vous avez une imprimante reliée à picturWall, le paramètre ce trouvera dans la rubrique "Mise en avant & Médias en OR" :
+Dans le cas où vous avez une imprimante reliée à picturWall, le paramètre se trouvera dans la rubrique "Mise en avant & Médias en OR" :
 
 .. figure:: ../panel_animateur/_images/gestion_medias/gestion_medias_avant_or.PNG
    :alt: Gestion des médias: Médias mis en avant & médias en OR.
@@ -182,7 +182,7 @@ Sur le diaporama de PicturWall, vous avez la possibilité de faire défiler un t
 
 Bien sûr, tout est personnalisable sur ce bandeau, vous pouvez :ref:`contrôler ceci <animateur_parametres_section_bandeau>`:
  * Activation du bandeau
- * Son texte affiché
+ * Sa position
  * Son texte
  * Son encadrement
  * Son fond
@@ -206,7 +206,7 @@ Pour avoir plus d'informations sur chacun des paramètres, veuillez vous rendre 
 Les commentaires
 ======================
 
-Lorsque les invités envoient des médias, ils ont la possibilité d'envoyer des commentaires afin de les afficher sur l'écran. Vous pouvez personnaliser l'affichages des commentaires !
+Lorsque les invités envoient des médias, ils ont la possibilité d'envoyer des commentaires afin de les afficher sur l'écran. Vous pouvez personnaliser l'affichage des commentaires !
 
 Voici à quoi ressemble un commentaire :
 
@@ -308,8 +308,8 @@ Les transitions
 =================
 
 Entre les médias, il y a des transitions, que vous pouvez :ref:`personnaliser <animateur_parametres_section_projecteur>`:
- * Leurs types
- * Leurs durées
+ * Leur type
+ * Leur durée
 
 Tout ceci est contrôlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
 

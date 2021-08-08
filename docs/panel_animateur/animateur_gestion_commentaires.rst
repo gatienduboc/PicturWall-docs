@@ -24,7 +24,7 @@ Ensuite, vous allez voir cette fenêtre apparaître :
    :alt: Panel animateur de PicturWall, page gestion des commentaires, supprimer un commentaire.
    :align: center
 
-Pour refuser le média, il suffit de cliquer sur "Oui !".
+Pour refuser le commentaire, il suffit de cliquer sur "Oui !".
 
 .. note:: La suppression d'un commentaire n'engendre pas la suppression du média associé.
 

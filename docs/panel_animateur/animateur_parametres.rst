@@ -23,7 +23,7 @@ Les paramètres sont découpées dans des sections, qui sont les suivantes :
     * :ref:`Modes de diffusion <diaporama_modes>` :
         * :ref:`Mode d'explication <animateur_parametres_generale_mode_explication>`
         * :ref:`Mode de présentation <animateur_parametres_generale_mode_presentation>`
-#. :ref:`Section vidéos <animateur_parametres_section_videos>` comprenant les paramètres suivants :
+#. :ref:`Section vidéo <animateur_parametres_section_videos>` comprenant les paramètres suivants :
     * :ref:`Autoriser les vidéos <animateur_parametres_videos_autoriser>`
     * :ref:`Autoriser le son sur une vidéo <animateur_parametres_videos_son>`
     * :ref:`Approbation automatique des vidéos <animateur_parametres_videos_approbation_auto_videos>`
@@ -135,8 +135,8 @@ Vue de la section générale:
 Approbation automatique des photos
 ##########################################
 
-Les photos peuvent soit être approuvées automatique, soit manuellement.
-Si les photos sont approuvées automatiquement, elles seront affichable sur le diaporama juste après l'envoi.
+Les photos peuvent soit être approuvées automatiquement, soit manuellement.
+Si les photos sont approuvées automatiquement, elles seront affichables sur le diaporama juste après l'envoi.
 En mode manuel, l'animateur doit approuver chaque photo avant que cette dernière puisse passer sur le diaporama.
 
 Paramètre en question :
@@ -220,7 +220,7 @@ Plus d'informations sur les :ref:`modes de défilement du diaporama <diaporama_m
 
 .. _animateur_parametres_section_videos:
 
-Section vidéos
+Section vidéo
 ---------------------------
 
 Vue globale de la section vidéo:
@@ -274,8 +274,8 @@ Options du paramètre:
 Approbation automatique des vidéos
 ###################################################
 
-Les vidéos peuvent soit être approuvées automatique, soit manuellement.
-Si les vidéos sont approuvés automatiquement, elles seront affichable sur le diaporama juste après l'envoi.
+Les vidéos peuvent soit être approuvées automatiquement, soit manuellement.
+Si les vidéos sont approuvées automatiquement, elles seront affichables sur le diaporama juste après l'envoi.
 En mode manuel, l'animateur doit approuver chaque vidéo avant que cette dernière puisse passer sur le diaporama.
 
 Paramètre en question :
@@ -324,8 +324,8 @@ Paramètre en question :
    :align: center
 
 Options du paramètre:
- * **Non** : Vidéo non sauvegardé (impossibilité d'envoi pour l'invité)
- * **Oui** : Vidéo sauvegardé mais non diffusé (*paramètre par défaut*)
+ * **Non** : Vidéo non sauvegardée (impossibilité d'envoi pour l'invité)
+ * **Oui** : Vidéo sauvegardée mais non diffusée (*paramètre par défaut*)
 
  .. note:: Les vidéos trop longues seront récupérables depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
 
@@ -335,6 +335,8 @@ Sortie sonore
 ###################################################
 
 Vous pouvez définir la sortie sonore des vidéos.
+
+Le pi doit détecter le branchement de la prise JACK, si absent, il revient automatiquement sur HDMI après validation.
 
 Paramètre en question :
 
@@ -446,7 +448,7 @@ Option du paramètre:
 
 .. _animateur_parametres_commentaires_couleur:
 
-Couleur (par défaut) du commentaire associée à un média
+Couleur (par défaut) du commentaire associé à un média
 ###########################################################
 
 Vous pouvez définir la couleur par défaut du commentaire associé à un média
@@ -458,9 +460,9 @@ Paramètre en question :
    :align: center
 
 Option du paramètre:
- * **Couleur** : Couleur par défaut du commentaire (*couleur par défaut: rouge*)
+ * **Couleur** : Couleur par défaut du commentaire (*par défaut: rouge*)
 
-.. note:: L'invité peut choisir la couleur du commentaire qu'il envoie (mais par défaut, il aura la couleur que vous avez sélectionné)
+.. note:: L'invité peut choisir la couleur du commentaire qu'il envoie (mais par défaut, il aura la couleur que vous avez sélectionnée)
 
 .. _animateur_parametres_commentaires_fond:
 
@@ -944,7 +946,7 @@ Vue globale de la section impression:
    :alt: Panel animateur de PicturWall, page paramètres, section impression
    :align: center
 
-.. important:: Je vais bientôt sortir une vidéo sur toute la partie impression. Je vous tient au courant.
+.. important:: Je vais bientôt sortir une vidéo sur toute la partie impression. Je vous tiens au courant.
 
 
 .. _animateur_parametres_impression_activer:
@@ -1130,7 +1132,7 @@ Vue globale de la section envoi réseau:
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau
    :align: center
 
-.. important:: Je vais bientôt sortir une vidéo sur toute la partie envoi réseau. Je vous tiens informés.
+.. important:: Je vais bientôt sortir une vidéo sur toute la partie envoi réseau. Je vous tiens informé.
 
 
 .. _animateur_parametres_envoi-reseau_pw-add:
@@ -1260,7 +1262,7 @@ Paramètre en question :
 
 Options du paramètre:
  * **Non**: N'autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux (*paramètre par défaut*)
- * **Oui**: Incrémente le nombre d'impressions depuis les dossiers réseaux
+ * **Oui**: Autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux
 
 
 .. _animateur_parametres_envoi-reseau_logo:

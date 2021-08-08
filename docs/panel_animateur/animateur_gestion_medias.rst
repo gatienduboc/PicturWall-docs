@@ -11,7 +11,7 @@ La page de gestion des médias ressemble à ceci :
 
 Cette page vous permet de gérer les médias déjà envoyés. C'est à dire que vous pourrez les refuser, les tourner, les imprimer, les mettre en avant….
 
-.. important:: Pour que les médias apparaissent ici, il faut qu'ils soient préalablement acceptées (de manière automatique ou manuelle).
+.. important:: Pour que les médias apparaissent ici, il faut qu'ils soient préalablement acceptés (de manière automatique ou manuelle).
 
 
 .. _animateur_gestion_medias_media_refuser:
@@ -104,8 +104,6 @@ Afin de sélectionner les médias à mettre en avant, vous devez cliquer sur cha
 
 Pour le mettre en avant, il suffit de cliquer sur |bouton_mise_avant|.
 
-.. warning:: Vous ne pouvez pas tourner une vidéo (par soucis de performance) !
-
 .. |bouton_mise_avant| image:: _images/gestion_medias/gestion_medias_media_mise_en_avant.PNG
    :alt: Gestion des médias: Mettre en avant un média envoyé sur PicturWall.
    :scale: 75%
@@ -123,7 +121,7 @@ Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cel
    :align: center
 
 
-Vous remarquez que les médias sélectionnés sont encadrés en rouge. Cela signifie qu'ils sont bien des médias sélectionnés pour être mit en avant, mais que le mode mise en avant est inactif.
+Vous remarquez que les médias sélectionnés sont encadrés en rouge. Cela signifie qu'ils sont bien des médias sélectionnés pour être mis en avant, mais que le mode mise en avant est inactif.
 
 Afin d'activer le mode mise en avant, vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur "Activer le mode mise en avant" dans la section "mise en avant":
 
