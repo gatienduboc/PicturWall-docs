@@ -3,7 +3,7 @@
 Page sauvegarder les médias
 ================================
 
-La page de sauvegarde des utilisateurs ressemble à ceci:
+La page de sauvegarde des utilisateurs ressemble à ceci :
 
 .. figure:: _images/sauvegarde/sauvegarde.PNG
    :alt: Panel animateur de PicturWall, page sauvegarde des médias.
@@ -30,13 +30,13 @@ Sauvegarder tous les médias et commentaires
 ---------------------------------------------
 
 Afin de sauvegarder tous les médias, vous allez cliquer sur le bouton "Valider" de la ligne "Créer l'archive de tous les médias […].
-Ensuite, vous allez voir cette fenêtre apparraître :
+Ensuite, vous allez voir cette fenêtre apparaître :
 
 .. figure:: _images/sauvegarde/sauvegarde_archive.PNG
    :alt: Panel animateur de PicturWall, page gestion des sauvegarde, création de l'archive
    :align: center
 
-Afin de créer l'archive, il suffit de cliquer sur "Oui!".
+Afin de créer l'archive, il suffit de cliquer sur "Oui !".
 
 .. important:: Une fois ceci fait, il faut patienter jusqu'à l'apparition de la ligne "Voulez-vous récupérer tous les médias sur l'ordinateur ?".
 
@@ -44,7 +44,7 @@ Afin de créer l'archive, il suffit de cliquer sur "Oui!".
    :alt: Panel animateur de PicturWall, page gestion des sauvegarde, récupération de l'archive
    :align: center
 
-Afin de récupérer l'archive contenant tous les médias, il suffit de cliquer sur "Oui!".
+Afin de récupérer l'archive contenant tous les médias, il suffit de cliquer sur "Oui !".
 
 Vous pouvez désormais cliquer sur le bouton "Téléchargement" de la ligne "Voulez-vous récupérer tous les médias sur l'ordinateur ?"..
 Vous allez voir apparaître cette fenêtre :
@@ -53,4 +53,4 @@ Vous allez voir apparaître cette fenêtre :
    :alt: Panel animateur de PicturWall, page gestion des sauvegarde, récupération de l'archive
    :align: center
 
-Afin de télécharger l'archive, il suffit de cliquer sur "Oui!".
+Afin de télécharger l'archive, il suffit de cliquer sur "Oui !".
