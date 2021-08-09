@@ -48,6 +48,7 @@ Les paramètres sont découpées dans des sections, qui sont les suivantes :
     * :ref:`Couleur de fond du bandeau <animateur_parametres_bandeau_fond>`
     * :ref:`Vitesse de défilement du bandeau <animateur_parametres_bandeau_vitesse>`
     * :ref:`Texte du bandeau <animateur_parametres_bandeau_texte>`
+    * :ref:`Position du bandeau <animateur_parametres_bandeau_position>`
 #. :ref:`Section projecteur <animateur_parametres_section_projecteur>` comprenant les paramètres suivants :
     * :ref:`Vitesse de défilement des médias <animateur_parametres_projecteur_vitesse>`
     * Transition des médias :
@@ -655,6 +656,23 @@ Option du paramètre:
 
 .. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmentez la longueur du texte.
 
+
+.. _animateur_parametres_bandeau_position:
+
+Position du bandeau défilant
+###################################################
+
+Vous pouvez choisir de positionner le bandeau en haut ou en bas du diaporama.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/bandeau/parametres_bandeau_position.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section bandeau défilant, position du bandeau défilant.
+   :align: center
+
+Options du paramètre:
+ * **Haut** : Bandeau défilant en haut du diaporama (*paramètre par défaut*)
+ * **Bas** : Bandeau défilant en bas du diaporama
 
 
 
