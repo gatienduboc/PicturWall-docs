@@ -12,7 +12,7 @@ Se rendre sur le panel invité ?
 ===================================
 
 Afin de se connecter au panel invité, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
-Ensuite, vous allez ouvrir votre navigateur préféré, puis taper l'adresse URL suivante: picturwall.tv_
+Ensuite, vous allez ouvrir votre navigateur préféré, puis taper l'adresse URL suivante : picturwall.tv_
 
 Bien-sûr, c'est exactement la même chose sur téléphone.
 Vous ouvrez votre navigateur et tapez picturwall.tv_ dans votre barre de recherche.
@@ -32,9 +32,9 @@ Ensuite, vous acceptez les conditions d'utilisations, et vous cliquez sur |bouto
 
 Envoyer un média
 ===================
-L'envoi de média sur PicturWall est très simple:
+L'envoi de média sur PicturWall est très simple :
 
-* Sélectionner votre média dans votre galerie photo, ou prendre la photo en direct !
+* Sélectionner votre média dans votre galerie photo ou prendre la photo en direct !
 * Écrire un :ref:`Commentaire <invite_media_commentaire>` (optionnel)
 * Cocher (ou non) la case pour :ref:`"imprimer le souvenir" <invite_media_imprimer>` !
 
@@ -57,7 +57,7 @@ Celui-ci s'affichera sur le :ref:`diaporama <diaporama_commentaire>`, en haut de
 
 Le commentaire doit être composé d'au moins 5 caractères.
 
-De plus, vous pouvez y ajouter un smiley, via l'icone associé à droite de la barre de commentaire |bouton_smiley|.
+De plus, vous pouvez y ajouter un smiley, via l'icône associé à droite de la barre de commentaire |bouton_smiley|.
 
 Pour finir, vous pouvez personnaliser la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
 
@@ -79,7 +79,7 @@ Imprimer le souvenir
 
 Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leur souvenir !
 
-Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir une :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>`, et une limite d':ref:`impression globale <animateur_parametres_impression_max>`.
+Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir une :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>` et une limite :ref:`d'impression globale <animateur_parametres_impression_max>`.
 
 .. admonition:: Autoriser les invités à imprimer
 
@@ -92,15 +92,15 @@ Imprimer après coup
 
 Vous pouvez aussi vouloir imprimer un de vos médias ultérieurement !
 
-Pour cela, vous devez cliquer sur ce bouton: |bouton_impression|
+Pour cela, vous devez cliquer sur ce bouton : |bouton_impression|
 
-Vous allez donc atterrir sur cette page:
+Vous allez donc atterrir sur cette page :
 
 .. figure:: _images/invite_impressions.PNG
    :alt: Imprimer un souvenir après coup.
    :align: center
 
-Ensuite, il ne vous restera plus qu'à cliquer sur le média que vous voulez imprimer:
+Ensuite, il ne vous restera plus qu'à cliquer sur le média que vous voulez imprimer :
 
 .. figure:: _images/invite_impressions_imprimer_medias.PNG
    :alt: Imprimer un souvenir après coup, lancer l'impression.
@@ -113,7 +113,7 @@ Et vous pouvez vous rendre jusqu'à l'imprimante pour récupérer votre média.
     Pour que les invités puissent accéder à cette page, il faut :ref:`autoriser les utilisateurs à imprimer après coup <animateur_parametres_impression_utilisateur_envoi_differe>`.
 
 
-Afin de revenir à la page d'envoi de médias, il faut cliquer sur ce bouton: |bouton_impression_envoyer_souvenir|
+Afin de revenir à la page d'envoi de médias, il faut cliquer sur ce bouton : |bouton_impression_envoyer_souvenir|
 
 
 
@@ -124,7 +124,7 @@ Sur PicturWall, il existe un concept que l'on nomme "**média en or**".
 
 C'est en réalité un ou plusieurs médias que l'animateur met à disposition de tous pour l'impression. Nous détaillons cette fonction dans le panel animateur, page :ref:`Édition de médias <animateur_gestion_medias_or>`.
 
-Les invités voient les médias mis à disposition de cette façon:
+Les invités voient les médias mis à disposition de cette façon :
 
 .. figure:: _images/invite_impressions_media_or.PNG
    :alt: Imprimer un média en or.
@@ -134,7 +134,7 @@ Vous pouvez imprimer ce type de média comme tous les autres.
 
 .. admonition:: Médias en or
 
-    Les médias en or sont tous sélectionnés par l'animateur. Par exemple, cela peut-être des photos d'autres invités ou du photographe.
+    Les médias en or sont tous sélectionnés par l'animateur. Par exemple, cela peut être des photos d'autres invités ou du photographe.
 
 
 .. |bouton_envoyer| image:: _images/invite_bouton_envoyer.PNG

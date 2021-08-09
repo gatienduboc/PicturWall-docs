@@ -9,7 +9,7 @@ La page de gestion des commentaires ressemble à ceci :
    :alt: Panel animateur de PicturWall, page gestion des commentaires.
    :align: center
 
-Cette page vous permet de gérer les commentaires déjà envoyés. C'est à dire que vous pourrez les supprimer après l'envoi grâce à cette page.
+Cette page vous permet de gérer les commentaires déjà envoyés. C'est-à-dire que vous pourrez les supprimer après l'envoi grâce à cette page.
 
 
 .. _animateur_gestion_commentaires_commentaire_supprimer:
@@ -28,4 +28,4 @@ Pour refuser le commentaire, il suffit de cliquer sur "Oui !".
 
 .. note:: La suppression d'un commentaire n'engendre pas la suppression du média associé.
 
-.. important:: Une fois qu'un commentaire à été supprimé, vous ne pourrez pas le restaurer.
+.. important:: Une fois qu'un commentaire a été supprimé, vous ne pourrez pas le restaurer.

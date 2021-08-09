@@ -34,7 +34,7 @@ Par exemple, vous pouvez personnaliser la vitesse de défilement des médias :
 
    La vitesse de défilement des médias s'applique uniquement aux photos. Pour les vidéos, elles sont entièrement lues.
 
-A force de personnalisation, vous pouvez arriver sur des résultats très différents, en voici quelques exemples :
+À force de personnalisation, vous pouvez arriver sur des résultats très différents, en voici quelques exemples :
 
 .. figure:: _images/diaporama_custom1.PNG
    :alt: Diaporama: Affichage custom
@@ -67,10 +67,10 @@ Les différents modes de diffusion
 ==================================
 
 Vous avez 4 modes de diffusion sur PicturWall :
- * Le mode ":ref:`Normal <diaporama_mode_normal>`": permettant la diffusion des médias envoyés par les invités
- * Le mode de ":ref:`Présentation <diaporama_mode_presentation>`": forçant la diffusion du média de présentation de PicturWall même si les invités ont envoyé des médias
- * Le mode ":ref:`Explication <diaporama_mode_explication>`": forçant la diffusion d'un média d'explication (exemple: média permettant de ce connecter au Wifi PicturWall
- * Le mode ":ref:`Mise en avant <diaporama_mode_mise_en_avant>`":
+ * Le mode ":ref:`Normal <diaporama_mode_normal>`" : permettant la diffusion des médias envoyés par les invités
+ * Le mode de ":ref:`Présentation <diaporama_mode_presentation>`" : forçant la diffusion du média de présentation de PicturWall même si les invités ont envoyé des médias
+ * Le mode ":ref:`Explication <diaporama_mode_explication>`" : forçant la diffusion d'un média d'explication (exemple: média permettant de ce connecter au Wifi PicturWall
+ * Le mode ":ref:`Mise en avant <diaporama_mode_mise_en_avant>`": forçant la diffusion des médias sélectionnés par l'animateur 
 
 
 .. _diaporama_mode_normal:
@@ -81,8 +81,8 @@ Mode "Normal"
 Ce que l'on appelle **"Mode Normal"**, c'est la diffusion classique des médias.
 
 Vous pouvez faire passer les médias dans deux ordres :
- * **Ordre chronologique**: Les médias défilent de l'envoi le plus ancien au plus récent.
- * **Ordre aléatoire**: Les médias défilent de manière aléatoire (un média ne peut pas être diffusé deux fois à la suite.
+ * **Ordre chronologique** : Les médias défilent de l'envoi le plus ancien au plus récent.
+ * **Ordre aléatoire** : Les médias défilent de manière aléatoire (un média ne peut pas être diffusé deux fois à la suite).
 
  L'ordre des médias est défini sur la page paramètre (rubrique Générales).
 
@@ -99,7 +99,7 @@ Le mode de présentation s'active via la page de paramètres (rubrique Général
    :alt: Paramètre: mode de présentation.
    :align: center
 
-Si vous l'activez, vous devriez voir ceci sur le diaporama:
+Si vous l'activez, vous devriez voir ceci sur le diaporama :
 
 .. figure:: _images/diaporama_presentation.PNG
    :alt: Diaporama, Mode de présentation de PicturWall.
@@ -126,7 +126,7 @@ Le mode d'explication s'active via la page de paramètres (rubrique Générales)
    :alt: Paramètre: mode d'explication.
    :align: center
 
-Si vous l'activez, vous devriez voir ceci sur le diaporama:
+Si vous l'activez, vous devriez voir ceci sur le diaporama :
 
 .. figure:: _images/diaporama_tuto.PNG
    :alt: Diaporama, Mode d'explication de PicturWall.
@@ -160,7 +160,7 @@ Dans le cas où vous avez une imprimante reliée à picturWall, le paramètre se
    :alt: Gestion des médias: Médias mis en avant & médias en OR.
    :align: center
 
-Si vous l'activez, seuls les médias choisis comme Médias en Or" seront affichés à l'écran. La démarche à suivre pour gérer les médias se trouve ici: :ref:`gestion des médias <animateur_gestion_medias_or>`.
+Si vous l'activez, seuls les médias choisis comme Médias en Or" seront affichés à l'écran. La démarche à suivre pour gérer les médias se trouve ici : :ref:`gestion des médias <animateur_gestion_medias_or>`.
 
 
 
@@ -214,7 +214,7 @@ Voici à quoi ressemble un commentaire :
    :alt: Exemple de commentaire sur PicturWall
    :align: center
 
-Bien sûr, tout est personnalisable, par exemple, vous pouvez changer :ref:`ceci <animateur_parametres_section_commentaires>`:
+Bien sûr, tout est personnalisable, par exemple, vous pouvez changer :ref:`ceci <animateur_parametres_section_commentaires>` :
  * Activation des commentaires avec l'envoi des médias
  * Sa couleur
  * Son encadrement
@@ -240,7 +240,7 @@ L'identité de l'invité
 
 Lorsque qu'un invité envoie un média, son nom et prénom est affiché en bas à droite de l'écran.
 
-Une fois de plus, vous pouvez personnaliser :ref:`l'affichage de l'identité <animateur_parametres_projecteur_invite>`:
+Une fois de plus, vous pouvez personnaliser :ref:`l'affichage de l'identité <animateur_parametres_projecteur_invite>` :
  * Affichage de l'identité
  * Sa couleur
  * Sa taille
@@ -263,14 +263,14 @@ L'arrière-plan
 
 Selon les dimensions des médias, un arrière-plan, plus ou moins grand, fait son apparition !
 
-L'arrière-plan peut se personnaliser, par exemple, vous pouvez mettre :ref:`en arrière-plan <animateur_parametres_projecteur_transition_type>`:
+L'arrière-plan peut se personnaliser, par exemple, vous pouvez mettre :ref:`en arrière-plan <animateur_parametres_projecteur_transition_type>` :
  * Un flou d'image
  * Une couleur
  * Une image
 
 Tout ceci est contrôlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
 
-Voici à quoi ressemble la rubrique projecteur:
+Voici à quoi ressemble la rubrique projecteur :
 
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur.PNG
    :alt: Paramètre: Rubrique projecteur.
@@ -286,7 +286,7 @@ Le logo
 
 Vous pouvez choisir d'afficher un logo sur l'écran de projection.
 
-Voila ce que vous pouvez :ref:`personnaliser <animateur_parametres_projecteur_logo>`
+Voilà ce que vous pouvez :ref:`personnaliser <animateur_parametres_projecteur_logo>`
  * Son affichage
  * Son image
  * Son opacité
@@ -307,13 +307,13 @@ Voici à quoi ressemble la rubrique projecteur:
 Les transitions
 =================
 
-Entre les médias, il y a des transitions, que vous pouvez :ref:`personnaliser <animateur_parametres_section_projecteur>`:
+Entre les médias, il y a des transitions, que vous pouvez :ref:`personnaliser <animateur_parametres_section_projecteur>` :
  * Leur type
  * Leur durée
 
 Tout ceci est contrôlable depuis la page de paramètres de PicturWall, :ref:`Section projecteur <animateur_parametres_section_projecteur>`
 
-Voici à quoi ressemble la rubrique projecteur:
+Voici à quoi ressemble la rubrique projecteur :
 
 .. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur.PNG
    :alt: Paramètre: Rubrique projecteur.

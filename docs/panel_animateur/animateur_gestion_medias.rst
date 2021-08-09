@@ -9,7 +9,7 @@ La page de gestion des médias ressemble à ceci :
    :alt: Panel animateur de PicturWall, page gestion des médias.
    :align: center
 
-Cette page vous permet de gérer les médias déjà envoyés. C'est à dire que vous pourrez les refuser, les tourner, les imprimer, les mettre en avant….
+Cette page vous permet de gérer les médias déjà envoyés. C'est-à-dire que vous pourrez les refuser, les tourner, les imprimer, les mettre en avant….
 
 .. important:: Pour que les médias apparaissent ici, il faut qu'ils soient préalablement acceptés (de manière automatique ou manuelle).
 
@@ -26,7 +26,7 @@ Vous allez voir cette fenêtre apparaître :
    :alt: Panel animateur de PicturWall, page gestion des médias, modification d'un média.
    :align: center
 
-Pour refuser le média, il suffit de cliquer sur "Oui!" dans la partie "Voulez vous refuser le média ?"
+Pour refuser le média, il suffit de cliquer sur "Oui !" dans la partie "Voulez-vous refuser le média ?"
 
 .. figure:: _images/gestion_medias/gestion_medias_media_refuser.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, modification d'un média, refuser le média.
@@ -117,7 +117,7 @@ Pour le mettre en avant, il suffit de cliquer sur |bouton_mise_avant|.
 Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_avant_off.PNG
-   :alt: Panel animateur de PicturWall, page gestion des médias, mise en avant: désactivé.
+   :alt: Panel animateur de PicturWall, page gestion des médias, mise en avant : désactivé.
    :align: center
 
 
@@ -129,11 +129,11 @@ Afin d'activer le mode mise en avant, vous allez devoir vous rendre sur le bas d
    :alt: Panel animateur de PicturWall, page gestion des médias, mise en avant.
    :align: center
 
-.. admonition:: Remettre à zéro la liste des médias mis en avant:
+.. admonition:: Remettre à zéro la liste des médias mis en avant :
 
    Pour remettre rapidement à 0 la liste des médias mis en avant, il vous suffit de cliquer sur le bouton "Suppression" de la section "Mise en avant !".
 
-Une fois actif, le diaporama affichera uniquement les médias sélectionnés. D'ailleurs, si le mode de mise en avant est actif, les médias sélectionnés seront encadrés en vert:
+Une fois actif, le diaporama affichera uniquement les médias sélectionnés. D'ailleurs, si le mode de mise en avant est actif, les médias sélectionnés seront encadrés en vert :
 
 .. figure:: _images/gestion_medias/gestion_medias_avant_on.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, mise en avant.
@@ -161,7 +161,7 @@ Pour le mettre en avant, il suffit de cliquer sur |bouton_media_or|.
 
 .. warning:: Vous ne pouvez pas tager une vidéo comme "média en or". Ce qui est logique, puisque que vous ne pourrez pas l'imprimer.
 
-.. note:: Afin de supprimer le média de la liste, il suffit recliquer sur le bouton |bouton_media_or|.
+.. note:: Afin de supprimer le média de la liste, il suffit de recliquer sur le bouton |bouton_media_or|.
 
 .. |bouton_media_or| image:: _images/gestion_medias/gestion_medias_media_media_en_or.PNG
    :alt: Gestion des médias: Mettre en or un média envoyé sur PicturWall.
@@ -170,7 +170,7 @@ Pour le mettre en avant, il suffit de cliquer sur |bouton_media_or|.
 Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_or_off.PNG
-   :alt: Panel animateur de PicturWall, page gestion des médias, Média en or: désactivé.
+   :alt: Panel animateur de PicturWall, page gestion des médias, Média en or : désactivé.
    :align: center
 
 
@@ -182,7 +182,7 @@ Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas 
    :alt: Panel animateur de PicturWall, page gestion des médias, médias en or.
    :align: center
 
-.. admonition:: Remettre à zéro la liste des médias en or:
+.. admonition:: Remettre à zéro la liste des médias en or :
 
    Pour remettre rapidement à 0 la liste des médias en or, il vous suffit de cliquer sur le bouton "Surpression" de la section "Mise en avant & Médias en OR !".
 
@@ -202,7 +202,7 @@ Récupérer les médias refusés
 
 Les médias refusés ne sont pas perdus.
 
-Vous pouvez les retrouver en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici ou il se trouve:
+Vous pouvez les retrouver en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il se trouve :
 
 .. figure:: _images/gestion_medias/gestion_medias_page.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
@@ -214,13 +214,13 @@ Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez séle
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Vous allez donc atterir sur la page des médias refusés, qui ressemblera à cela :
+Vous allez donc atterrir sur la page des médias refusés, qui ressemblera à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_refuse.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias refusés
    :align: center
 
-Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média puis cliquer sur "Oui!" pour le restaurer.
+Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média puis cliquer sur "Oui !" pour le restaurer.
 
 .. figure:: _images/gestion_medias/gestion_medias_page_refuse_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias refusés. Restaurer un média3
@@ -234,11 +234,11 @@ Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média
 Voir rapidement les nouveaux médias
 -----------------------------------------
 
-Il existe une façon de vérifier rapidement les nouveaux médias qui ont été envoyé sur PicturWall. Il existe une page qui vous montre les nouveaux médias envoyés depuis sont dernier chargement.
+Il existe une façon de vérifier rapidement les nouveaux médias qui ont été envoyé sur PicturWall. Il existe une page qui vous montre les nouveaux médias envoyés depuis son dernier chargement.
 
-C'est à dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
+C'est-à-dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
 
-Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve :
+Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il se trouve :
 
 .. figure:: _images/gestion_medias/gestion_medias_page.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
@@ -250,7 +250,7 @@ Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez séle
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Vous allez donc atterrir sur la page des nouveaux médias, qui ressemblera à cela:
+Vous allez donc atterrir sur la page des nouveaux médias, qui ressemblera à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_nouveau.PNG
    :alt: Panel animateur de PicturWall, page des nouveaux médias
@@ -270,29 +270,29 @@ Les vidéos qui ont été envoyés sur PicturWall et qui dépassent le temps max
 Sur cette page, vous pourrez forcer la prise en compte d'une vidéo trop longue.
 
 
-Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il ce trouve :
+Vous pouvez retrouver cette page en cliquant sur les trois petits points en haut à droite de la page "gestion des médias". Voici où il se trouve :
 
 .. figure:: _images/gestion_medias/gestion_medias_page.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectionner "Vidéos trop longues":
+Une fois que vous avez cliqué sur les trois points verticaux, vous pouvez sélectionner "Vidéos trop longues" :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_supp.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, Pages supplémentaires
    :align: center
 
-Vous allez donc atterrir sur la page des vidéos trop longues, qui ressemblera à cela:
+Vous allez donc atterrir sur la page des vidéos trop longues, qui ressemblera à cela :
 
 .. figure:: _images/gestion_medias/gestion_medias_page_longue.PNG
    :alt: Panel animateur de PicturWall, page des vidéos longues
    :align: center
 
 
-Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média puis cliquer sur "Oui!" pour le restaurer.
+Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média puis cliquer sur "Oui !" pour le restaurer.
 
 .. figure:: _images/gestion_medias/gestion_medias_page_longue_media.PNG
    :alt: Panel animateur de PicturWall, page gestion des vidéos longues. Restaurer une vidéo
    :align: center
 
-.. note:: La :ref:`durée maximale des vidéos lues <animateur_parametres_videos_duree_maximale>` est définie sur la page paramètre de PicturWall, :ref:`section vidéos <animateur_parametres_videos_duree_maximale>`
+.. note:: La :ref:`durée maximale des vidéos lues <animateur_parametres_videos_duree_maximale>` est définie sur la page paramètre de PicturWall, :ref:`section vidéo <animateur_parametres_videos_duree_maximale>` .

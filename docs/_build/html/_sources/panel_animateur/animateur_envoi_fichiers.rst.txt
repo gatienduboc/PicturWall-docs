@@ -11,6 +11,6 @@ La page des envois de fichiers ressemble à ceci :
 
 Cette page vous permet d'envoyer des images, des vidéos, et même des fichiers ZIP.
 
-.. note:: Le fichier zip doit directement contenir les médias à sa racine. Le fichier ne doit pas dépasser les 100Mo.
+.. note:: Le fichier zip doit directement contenir les médias à sa racine. Le fichier ne doit pas dépasser les 100 Mo.
 
 .. important:: Les médias envoyés via cette page sont automatiquement approuvés.

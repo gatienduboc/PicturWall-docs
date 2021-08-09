@@ -26,7 +26,7 @@ Voici les points que nous allons détailler lors de cette documentation :
 
 .. toctree::
     :maxdepth: 2
-    :caption: Panel animateur:
+    :caption: Panel animateur :
 
     animateur_tri_medias
     animateur_gestion_medias
@@ -43,7 +43,7 @@ Se rendre sur le panel animateur ?
 =======================================
 
 Afin de se connecter au panel animateur, vous devrez être préalablement connecté au réseau wifi public de PicturWall.
-Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante: `picturwall.tv/panel <http://picturwall.tv/panel/>`_
+Ensuite, vous allez ouvrir votre navigateur préféré, puis tapez l'adresse URL suivante : `picturwall.tv/panel <http://picturwall.tv/panel/>`_
 
 Vous arriverez sur une page d'authentification que voici :
 

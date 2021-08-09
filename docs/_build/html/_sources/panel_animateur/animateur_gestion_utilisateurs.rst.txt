@@ -9,7 +9,7 @@ La page de gestion des utilisateurs ressemble à ceci :
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs.
    :align: center
 
-Cette page vous permet de gérer les utilisateurs de PicturWall. C'est à dire que vous pourrez bannir et "débannir" les utilisateurs.
+Cette page vous permet de gérer les utilisateurs de PicturWall. C'est-à-dire que vous pourrez bannir et "débannir" les utilisateurs.
 
 
 .. _animateur_gestion_utilisateurs_bannir:
@@ -24,7 +24,7 @@ Ensuite, vous allez voir cette fenêtre apparaître :
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs, bannir un utilisateur
    :align: center
 
-Pour bannir l'utilisateur, il suffit de cliquer sur "Oui!".
+Pour bannir l'utilisateur, il suffit de cliquer sur "Oui !".
 
 .. note:: Les médias d'un utilisateur banni ne passeront plus sur le diaporama. Néanmoins, vous pouvez :ref:`récupérer tous ses médias <animateur_sauvegarde>`.
 
@@ -41,9 +41,9 @@ Ensuite, vous allez voir cette fenêtre apparaître :
    :alt: Panel animateur de PicturWall, page gestion des utilisateurs, débannir un utilisateur
    :align: center
 
-Pour débannir l'utilisateur, il suffit de cliquer sur "Oui!".
+Pour débannir l'utilisateur, il suffit de cliquer sur "Oui !".
 
-.. note:: Les médias d'un utilisateur banni seront restaurés. C'est à dire qu'ils pourront repasser sur le diaporama.
+.. note:: Les médias d'un utilisateur banni seront restaurés. C'est-à-dire qu'ils pourront repasser sur le diaporama.
 
 
 .. _animateur_gestion_utilisateurs_user:

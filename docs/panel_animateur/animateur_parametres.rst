@@ -13,9 +13,9 @@ Cette page vous permet de configurer PicturWall.
 
 .. note:: La page de paramètres est très souvent mise à jour, pensez à la consulter régulièrement.
 
-.. important:: Vos paramètres sont remit à zéro à chaque mise à jour.
+.. important:: Vos paramètres sont remis à zéro à chaque mise à jour.
 
-Les paramètres sont découpées dans des sections, qui sont les suivantes :
+Les paramètres sont découpés dans des sections, qui sont les suivantes :
 
 #. :ref:`Section générale <animateur_parametres_section_generale>` comprenant les paramètres suivants :
     * :ref:`Approbation automatique des photos <animateur_parametres_generale_approbation_auto_photos>`
@@ -55,7 +55,7 @@ Les paramètres sont découpées dans des sections, qui sont les suivantes :
         * :ref:`Type de transitions <animateur_parametres_projecteur_transition_type>`
         * :ref:`Fond de transitions <animateur_parametres_projecteur_fond>`
         * :ref:`Couleur de fond des médias <animateur_parametres_projecteur_fond_couleur>`
-        * :ref:`Fond des médias personalisé <animateur_parametres_projecteur_fond_personalise>`
+        * :ref:`Fond des médias personnalisé <animateur_parametres_projecteur_fond_personnalise>`
         * :ref:`Durée des transitions <animateur_parametres_projecteur_transition_duree>`
     * Affichage du logo :
         * :ref:`Activer le logo <animateur_parametres_projecteur_logo>`
@@ -72,7 +72,7 @@ Les paramètres sont découpées dans des sections, qui sont les suivantes :
     * Logo:
         * :ref:`Imprimer un logo sur les photos <animateur_parametres_impression_logo_activer>`
         * :ref:`Choisir le logo d'impression <animateur_parametres_impression_logo_fichier>`
-    * Utilisateurs (invité):
+    * Utilisateurs (invité) :
         * :ref:`Autoriser les utilisateurs à imprimer <animateur_parametres_impression_utilisateur>`
         * :ref:`Nombre d'impressions maximum par utilisateur <animateur_parametres_impression_utilisateur_max>`
         * :ref:`Autoriser les utilisateurs à imprimer dès l'envoi <animateur_parametres_impression_utilisateur_envoi>`
@@ -93,7 +93,7 @@ Les paramètres sont découpées dans des sections, qui sont les suivantes :
 #. :ref:`Section DNS <animateur_parametres_section_dns>` comprenant les paramètres suivants :
     * :ref:`Ajouter une URL de connexion <animateur_parametres_dns_ajouter>`
     * :ref:`Re-initialiser le serveur DNS <animateur_parametres_dns_reset>`
-#. :ref:`Section systeme <animateur_parametres_section_systeme>` comprenant les paramètres suivants :
+#. :ref:`Section système <animateur_parametres_section_systeme>` comprenant les paramètres suivants :
     * :ref:`Éteindre le système <animateur_parametres_systeme_off>`
     * :ref:`Redémarrer le système <animateur_parametres_systeme_restart>`
 
@@ -126,7 +126,7 @@ Il ne vous reste plus qu'à appuyer sur le bouton "Valider" de la section pour c
 Section générale
 ---------------------------
 
-Vue de la section générale:
+Vue de la section générale :
 
 .. figure:: _images/parametres/general/parametres_general.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section général
@@ -172,7 +172,7 @@ Options du paramètre :
  * **Non** : Défilement en ordre chronologique
  * **Oui** : Défilement en ordre aléatoire (*paramètre par défaut*)
 
-Plus d'informations sur les :ref:`Mode de défilement du diaporama <diaporama_mode_normal>`.
+Plus d'informations sur les :ref:`Modes de défilement du diaporama <diaporama_mode_normal>`.
 
 .. _animateur_parametres_generale_mode_explication:
 
@@ -187,7 +187,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section générale, mode d'explication.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : :ref:`Mode de diffusion classique <diaporama_mode_normal>` (*paramètre par défaut*)
  * **Oui** : :ref:`Mode d'explication <diaporama_mode_explication>`
 
@@ -208,7 +208,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section générale, mode de présentation.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : :ref:`Mode de diffusion classique <diaporama_mode_normal>` (*paramètre par défaut*)
  * **Oui** : :ref:`Mode de présentation <diaporama_mode_presentation>`
 
@@ -224,7 +224,7 @@ Plus d'informations sur les :ref:`modes de défilement du diaporama <diaporama_m
 Section vidéo
 ---------------------------
 
-Vue globale de la section vidéo:
+Vue globale de la section vidéo :
 
 .. figure:: _images/parametres/videos/parametres_videos.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos
@@ -243,7 +243,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, autoriser les vidéos.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Impossible d'envoyer des vidéos
  * **Oui** : Les invités peuvent envoyer des vidéos (*paramètre par défaut*)
 
@@ -263,7 +263,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, autoriser son.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Aucun son diffusé
  * **Oui** : Son diffusé (*paramètre par défaut*)
 
@@ -285,7 +285,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, approbation automatique des vidéos.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Approbation manuelle
  * **Oui** : Approbation automatique (*paramètre par défaut*)
 
@@ -306,10 +306,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, durée maximale des vidéos lues.
    :align: center
 
-Option du paramètre:
- * **Temps max** : Durée maximale de la vidéo lue (*durée par défaut: 15 secondes*)
+Option du paramètre :
+ * **Temps max** : Durée maximale de la vidéo lue (*durée par défaut : 15 secondes*)
 
-.. note:: En cas de dépassement de limite, la vidéo de l'invité sera tout de même envoyée à PicturWall (si vous avez :ref:`autorisé la sauvegarde des vidéos "trop longues" <animateur_parametres_videos_sauvegarder>` ), mais elle ne sera pas lue. Vous pouvez choisir de l'intégrer au diaporama depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
+.. note:: En cas de dépassement de limite, la vidéo de l'invité sera tout de même envoyée à PicturWall (si vous avez :ref:`autorisé la sauvegarde des vidéos "trop longues" <animateur_parametres_videos_sauvegarder>`), mais elle ne sera pas lue. Vous pouvez choisir de l'intégrer au diaporama depuis la :ref:`page gestion des médias longs <animateur_gestion_medias_long>`.
 
 .. _animateur_parametres_videos_sauvegarder:
 
@@ -324,7 +324,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, sauvegarder les vidéos plus longues.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Vidéo non sauvegardée (impossibilité d'envoi pour l'invité)
  * **Oui** : Vidéo sauvegardée mais non diffusée (*paramètre par défaut*)
 
@@ -345,7 +345,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, sortie sonore.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **HDMI** : Le son sort depuis la prise HDMI
  * **JACK** : Le son sort par la prise jack (*paramètre par défaut*)
 
@@ -356,7 +356,7 @@ Options du paramètre:
 Section commentaires
 -----------------------------
 
-Vue globale de la section commentaires:
+Vue globale de la section commentaires :
 
 .. figure:: _images/parametres/commentaires/parametres_commentaires.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section commentaires
@@ -375,7 +375,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaires, activer la mise en ligne de commentaire avec le média
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Interdire la mise en ligne de commentaire avec le média
  * **Oui** : Autoriser la mise en ligne de commentaire avec le média (*paramètre par défaut*)
 
@@ -393,8 +393,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaire, taille de la police du commentaire.
    :align: center
 
-Option du paramètre:
- * **Taille** : Taille de la police (*taille par défaut: 48 px*)
+Option du paramètre :
+ * **Taille** : Taille de la police (*taille par défaut : 48 px*)
 
 .. _animateur_parametres_commentaires_seul:
 
@@ -409,7 +409,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaires, activer la mise en ligne de commentaire seul
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Interdire la mise en ligne de commentaire seul (*paramètre par défaut*)
  * **Oui** : Autoriser la mise en ligne de commentaire seul
 
@@ -426,7 +426,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaires, encadrement du commentaire
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Pas d'encadrement avec le commentaire
  * **Oui** : Encadrement avec le commentaire (*paramètre par défaut*)
 
@@ -443,8 +443,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaire, Opacité de l'encadrement du commentaire.
    :align: center
 
-Option du paramètre:
- * **Opacité** : Opacité de l'encadrement (*opacité par défaut: 0.3/1*)
+Option du paramètre :
+ * **Opacité** : Opacité de l'encadrement (*opacité par défaut : 0.3/1*)
 
 
 .. _animateur_parametres_commentaires_couleur:
@@ -460,8 +460,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaire, couleur du commentaire
    :align: center
 
-Option du paramètre:
- * **Couleur** : Couleur par défaut du commentaire (*par défaut: rouge*)
+Option du paramètre :
+ * **Couleur** : Couleur par défaut du commentaire (*par défaut : rouge*)
 
 .. note:: L'invité peut choisir la couleur du commentaire qu'il envoie (mais par défaut, il aura la couleur que vous avez sélectionnée)
 
@@ -478,8 +478,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaire, fond du commentaire
    :align: center
 
-Option du paramètre:
- * **Couleur** : Couleur par défaut du fond de commentaire (*fond par défaut: bleu*)
+Option du paramètre :
+ * **Couleur** : Couleur par défaut du fond de commentaire (*fond par défaut : bleu*)
 
 .. _animateur_parametres_commentaires_test:
 
@@ -496,7 +496,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section commentaires, commentaire de test
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Ne pas afficher le commentaire de test (*paramètre par défaut*)
  * **Oui** : Afficher le commentaire de test
 
@@ -507,7 +507,7 @@ Options du paramètre:
 Section bandeau défilant
 -----------------------------
 
-Vue globale de la section bandeau défilant:
+Vue globale de la section bandeau défilant :
 
 .. figure:: _images/parametres/bandeau/parametres_bandeau.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau défilant
@@ -528,7 +528,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau défilant, activer le bandeau défilant.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Bandeau défilant désactivé
  * **Oui** : Bandeau défilant actif (*paramètre par défaut*)
 
@@ -545,8 +545,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau, taille de la police du bandeau défilant.
    :align: center
 
-Option du paramètre:
- * **Taille** : Taille de la police (*taille par défaut: 30 px*)
+Option du paramètre :
+ * **Taille** : Taille de la police (*taille par défaut : 30 px*)
 
 
 .. _animateur_parametres_bandeau_couleur:
@@ -562,8 +562,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau, couleur du texte du bandeau défilant.
    :align: center
 
-Option du paramètre:
- * **couleur** : Couleur du texte (*couleur par défaut: bleu*)
+Option du paramètre :
+ * **couleur** : Couleur du texte (*couleur par défaut : bleu*)
 
 
 .. _animateur_parametres_bandeau_encadrement:
@@ -579,7 +579,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau défilant, activer l'encadrement du bandeau.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Encadrement désactivé
  * **Oui** : Encadrement actif (*paramètre par défaut*)
 
@@ -597,8 +597,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau, opacité de l'encadrement du bandeau défilant.
    :align: center
 
-Option du paramètre:
- * **Opacité** : Opacité de l'encadrement (*Opacité par défaut: 0.2/1*)
+Option du paramètre :
+ * **Opacité** : Opacité de l'encadrement (*Opacité par défaut : 0.2/1*)
 
  .. note:: Si l'opacité est inférieure à 1, vous voyez le média du diaporama en transparence de l'encadrement du bandeau défilant.
 
@@ -616,8 +616,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau, couleur de fond du bandeau défilant.
    :align: center
 
-Option du paramètre:
- * **couleur** : Couleur de fond du bandeau défilant (*couleur par défaut: noir*)
+Option du paramètre :
+ * **couleur** : Couleur de fond du bandeau défilant (*couleur par défaut : noir*)
 
 .. _animateur_parametres_bandeau_vitesse:
 
@@ -632,8 +632,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, vitesse de défilement du bandeau.
    :align: center
 
-Option du paramètre:
- * **Vitesse** : Vitesse de défilement du bandeau (*vitesse par défaut: 14 secondes*)
+Option du paramètre :
+ * **Vitesse** : Vitesse de défilement du bandeau (*vitesse par défaut : 14 secondes*)
 
 .. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmentez la longueur du texte.
 
@@ -651,8 +651,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section vidéos, texte du bandeau.
    :align: center
 
-Option du paramètre:
- * **Texte** : Texte défilant (*texte par défaut: Connectez-vous sur le wifi : PICTURWALL, puis dans votre navigateur entrez l'adresse : picturwall.tv*)
+Option du paramètre :
+ * **Texte** : Texte défilant (*texte par défaut : Connectez-vous sur le wifi : PICTURWALL, puis dans votre navigateur entrez l'adresse : picturwall.tv*)
 
 .. note:: Pensez à baisser la vitesse de défilement du bandeau si vous augmentez la longueur du texte.
 
@@ -670,7 +670,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section bandeau défilant, position du bandeau défilant.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Haut** : Bandeau défilant en haut du diaporama (*paramètre par défaut*)
  * **Bas** : Bandeau défilant en bas du diaporama
 
@@ -703,8 +703,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, vitesse de défilement des médias.
    :align: center
 
-Option du paramètre:
- * **Vitesse** : Vitesse de défilement des médias (*vitesse par défaut: 10 secondes*)
+Option du paramètre :
+ * **Vitesse** : Vitesse de défilement des médias (*vitesse par défaut : 10 secondes*)
 
 .. important:: Attention, ce paramètre ne prend pas en compte les vidéos.
 
@@ -721,10 +721,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, type de transition
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Arrivé rebond droit** : Les médias viennent par la droite, par rebond
  * **Arrivé linéaire droit** : Les médias viennent par la droite, de manière linéaire
- * **Arrivé progressive droit** : Les médias viennent par la droite, de manière progressive
+ * **Arrivé progressif droit** : Les médias viennent par la droite, de manière progressive
  * **Opacité fade** : Opacité effet "fade" entre les médias
  * **Opacité linéaire** : Opacité effet linéaire entre les médias (*Paramètre par défaut*)
  * **Aucune transition** : Pas de transition entre les médias
@@ -743,10 +743,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, fond des médias
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Flou** : L'arrière du média est flou (*Paramètre par défaut*)
  * :ref:`Couleur <animateur_parametres_projecteur_fond_couleur>`: L'arrière du média est une couleur
- * :ref:`Fond personalisé <animateur_parametres_projecteur_fond_personalise>`: L'arrière du média est un fond personalisé
+ * :ref:`Fond personnalisé <animateur_parametres_projecteur_fond_personnalise>`: L'arrière du média est un fond personnalisé
 
 
 .. _animateur_parametres_projecteur_fond_couleur:
@@ -762,14 +762,14 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, couleur de fond des médias
    :align: center
 
-Option du paramètre:
- * **couleur** : Couleur de fond des médias (*couleur par défaut: noir*)
+Option du paramètre :
+ * **couleur** : Couleur de fond des médias (*couleur par défaut : noir*)
 
  .. important:: Afin que ce paramètre soit actif, pensez à régler :ref:`l'effet de fond des médias <animateur_parametres_projecteur_fond>` sur "couleur".
 
-.. _animateur_parametres_projecteur_fond_personalise:
+.. _animateur_parametres_projecteur_fond_personnalise:
 
-Fond des médias personalisé
+Fond des médias personnalisé
 ###################################################
 
 Vous pouvez envoyer votre propre image de fond de médias.
@@ -780,10 +780,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, image de fond des médias.
    :align: center
 
-Option du paramètre:
+Option du paramètre :
  * **Fichier** : Fichier de fond des médias
 
- .. note:: Le fichier doit être au format .png et doit faire 1920x1080px max.
+ .. note:: Le fichier doit être au format .png et doit faire 1920x1080 px max.
 
 
 .. _animateur_parametres_projecteur_transition_duree:
@@ -799,8 +799,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, vitesse de transition des médias.
    :align: center
 
-Option du paramètre:
- * **Durée** : Durée de transition des médias (*vitesse par défaut: 2 secondes*)
+Option du paramètre :
+ * **Durée** : Durée de transition des médias (*vitesse par défaut : 2 secondes*)
 
 
 .. _animateur_parametres_projecteur_logo:
@@ -816,7 +816,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, affichage du logo.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Cacher le logo
  * **Oui** : Afficher le logo (*paramètre par défaut*)
 
@@ -836,8 +836,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, opacité du logo.
    :align: center
 
-Option du paramètre:
- * **Opacité** : Opacité du logo (*Opacité par défaut: 1/1*)
+Option du paramètre :
+ * **Opacité** : Opacité du logo (*Opacité par défaut : 1/1*)
 
  .. note:: Si l'opacité est inférieure à 1, vous voyez le média du diaporama en transparence du logo.
 
@@ -855,7 +855,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, fichier du logo.
    :align: center
 
-Option du paramètre:
+Option du paramètre :
  * **Fichier** : Fichier du logo
 
  .. note:: Le fichier doit être au format .png et doit faire 250x250px max.
@@ -874,7 +874,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, affichage du prénom et nom de l'invité.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Cacher l'identité
  * **Oui** : Afficher l'identité (*paramètre par défaut*)
 
@@ -892,8 +892,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, taille de la police invité.
    :align: center
 
-Option du paramètre:
- * **Taille** : Taille de la police (*taille par défaut: 34 px*)
+Option du paramètre :
+ * **Taille** : Taille de la police (*taille par défaut : 34 px*)
 
 
 .. _animateur_parametres_projecteur_invite_couleur:
@@ -909,8 +909,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, couleur du nom et prénom de l'invité.
    :align: center
 
-Option du paramètre:
- * **couleur** : Couleur du nom et prénom de l'invité (*couleur par défaut: gris*)
+Option du paramètre :
+ * **couleur** : Couleur du nom et prénom de l'invité (*couleur par défaut : gris*)
 
 
 .. _animateur_parametres_projecteur_media_explication:
@@ -926,10 +926,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, image d'explication
    :align: center
 
-Option du paramètre:
+Option du paramètre :
  * **Fichier** : Fichier d'explication
 
- .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080px.
+ .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
 
 .. _animateur_parametres_projecteur_media_demarrage:
@@ -945,10 +945,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur, image de démarrage
    :align: center
 
-Option du paramètre:
+Option du paramètre :
  * **Fichier** : Fichier de démarrage
 
- .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080px.
+ .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
 
 
@@ -958,7 +958,7 @@ Option du paramètre:
 Section impression
 -----------------------------
 
-Vue globale de la section impression:
+Vue globale de la section impression :
 
 .. figure:: _images/parametres/impression/parametres_impression.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section impression
@@ -980,7 +980,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, activer le service d'impression.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Service d'impression désactivé (*paramètre par défaut*)
  * **Oui** : Service d'impression activé
 
@@ -1002,7 +1002,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, imprimer le logo
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Logo désactivé (*paramètre par défaut*)
  * **Oui** : Logo activé
 
@@ -1020,10 +1020,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, fichier du logo à imprimer
    :align: center
 
-Option du paramètre:
+Option du paramètre :
  * **Fichier** : Fichier du logo à imprimer
 
- .. note:: Le fichier doit être au format .png et doit, si possible, faire 1000*1000px.
+ .. note:: Le fichier doit être au format .png et doit, si possible, faire 1000*1000 px.
 
 
 .. _animateur_parametres_impression_utilisateur:
@@ -1039,7 +1039,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, autoriser les utilisateurs à imprimer
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Les utilisateurs ne peuvent pas imprimer (*L'animateur, lui, peut imprimer*)
  * **Oui** : Les utilisateurs peuvent imprimer depuis le panel invité (*paramètre par défaut*)
 
@@ -1057,10 +1057,10 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, autoriser les utilisateurs à imprimer. Nombre max
    :align: center
 
-Option du paramètre:
- * **Nombre d'impressions** : Nombre d'impressions par utilisateur (*Nombre d'impressions max par défaut: 5 impressions*)
+Option du paramètre :
+ * **Nombre d'impressions** : Nombre d'impressions par utilisateur (*Nombre d'impressions max par défaut : 5 impressions*)
 
- .. note:: Vous pouvez spécifier le nombre d'impression max pour un utilisateur particulier depuis la page :ref:`gestion des impressions <animateur_gestion_impressions_limite>`.
+ .. note:: Vous pouvez spécifier le nombre d'impressions maximum pour un utilisateur particulier depuis la page :ref:`gestion des impressions <animateur_gestion_impressions_limite>`.
 
 
 .. _animateur_parametres_impression_utilisateur_envoi:
@@ -1076,7 +1076,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, autoriser les utilisateurs à imprimer dès l'envoi d'un média.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Les utilisateurs ne peuvent pas imprimer depuis la page d'envoi de médias
  * **Oui** : Les utilisateurs peuvent :ref:`imprimer dès l'envoi <invite_media_imprimer>` d'un média (*paramètre par défaut*)
 
@@ -1094,7 +1094,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, autoriser les utilisateurs à imprimer après coup.
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Non** : Les utilisateurs ne peuvent pas imprimer après coup
  * **Oui** : Les utilisateurs peuvent :ref:`imprimer après coup <invite_impression_apres_coup>` (*paramètre par défaut*)
 
@@ -1112,8 +1112,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, nombre max d'impression par soirée
    :align: center
 
-Option du paramètre:
- * **Nombre d'impressions** : Nombre d'impressions maximum pour la soirée (*Nombre d'impressions max par défaut: 1000 impressions*)
+Option du paramètre :
+ * **Nombre d'impressions** : Nombre d'impressions maximum pour la soirée (*Nombre d'impressions max par défaut : 1000 impressions*)
 
  .. note:: Si vous mettez la limite à 0: le nombre d'impressions sera illimité.
 
@@ -1132,7 +1132,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section impression, supprimer l'imprimante
    :align: center
 
-Options du paramètre:
+Options du paramètre :
  * **Supprimer** : Supprimer l'imprimante
 
 
@@ -1144,7 +1144,7 @@ Options du paramètre:
 Section envoi réseau
 -----------------------------
 
-Vue globale de la section envoi réseau:
+Vue globale de la section envoi réseau :
 
 .. figure:: _images/parametres/envoi_reseau/parametres_envoi_reseau.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau
@@ -1166,9 +1166,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, activer l'envoi de média depuis le dossier réseau pw_add.
    :align: center
 
-Options du paramètre:
- * **Non**: Désactiver l'envoi de médias depuis le dossier réseau 'pw_add'
- * **Oui**: Activer l'envoi de médias depuis le dossier réseau 'pw_add' (*paramètre par défaut*)
+Options du paramètre :
+ * **Non** : Désactiver l'envoi de médias depuis le dossier réseau 'pw_add'
+ * **Oui** : Activer l'envoi de médias depuis le dossier réseau 'pw_add' (*paramètre par défaut*)
 
 
 .. _animateur_parametres_envoi-reseau_pw-add_approuver:
@@ -1184,9 +1184,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, approuver automatiquement les envoi depuis le dossier réseau pw_add.
    :align: center
 
-Options du paramètre:
- * **Non**: Approuver manuellement les médias depuis le dossier réseau 'pw_add'
- * **Oui**: Approuver automatiquement les médias depuis le dossier réseau 'pw_add' (*paramètre par défaut*)
+Options du paramètre :
+ * **Non** : Approuver manuellement les médias depuis le dossier réseau 'pw_add'
+ * **Oui** : Approuver automatiquement les médias depuis le dossier réseau 'pw_add' (*paramètre par défaut*)
 
 Plus d'informations sur la :ref:`Page de tri des médias <animateur_tri_medias>`.
 
@@ -1206,9 +1206,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, imprimer automatiquement les envoi depuis le dossier réseau pw_add.
    :align: center
 
-Options du paramètre:
- * **Non**: Imprimer manuellement les médias depuis le dossier réseau 'pw_add' (*paramètre par défaut*)
- * **Oui**: Imprimer automatiquement les médias depuis le dossier réseau 'pw_add'
+Options du paramètre :
+ * **Non** : Imprimer manuellement les médias depuis le dossier réseau 'pw_add' (*paramètre par défaut*)
+ * **Oui** : Imprimer automatiquement les médias depuis le dossier réseau 'pw_add'
 
 
 .. _animateur_parametres_envoi-reseau_pw-print:
@@ -1224,9 +1224,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, activer l'envoi de média depuis le dossier réseau pw_print.
    :align: center
 
-Options du paramètre:
- * **Non**: Désactiver l'envoi de médias depuis le dossier réseau 'pw_print'
- * **Oui**: Activer l'envoi de médias depuis le dossier réseau 'pw_print' (*paramètre par défaut*)
+Options du paramètre :
+ * **Non** : Désactiver l'envoi de médias depuis le dossier réseau 'pw_print'
+ * **Oui** : Activer l'envoi de médias depuis le dossier réseau 'pw_print' (*paramètre par défaut*)
 
 
 .. _animateur_parametres_envoi-reseau_pw-print_supprimer:
@@ -1242,9 +1242,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, supprimer automatiquement les envoi depuis le dossier réseau pw_print.
    :align: center
 
-Options du paramètre:
- * **Non**: Ne supprime pas les médias depuis le dossier réseau 'pw_print'
- * **Oui**: Supprime automatiquement les médias depuis le dossier réseau 'pw_print' (*paramètre par défaut*)
+Options du paramètre :
+ * **Non** : Ne supprime pas les médias depuis le dossier réseau 'pw_print'
+ * **Oui** : Supprime automatiquement les médias depuis le dossier réseau 'pw_print' (*paramètre par défaut*)
 
 .. important:: Si vous choisissez de ne pas supprimer automatiquement les médias, pensez à le faire de vous même. Sinon, vous allez vite remplir la mémoire de PicturWall.
 
@@ -1261,9 +1261,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, incrémenter le nombre d'impressions depuis les dossiers réseaux.
    :align: center
 
-Options du paramètre:
- * **Non**: N'incrémente pas le nombre d'impressions depuis les dossiers réseaux
- * **Oui**: Incrémente le nombre d'impressions depuis les dossiers réseaux (*paramètre par défaut*)
+Options du paramètre :
+ * **Non** : N'incrémente pas le nombre d'impressions depuis les dossiers réseaux
+ * **Oui** : Incrémente le nombre d'impressions depuis les dossiers réseaux (*paramètre par défaut*)
 
 .. _animateur_parametres_envoi-reseau_incrementer_depassement:
 
@@ -1278,9 +1278,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, dépasser le nombre d'impressions maximum depuis les dossiers réseaux.
    :align: center
 
-Options du paramètre:
- * **Non**: N'autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux (*paramètre par défaut*)
- * **Oui**: Autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux
+Options du paramètre :
+ * **Non** : N'autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux (*paramètre par défaut*)
+ * **Oui** : Autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux
 
 
 .. _animateur_parametres_envoi-reseau_logo:
@@ -1296,9 +1296,9 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, imprimer logo depuis les dossiers réseaux.
    :align: center
 
-Options du paramètre:
- * **Non**: N'imprime pas le logo sur les médias des dossiers réseaux (*paramètre par défaut*)
- * **Oui**: Imprime le logo sur les médias des dossiers réseaux
+Options du paramètre :
+ * **Non** : N'imprime pas le logo sur les médias des dossiers réseaux (*paramètre par défaut*)
+ * **Oui** : Imprime le logo sur les médias des dossiers réseaux
 
 
 
@@ -1310,7 +1310,7 @@ Options du paramètre:
 Section DNS
 -----------------------------
 
-Vue globale de la section DNS:
+Vue globale de la section DNS :
 
 .. figure:: _images/parametres/dns/parametres_dns.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section DNS
@@ -1329,8 +1329,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section dns, ajouter URL
    :align: center
 
-Option du paramètre:
- * **URL**: Ajouter une URL de connexion à PicturWall (*sous la forme domaine.extension*)
+Option du paramètre :
+ * **URL** : Ajouter une URL de connexion à PicturWall (*sous la forme domaine.extension*)
 
 .. note:: Ajouter des URL de connexions vous permet de personnaliser votre exemplaire de PicturWall ou même la soirée que vous animez. Par exemple, vous pouvez très bien créer une URL caux-event.tv ou gatien.com pour que les invités puissent se connecter à PicturWall.
 
@@ -1361,8 +1361,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section dns, reset
    :align: center
 
-Option du paramètre:
- * **Remise à 0**: Réinitialiser le serveur DNS
+Option du paramètre :
+ * **Remise à 0** : Réinitialiser le serveur DNS
 
 Cela aura pour effet de laisser seulement les URL "de base" de PicturWall:
  * picturwall.tv
@@ -1403,8 +1403,8 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section système, éteindre PicturWall
    :align: center
 
-Option du paramètre:
- * **Extinction**: Éteint PicturWall
+Option du paramètre :
+ * **Extinction** : Éteint PicturWall
 
 .. note:: Uns fois que vous avez confirmé l'action, vous pouvez fermer la fenêtre et débrancher PicturWall...
 
@@ -1421,7 +1421,7 @@ Paramètre en question :
    :alt: Panel animateur de PicturWall, page paramètres, section système, redémarrer PicturWall
    :align: center
 
-Option du paramètre:
- * **Redémarrage**: Redémarre PicturWall
+Option du paramètre :
+ * **Redémarrage** : Redémarre PicturWall
 
 .. note:: Uns fois que vous avez confirmé l'action, attendez 30secondes à une minute le temps que PicturWall redémarre. Ensuite, vous pouvez réutiliser le panel sans problème…
