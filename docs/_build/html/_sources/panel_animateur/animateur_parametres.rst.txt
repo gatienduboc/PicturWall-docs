@@ -66,7 +66,9 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
         * :ref:`Taille de la police du nom et prénom de l'invité <animateur_parametres_projecteur_invite_taille>`
         * :ref:`Couleur du prénom et nom de l'invité <animateur_parametres_projecteur_invite_couleur>`
     * :ref:`Fichier d'explication <animateur_parametres_projecteur_media_explication>`
+    * :ref:`Couleur de fond du fichier d'explication <animateur_parametres_projecteur_media_explication_couleur>`
     * :ref:`Fichier de démarrage <animateur_parametres_projecteur_media_demarrage>`
+    * :ref:`Couleur de fond du fichier de démarrage <animateur_parametres_projecteur_media_demarrage_couleur>`
 #. :ref:`Section impression <animateur_parametres_section_impression>` comprenant les paramètres suivants :
     * :ref:`Activer le service d'impression <animateur_parametres_impression_activer>`
     * Logo:
@@ -563,7 +565,7 @@ Paramètre en question :
    :align: center
 
 Option du paramètre :
- * **couleur** : Couleur du texte (*couleur par défaut : bleu*)
+ * **couleur** : Couleur du texte (*par défaut : bleu*)
 
 
 .. _animateur_parametres_bandeau_encadrement:
@@ -617,7 +619,7 @@ Paramètre en question :
    :align: center
 
 Option du paramètre :
- * **couleur** : Couleur de fond du bandeau défilant (*couleur par défaut : noir*)
+ * **couleur** : Couleur de fond du bandeau défilant (*par défaut : noir*)
 
 .. _animateur_parametres_bandeau_vitesse:
 
@@ -763,7 +765,7 @@ Paramètre en question :
    :align: center
 
 Option du paramètre :
- * **couleur** : Couleur de fond des médias (*couleur par défaut : noir*)
+ * **couleur** : Couleur de fond des médias (*par défaut : noir*)
 
  .. important:: Afin que ce paramètre soit actif, pensez à régler :ref:`l'effet de fond des médias <animateur_parametres_projecteur_fond>` sur "couleur".
 
@@ -910,7 +912,7 @@ Paramètre en question :
    :align: center
 
 Option du paramètre :
- * **couleur** : Couleur du nom et prénom de l'invité (*couleur par défaut : gris*)
+ * **couleur** : Couleur du nom et prénom de l'invité (*par défaut : gris*)
 
 
 .. _animateur_parametres_projecteur_media_explication:
@@ -932,6 +934,24 @@ Option du paramètre :
  .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
 
+.. _animateur_parametres_projecteur_media_explication_couleur:
+
+Couleur de fond du média d'explication
+###################################################
+
+Vous pouvez définir la couleur de fond du média d'explication
+
+Paramètre en question :
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_explication_couleur.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, couleur de fond du média d'explication
+   :align: center
+
+Option du paramètre :
+ * **couleur** : Couleur de fond du média d'explication (*par défaut : blanc*)
+
+ .. important:: Veuillez avoir un fond transparent sur votre :ref:`image d'explication <animateur_parametres_projecteur_media_explication>`.
+
 .. _animateur_parametres_projecteur_media_demarrage:
 
 Choisir le média de démarrage
@@ -950,7 +970,23 @@ Option du paramètre :
 
  .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
+.. _animateur_parametres_projecteur_media_demarrage_couleur:
 
+Couleur de fond du média de démarrage
+###################################################
+
+Vous pouvez définir la couleur de fond du média de démarrage
+
+Paramètre en question :
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_demarrage_couleur.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, couleur de fond du média de démarrage
+   :align: center
+
+Option du paramètre :
+ * **couleur** : Couleur de fond du média de démarrage (*par défaut : jaune*)
+
+ .. important:: Veuillez avoir un fond transparent sur votre :ref:`image de démarrage <animateur_parametres_projecteur_media_demarrage>`.
 
 
 .. _animateur_parametres_section_impression:
