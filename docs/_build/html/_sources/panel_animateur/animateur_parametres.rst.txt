@@ -98,6 +98,9 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
 #. :ref:`Section système <animateur_parametres_section_systeme>` comprenant les paramètres suivants :
     * :ref:`Éteindre le système <animateur_parametres_systeme_off>`
     * :ref:`Redémarrer le système <animateur_parametres_systeme_restart>`
+    * :ref:`Activer le partage de connexion internet <animateur_parametres_systeme_partage_connexion>`
+    * :ref:`Mode de résolution automatique/manuel <animateur_parametres_systeme_resolution>`
+    * :ref:`Choisir sa résolution d'écran <animateur_parametres_systeme_resolution_manuel>`
 
 
 .. _animateur_parametres_modifier:
@@ -1460,4 +1463,78 @@ Paramètre en question :
 Option du paramètre :
  * **Redémarrage** : Redémarre PicturWall
 
-.. note:: Uns fois que vous avez confirmé l'action, attendez 30secondes à une minute le temps que PicturWall redémarre. Ensuite, vous pouvez réutiliser le panel sans problème…
+.. note:: Une fois que vous avez confirmé l'action, attendez une minute le temps que PicturWall redémarre. Ensuite, vous pouvez réutiliser le panel sans problème…
+
+.. _animateur_parametres_systeme_partage_connexion:
+
+Activer le partage de connexion internet
+#################################################################
+
+Grâce à ce paramètre, vous pouvez partager votre connexion sur le Wifi de PicturWall.
+C'est à dire que si vous connectez PicturWall à un réseau 4G ou Wifi, il pourra être partagé sur le wifi PicturWall.
+
+Cela permettra à vos invités de continuer à surfer sur internet alors qu'ils sont connectés à PicturWall ! De plus, cela évite d'avoir le message: "ce wifi n'est pas connecté à internet" sur certains téléphones.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_partage_connexion.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, activer le partage de connexion internet
+   :align: center
+
+Options du paramètre :
+ * **Non** : Partage de connexion internet désactivé
+ * **Oui** : Activer le partage de connexion internet (*paramètre par défaut*)
+
+.. note:: Si ce paramètre est désactivé, vous pourrez toujours faire vos mises à jour sur PicturWall, mais,votre connexion internet ne sera pas partagé sur le wifi de PicturWall.
+
+.. _animateur_parametres_systeme_resolution:
+
+Mode de résolution automatique / manuel
+#################################################################
+
+Vous pouvez choisir de définir manuellement votre résolution d'écran avec ce paramètre.
+
+Cela peut-être utile lorsque votre vidéoprojecteur ne communique pas automatiquement sa résolution optimale à PicturWall.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_resolution.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, mode de résolution d'écran
+   :align: center
+
+Options du paramètre :
+ * **Automatique** : Mode de résolution automatique (*paramètre par défaut*)
+ * **Manuel** : Mode de résolution manuel 
+
+.. important:: Lors du changement de ce paramètre, PicturWall va vous demander de redémarrer pour appliquer ce paramètre.
+
+.. _animateur_parametres_systeme_resolution_manuel:
+
+Choisir sa résolution d'écran
+#################################################################
+
+Vous pouvez choisir de définir votre résolution d'écran avec ce paramètre.
+
+
+Cela peut-être utile lorsque votre vidéoprojecteur ne communique pas automatiquement sa résolution optimale à PicturWall.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_resolution_manuel.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran
+   :align: center
+
+Option du paramètre :
+ * **Résolution** : Mode de résolution souhaitée
+
+PicturWall va vous proposer une multitude de résolutions, en voici un exemple:
+
+.. figure:: _images/parametres/systeme/parametres_systeme_resolution_manuel_exemple.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran. Exemple de résolutions
+   :align: center
+
+.. note:: PicturWall affichera toutes les résolutions compatibles avec votre vidéo-projecteur ou votre écran. Si ce dernier ne communique pas ses résolutions, PicturWall affichera toutes les réoslutions qu'il est capable de proposer.
+
+.. important:: Lors du changement de ce paramètre, vous allez devoir redémarrer pour appliquer ce paramètre.
+
+
