@@ -1056,7 +1056,7 @@ Lorsque que vous cliquez sur le bouton:
    :align: center
 
 Option du paramètre :
- * **Nom du réseau wifi** : Nom du réseau wifi utilisé pour se connecter à PicturWall (*par défaut : PicturWall*)
+ * **URL de connexion** : Adresse web utilisée pour se connecter au panel invité de picturwall (*par défaut : http://picturwall.tv*)
 
 Vous pourrez valider la génération du QRCode lorsque que vous cliquerez sur valider:
 
@@ -1607,7 +1607,7 @@ PicturWall va vous proposer une multitude de résolutions, en voici un exemple:
    :alt: Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran. Exemple de résolutions
    :align: center
 
-.. note:: PicturWall affichera toutes les résolutions compatibles avec votre vidéo-projecteur ou votre écran. Si ce dernier ne communique pas ses résolutions, PicturWall affichera toutes les réoslutions qu'il est capable de proposer.
+.. note:: PicturWall affichera toutes les résolutions compatibles avec votre vidéo-projecteur ou votre écran. Si ce dernier ne communique pas ses résolutions, PicturWall affichera toutes les résolutions qu'il est capable de proposer.
 
 .. important:: Lors du changement de ce paramètre, vous allez devoir redémarrer pour appliquer ce paramètre.
 
