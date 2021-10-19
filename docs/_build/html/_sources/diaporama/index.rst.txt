@@ -113,6 +113,17 @@ Vous pouvez personnaliser le média de présentation sur la page de paramètre, 
    :alt: Paramètre: mode de présentation, choix de l'image.
    :align: center
 
+Vous pouvez également personnaliser les QRCode de connexion au Wifi et connexion au panel invité sur la page de paramètre, rubrique "Projecteur" :
+
+.. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_qrcode_wifi.PNG
+   :alt: Paramètre: mode de présentation, définir le QRCode de connexion wifi.
+   :align: center   
+
+.. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_qrcode_panel_invite.PNG
+   :alt: Paramètre: mode de présentation, définir le QRCode de connexion au panel invité.
+   :align: center 
+
+
 .. _diaporama_mode_explication:
 
 Mode "Explication"
