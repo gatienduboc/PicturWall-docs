@@ -69,6 +69,9 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Couleur de fond du fichier d'explication <animateur_parametres_projecteur_media_explication_couleur>`
     * :ref:`Fichier de démarrage <animateur_parametres_projecteur_media_demarrage>`
     * :ref:`Couleur de fond du fichier de démarrage <animateur_parametres_projecteur_media_demarrage_couleur>`
+    * :ref:`Afficher un QR-Code pour faciliter la connexion au réseau wifi <animateur_parametres_projecteur_qrcode_wifi>`
+    * :ref:`Afficher un QR-Code pour faciliter la connexion au panel invité <animateur_parametres_projecteur_qrcode_panel_invite>`
+    
 #. :ref:`Section impression <animateur_parametres_section_impression>` comprenant les paramètres suivants :
     * :ref:`Activer le service d'impression <animateur_parametres_impression_activer>`
     * Logo:
@@ -333,7 +336,7 @@ Options du paramètre :
  * **Non** : Vidéo non sauvegardée (impossibilité d'envoi pour l'invité)
  * **Oui** : Vidéo sauvegardée mais non diffusée (*paramètre par défaut*)
 
- .. note:: Les vidéos trop longues seront récupérables depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
+.. note:: Les vidéos trop longues seront récupérables depuis la :ref:`page gestion des médias long <animateur_gestion_medias_long>`.
 
 .. _animateur_parametres_videos_sortie:
 
@@ -605,7 +608,7 @@ Paramètre en question :
 Option du paramètre :
  * **Opacité** : Opacité de l'encadrement (*Opacité par défaut : 0.2/1*)
 
- .. note:: Si l'opacité est inférieure à 1, vous voyez le média du diaporama en transparence de l'encadrement du bandeau défilant.
+.. note:: Si l'opacité est inférieure à 1, vous voyez le média du diaporama en transparence de l'encadrement du bandeau défilant.
 
 
 .. _animateur_parametres_bandeau_fond:
@@ -692,6 +695,10 @@ Vue globale de la section bandeau projecteur:
    :alt: Panel animateur de PicturWall, page paramètres, section projecteur
    :align: center
 
+.. figure:: _images/parametres/projecteur/parametres_projecteur2.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur
+   :align: center
+
 .. important:: La partie projecteur fait référence à la partie visible du :ref:`diaporama <diaporama>`.
 
 
@@ -770,7 +777,7 @@ Paramètre en question :
 Option du paramètre :
  * **couleur** : Couleur de fond des médias (*par défaut : noir*)
 
- .. important:: Afin que ce paramètre soit actif, pensez à régler :ref:`l'effet de fond des médias <animateur_parametres_projecteur_fond>` sur "couleur".
+.. important:: Afin que ce paramètre soit actif, pensez à régler :ref:`l'effet de fond des médias <animateur_parametres_projecteur_fond>` sur "couleur".
 
 .. _animateur_parametres_projecteur_fond_personnalise:
 
@@ -788,7 +795,7 @@ Paramètre en question :
 Option du paramètre :
  * **Fichier** : Fichier de fond des médias
 
- .. note:: Le fichier doit être au format .png et doit faire 1920x1080 px max.
+.. note:: Le fichier doit être au format .png et doit faire 1920x1080 px max.
 
 
 .. _animateur_parametres_projecteur_transition_duree:
@@ -825,7 +832,7 @@ Options du paramètre :
  * **Non** : Cacher le logo
  * **Oui** : Afficher le logo (*paramètre par défaut*)
 
- .. note:: Pensez à :ref:`choisir votre logo <animateur_parametres_projecteur_logo_fichier>`.
+.. note:: Pensez à :ref:`choisir votre logo <animateur_parametres_projecteur_logo_fichier>`.
 
 
 .. _animateur_parametres_projecteur_logo_opacite:
@@ -844,7 +851,7 @@ Paramètre en question :
 Option du paramètre :
  * **Opacité** : Opacité du logo (*Opacité par défaut : 1/1*)
 
- .. note:: Si l'opacité est inférieure à 1, vous voyez le média du diaporama en transparence du logo.
+.. note:: Si l'opacité est inférieure à 1, vous voyez le média du diaporama en transparence du logo.
 
 
 .. _animateur_parametres_projecteur_logo_fichier:
@@ -863,7 +870,7 @@ Paramètre en question :
 Option du paramètre :
  * **Fichier** : Fichier du logo
 
- .. note:: Le fichier doit être au format .png et doit faire 250x250px max.
+.. note:: Le fichier doit être au format .png et doit faire 250x250px max.
 
 
 .. _animateur_parametres_projecteur_invite:
@@ -934,7 +941,7 @@ Paramètre en question :
 Option du paramètre :
  * **Fichier** : Fichier d'explication
 
- .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
+.. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
 
 .. _animateur_parametres_projecteur_media_explication_couleur:
@@ -953,7 +960,7 @@ Paramètre en question :
 Option du paramètre :
  * **couleur** : Couleur de fond du média d'explication (*par défaut : blanc*)
 
- .. important:: Veuillez avoir un fond transparent sur votre :ref:`image d'explication <animateur_parametres_projecteur_media_explication>`.
+.. important:: Veuillez avoir un fond transparent sur votre :ref:`image d'explication <animateur_parametres_projecteur_media_explication>`.
 
 .. _animateur_parametres_projecteur_media_demarrage:
 
@@ -971,7 +978,7 @@ Paramètre en question :
 Option du paramètre :
  * **Fichier** : Fichier de démarrage
 
- .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
+.. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
 .. _animateur_parametres_projecteur_media_demarrage_couleur:
 
@@ -989,8 +996,75 @@ Paramètre en question :
 Option du paramètre :
  * **couleur** : Couleur de fond du média de démarrage (*par défaut : jaune*)
 
- .. important:: Veuillez avoir un fond transparent sur votre :ref:`image de démarrage <animateur_parametres_projecteur_media_demarrage>`.
+.. important:: Veuillez avoir un fond transparent sur votre :ref:`image de démarrage <animateur_parametres_projecteur_media_demarrage>`.
 
+.. _animateur_parametres_projecteur_qrcode_wifi:
+
+QR-code pour simplifier la connexion au wifi
+###################################################
+
+Vous pouvez afficher un QRCode sur l'image de présentation de PicturWall afin d'aider vos invités à se connecter au réseau Wifi !
+
+Paramètre en question :
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_qrcode_wifi.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, connexion au panel wifi via QR-Code
+   :align: center
+
+Options du paramètre :
+ * **Non** : Ne pas afficher le QRCode de connexion au wifi
+ * **Oui** : Afficher le QRCode de connexion au wifi (*paramètre par défaut*)
+
+Lorsque que vous cliquez sur le bouton:
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_qrcode_wifi_parametrage.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, connexion qu panel wifi via QR-Code, paramétrage du réseau wifi
+   :align: center
+
+Option du paramètre :
+ * **Nom du réseau wifi** : Nom du réseau wifi utilisé pour se connecter à PicturWall (*par défaut : PicturWall*)
+
+Vous pourrez valider la génération du QRCode lorsque que vous cliquerez sur valider:
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_qrcode_wifi_genere.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, connexion au wifi via QR-Code, confirmation du QRCode.
+   :align: center
+
+.. important:: Pensez à tester votre QRCode avant d'enregistrer vos paramètres.
+
+.. _animateur_parametres_projecteur_qrcode_panel_invite:
+
+QR-code pour simplifier la connexion au panel invité
+########################################################
+
+Vous pouvez afficher un QRCode sur l'image de présentation de PicturWall afin d'aider vos invités à se connecter sur le panel invité !
+
+Paramètre en question :
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_qrcode_panel_invite.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, connexion au panel invité via QR-Code
+   :align: center
+
+Options du paramètre :
+ * **Non** : Ne pas afficher le QRCode de connexion au panel invité
+ * **Oui** : Afficher le QRCode de connexion au panel invité (*paramètre par défaut*)
+
+Lorsque que vous cliquez sur le bouton:
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_qrcode_panel_invite_parametrage.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, connexion au panel invité via QR-Code, paramétrage du réseau wifi
+   :align: center
+
+Option du paramètre :
+ * **Nom du réseau wifi** : Nom du réseau wifi utilisé pour se connecter à PicturWall (*par défaut : PicturWall*)
+
+Vous pourrez valider la génération du QRCode lorsque que vous cliquerez sur valider:
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_qrcode_panel_invite_genere.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, connexion au panel web via QR-Code, confirmation du QRCode.
+   :align: center
+
+.. important:: Pensez à tester votre QRCode avant d'enregistrer vos paramètres.
 
 .. _animateur_parametres_section_impression:
 
@@ -1062,7 +1136,7 @@ Paramètre en question :
 Option du paramètre :
  * **Fichier** : Fichier du logo à imprimer
 
- .. note:: Le fichier doit être au format .png et doit, si possible, faire 1000*1000 px.
+.. note:: Le fichier doit être au format .png et doit, si possible, faire 1000*1000 px.
 
 
 .. _animateur_parametres_impression_utilisateur:
@@ -1099,7 +1173,7 @@ Paramètre en question :
 Option du paramètre :
  * **Nombre d'impressions** : Nombre d'impressions par utilisateur (*Nombre d'impressions max par défaut : 5 impressions*)
 
- .. note:: Vous pouvez spécifier le nombre d'impressions maximum pour un utilisateur particulier depuis la page :ref:`gestion des impressions <animateur_gestion_impressions_limite>`.
+.. note:: Vous pouvez spécifier le nombre d'impressions maximum pour un utilisateur particulier depuis la page :ref:`gestion des impressions <animateur_gestion_impressions_limite>`.
 
 
 .. _animateur_parametres_impression_utilisateur_envoi:
@@ -1154,7 +1228,7 @@ Paramètre en question :
 Option du paramètre :
  * **Nombre d'impressions** : Nombre d'impressions maximum pour la soirée (*Nombre d'impressions max par défaut : 1000 impressions*)
 
- .. note:: Si vous mettez la limite à 0: le nombre d'impressions sera illimité.
+.. note:: Si vous mettez la limite à 0: le nombre d'impressions sera illimité.
 
 
 

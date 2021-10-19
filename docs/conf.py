@@ -22,7 +22,7 @@ copyright = '2021, Gatien DUBOC'
 author = 'Gatien DUBOC'
 
 # The full version, including alpha/beta/rc tags
-release = '1.20'
+release = '1.22'
 
 
 # -- General configuration ---------------------------------------------------
