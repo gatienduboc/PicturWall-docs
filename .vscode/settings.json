@@ -8,5 +8,9 @@
         "restructuredtext"
     ],
     "spellright.groupDictionaries": false,
-    "spellright.language": ["fr"]
+    "spellright.language": [
+        "fr"
+    ],
+    "restructuredtext.preview.docutils.disabled": true,
+    "restructuredtext.linter.disabled": true
 }

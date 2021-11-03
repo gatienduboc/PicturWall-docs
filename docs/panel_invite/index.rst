@@ -85,6 +85,24 @@ Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_se
 
     Pour que cette case soit active, il faut :ref:`Autoriser les invités à imprimer <animateur_parametres_impression_utilisateur>`.
 
+.. _invite_media_traduction:
+
+Traduire le panel invité
+=============================
+
+Le panel invité est disponible en français, et en anglais.
+
+Pour passer de l'un à l'autre, vous avez juste à cliquer sur le drapeau correspondant en bas de page.
+
+.. figure:: _images/invite_traduction.PNG
+   :alt: Traduire le panel invité
+   :align: center
+
+.. admonition:: Ajouter une langue 
+
+    Afin d'jaouter une langue au panel invité, veuillez en faire la demande à Gatien en passant via le formulaire de contact du site web.
+
+
 .. _invite_impression_apres_coup:
 
 Imprimer après coup
