@@ -102,6 +102,7 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Éteindre le système <animateur_parametres_systeme_off>`
     * :ref:`Redémarrer le système <animateur_parametres_systeme_restart>`
     * :ref:`Activer le partage de connexion internet <animateur_parametres_systeme_partage_connexion>`
+    * :ref:`Activer la connexion à un Wifi <animateur_parametres_systeme_wifi>`
     * :ref:`Mode de résolution automatique/manuel <animateur_parametres_systeme_resolution>`
     * :ref:`Choisir sa résolution d'écran <animateur_parametres_systeme_resolution_manuel>`
 
@@ -1560,6 +1561,69 @@ Options du paramètre :
  * **Oui** : Activer le partage de connexion internet (*paramètre par défaut*)
 
 .. note:: Si ce paramètre est désactivé, vous pourrez toujours faire vos mises à jour sur PicturWall, mais,votre connexion internet ne sera pas partagé sur le wifi de PicturWall.
+
+.. _animateur_parametres_systeme_wifi:
+
+Activer la connexion à un wifi
+#################################################################
+
+Afin de pouvoir faire les mises à jour de PicturWall mais aussi de partager votre connexion internet via le wifi PicturWall, vous devez connecter PicturWall à un réseau wifi.
+
+C'est à cela que sert ce paramètre.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, wifi.
+   :align: center
+
+Options du paramètre :
+ * **Oui** : PicturWall est actuellement connecté à un réseau Wifi
+ * **Non** : PicturWall n'est pas connecté à un réseau wifi
+
+.. important:: Lors du changement de ce paramètre, PicturWall va redémarrer afin de se connecter au réseau.
+
+Pour vous connecter à un nouveau réseau, il vous suffit de cliquer sur le paramètre. Une fenêtre va s'ouvrir :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi_network.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi.
+   :align: center
+
+Et va vous montrer la liste des réseaux wifi disponibles :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi_network_list.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, liste réseaux disponibles.
+   :align: center
+
+.. note:: Afin de rafraichir la liste des réseaux disponibles, il vous suffit de cliquer sur "OK" sans avoir sélectionné de réseau.
+
+Une fois votre réseau sélectionné, cliquez sur OK. Vous arriverez sur une fenêtre vous demandant le mot de passe du réseau wifi :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi_network_mdp.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, entrer mot de passe réseau.
+   :align: center
+
+Une fois que vous aurez cliqué sur "OK", PicturWall va redémarrer :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi_connection.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, attente de connexion.
+   :align: center
+
+Vous devez juste attendre 60 secondes. Une fois ce délai passé, PicturWall vous affichera un popup vous indiquant que vous êtes connectés :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi_connecte.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, wifi connecté.
+   :align: center
+
+
+
+Afin de supprimer un réseau wifi, vous devez seulement appuyer sur le paramètre "Activer la connexion à un wifi", une popup va s'afficher :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_wifi_supprimer.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, supression d'un réseau wifi.
+   :align: center
+
+Cliquez sur "Supprimer", vous aurez une popup vous indiquant que le réseau wifi a bien été supprimé.
 
 .. _animateur_parametres_systeme_resolution:
 
