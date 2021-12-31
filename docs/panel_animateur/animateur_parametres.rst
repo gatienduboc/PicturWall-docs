@@ -71,6 +71,7 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Couleur de fond du fichier de démarrage <animateur_parametres_projecteur_media_demarrage_couleur>`
     * :ref:`Afficher un QR-Code pour faciliter la connexion au réseau wifi <animateur_parametres_projecteur_qrcode_wifi>`
     * :ref:`Afficher un QR-Code pour faciliter la connexion au panel invité <animateur_parametres_projecteur_qrcode_panel_invite>`
+    * :ref:`Redémarrer le diaporama <animateur_parametres_projecteur_redemarrer_diaporama>`
     
 #. :ref:`Section impression <animateur_parametres_section_impression>` comprenant les paramètres suivants :
     * :ref:`Activer le service d'impression <animateur_parametres_impression_activer>`
@@ -105,6 +106,8 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Activer la connexion à un Wifi <animateur_parametres_systeme_wifi>`
     * :ref:`Mode de résolution automatique/manuel <animateur_parametres_systeme_resolution>`
     * :ref:`Choisir sa résolution d'écran <animateur_parametres_systeme_resolution_manuel>`
+    * :ref:`Mettre à jour PicturWall <animateur_parametres_systeme_maj>`
+    * :ref:`Redémarrer le diaporama <animateur_parametres_systeme_redemarrer_diaporama>`
 
 
 .. _animateur_parametres_modifier:
@@ -1067,6 +1070,26 @@ Vous pourrez valider la génération du QRCode lorsque que vous cliquerez sur va
 
 .. important:: Pensez à tester votre QRCode avant d'enregistrer vos paramètres.
 
+   
+.. _animateur_parametres_projecteur_redemarrer_diaporama:
+
+Redémarrer le diaporama
+#################################################################
+
+Vous pouvez redémarrer la partie graphique de PicturWall (en cas de plantage du diaporama par exemple)
+
+Paramètre en question :
+
+.. figure:: _images/parametres/projecteur/parametres_projecteur_redemarrer_diaporama.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, redémarrer le diaporama
+   :align: center
+
+Option du paramètre :
+ * **Redémarrer** : Redémarrer le diaporama de PicturWall
+
+.. note:: Pas de confirmation lorsque vous cliquez sur ce paramètre.
+
+
 .. _animateur_parametres_section_impression:
 
 Section impression
@@ -1520,7 +1543,7 @@ Paramètre en question :
 Option du paramètre :
  * **Extinction** : Éteint PicturWall
 
-.. note:: Uns fois que vous avez confirmé l'action, vous pouvez fermer la fenêtre et débrancher PicturWall...
+.. note:: Une fois que vous avez confirmé l'action, vous pouvez fermer la fenêtre et débrancher PicturWall...
 
 .. _animateur_parametres_systeme_restart:
 
@@ -1675,4 +1698,72 @@ PicturWall va vous proposer une multitude de résolutions, en voici un exemple:
 
 .. important:: Lors du changement de ce paramètre, vous allez devoir redémarrer pour appliquer ce paramètre.
 
+.. _animateur_parametres_systeme_maj:
 
+Mettre à jour PicturWall
+#################################################################
+
+Vous pouvez mettre à jour PicturWall depuis ce paramètre.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_maj.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, mettre à jour PicturWall
+   :align: center
+
+Option du paramètre :
+ * **Mettre à jour** : Mettre à jour PicturWall
+
+Vous devrez confirmer la demande de mise à jour :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_maj_confirmation.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, confirmation.
+   :align: center
+
+.. important:: Lorsque vous mettez à jour PicturWall, tous les médias envoyés seront effacés à jamais ! De plus, vous perderez vos paramètres et logos.
+
+
+Le diaporama va ce couper, et le logiciel de mise à jour va s'afficher sur votre écran de projection.
+Le texte affiché à l'écran sera retranscrit sur le panel animateur. Si une mise à jour est trouvée, le panel animateur l'affichera de la sorte :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_maj_new.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, nouvelle mise à jour.
+   :align: center
+
+Si une mise à jour système est disponible, elle sera prioritaire à une mise à jour classique. Dans ce cas, elle sera affichée sous cette forme :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_maj_systeme_new.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, nouvelle mise à jour système.
+   :align: center
+
+Une fois la mise à jour confirmée, PicturWall va la dérouler automatiquement, puis va redémarrer :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_maj_cours.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour en cours.
+   :align: center
+
+.. figure:: _images/parametres/systeme/parametres_systeme_maj_systeme_cours.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour système en cours.
+   :align: center
+
+.. important:: Dans le cas ou vous effectuez une mise à jour système, lancer l'utilitaire de mise à jour une seconde fois afin de vérifier si il y a une autre mise à jour disponible.
+
+.. note:: Ne pas fermer la page de votre navigateur, ni mettre hors tensio nPicturWall lors du'une mise à jour, vous risqueriez de corrompre le système !
+
+.. _animateur_parametres_systeme_redemarrer_diaporama:
+
+Redémarrer le diaporama
+#################################################################
+
+Vous pouvez redémarrer la partie graphique de PicturWall (en cas de plantage du diaporama par exemple)
+
+Paramètre en question :
+
+.. figure:: _images/parametres/systeme/parametres_systeme_redemarrer_diaporama.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, redémarrer le diaporama
+   :align: center
+
+Option du paramètre :
+ * **Redémarrer** : Redémarrer le diaporama de PicturWall
+
+.. note:: Pas de confirmation lorsque vous cliquez sur ce paramètre.
