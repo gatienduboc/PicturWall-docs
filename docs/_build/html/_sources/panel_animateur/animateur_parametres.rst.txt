@@ -67,8 +67,8 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
         * :ref:`Couleur du prénom et nom de l'invité <animateur_parametres_projecteur_invite_couleur>`
     * :ref:`Fichier d'explication <animateur_parametres_projecteur_media_explication>`
     * :ref:`Couleur de fond du fichier d'explication <animateur_parametres_projecteur_media_explication_couleur>`
-    * :ref:`Fichier de démarrage <animateur_parametres_projecteur_media_demarrage>`
-    * :ref:`Couleur de fond du fichier de démarrage <animateur_parametres_projecteur_media_demarrage_couleur>`
+    * :ref:`Fichier de présentation <animateur_parametres_projecteur_media_presentation>`
+    * :ref:`Couleur de fond du fichier de présentation <animateur_parametres_projecteur_media_presentation_couleur>`
     * :ref:`Afficher un QR-Code pour faciliter la connexion au réseau wifi <animateur_parametres_projecteur_qrcode_wifi>`
     * :ref:`Afficher un QR-Code pour faciliter la connexion au panel invité <animateur_parametres_projecteur_qrcode_panel_invite>`
     * :ref:`Redémarrer le diaporama <animateur_parametres_projecteur_redemarrer_diaporama>`
@@ -226,7 +226,7 @@ Options du paramètre :
 
 Plus d'informations sur les :ref:`modes de défilement du diaporama <diaporama_modes>`.
 
-.. important:: Pensez à personnaliser votre :ref:`image de présentation <animateur_parametres_projecteur_media_demarrage>` (image de démarrage).
+.. important:: Pensez à personnaliser votre :ref:`image de présentation <animateur_parametres_projecteur_media_presentation>` (image de démarrage).
 
 
 
@@ -966,41 +966,41 @@ Option du paramètre :
 
 .. important:: Veuillez avoir un fond transparent sur votre :ref:`image d'explication <animateur_parametres_projecteur_media_explication>`.
 
-.. _animateur_parametres_projecteur_media_demarrage:
+.. _animateur_parametres_projecteur_media_presentation:
 
-Choisir le média de démarrage
+Choisir le média de présentation
 ###################################################
 
-Vous pouvez envoyer votre propre image de démarrage sur PicturWall pour l'afficher sur le diaporama
+Vous pouvez envoyer votre propre image de présentation sur PicturWall pour l'afficher sur le diaporama.
 
 Paramètre en question :
 
-.. figure:: _images/parametres/projecteur/parametres_projecteur_demarrage.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, image de démarrage
+.. figure:: _images/parametres/projecteur/parametres_projecteur_presentation.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, image de présentation
    :align: center
 
 Option du paramètre :
- * **Fichier** : Fichier de démarrage
+ * **Fichier** : Fichier de présentation (affiché au démarrage du diaporama)
 
 .. note:: Le fichier doit être au format .png ou mp4 et doit, si possible, faire 1920*1080 px.
 
-.. _animateur_parametres_projecteur_media_demarrage_couleur:
+.. _animateur_parametres_projecteur_media_presentation_couleur:
 
-Couleur de fond du média de démarrage
+Couleur de fond du média de présentation
 ###################################################
 
-Vous pouvez définir la couleur de fond du média de démarrage
+Vous pouvez définir la couleur de fond du média de présentation.
 
 Paramètre en question :
 
-.. figure:: _images/parametres/projecteur/parametres_projecteur_demarrage_couleur.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, couleur de fond du média de démarrage
+.. figure:: _images/parametres/projecteur/parametres_projecteur_presentation_couleur.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section projecteur, couleur de fond du média de présentation
    :align: center
 
 Option du paramètre :
- * **couleur** : Couleur de fond du média de démarrage (*par défaut : jaune*)
+ * **couleur** : Couleur de fond du média de présentation (*par défaut : jaune*)
 
-.. important:: Veuillez avoir un fond transparent sur votre :ref:`image de démarrage <animateur_parametres_projecteur_media_demarrage>`.
+.. important:: Veuillez avoir un fond transparent sur votre :ref:`image de démarrage <animateur_parametres_projecteur_media_presentation>`.
 
 .. _animateur_parametres_projecteur_qrcode_wifi:
 

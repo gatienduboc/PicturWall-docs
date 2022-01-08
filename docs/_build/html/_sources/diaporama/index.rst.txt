@@ -109,7 +109,7 @@ Le média de présentation reste affiché sur l'écran jusqu'à temps que vous d
 
 Vous pouvez personnaliser le média de présentation sur la page de paramètre, rubrique "Projecteur" :
 
-.. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_demarrage.PNG
+.. figure:: ../panel_animateur/_images/parametres/projecteur/parametres_projecteur_presentation.PNG
    :alt: Paramètre: mode de présentation, choix de l'image.
    :align: center
 
