@@ -1748,7 +1748,7 @@ Une fois la mise à jour confirmée, PicturWall va la dérouler automatiquement,
 
 .. important:: Dans le cas ou vous effectuez une mise à jour système, lancer l'utilitaire de mise à jour une seconde fois afin de vérifier si il y a une autre mise à jour disponible.
 
-.. note:: Ne pas fermer la page de votre navigateur, ni mettre hors tensio nPicturWall lors du'une mise à jour, vous risqueriez de corrompre le système !
+.. note:: Ne pas fermer la page de votre navigateur, ni mettre hors tension PicturWall lors d'une mise à jour, vous risqueriez de corrompre le système !
 
 .. _animateur_parametres_systeme_redemarrer_diaporama:
 
