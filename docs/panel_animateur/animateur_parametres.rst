@@ -1723,7 +1723,7 @@ Vous devrez confirmer la demande de mise à jour :
 .. important:: Lorsque vous mettez à jour PicturWall, tous les médias envoyés seront effacés à jamais ! De plus, vous perderez vos paramètres et logos.
 
 
-Le diaporama va ce couper, et le logiciel de mise à jour va s'afficher sur votre écran de projection.
+Le diaporama va se couper, et le logiciel de mise à jour va s'afficher sur votre écran de projection.
 Le texte affiché à l'écran sera retranscrit sur le panel animateur. Si une mise à jour est trouvée, le panel animateur l'affichera de la sorte :
 
 .. figure:: _images/parametres/systeme/parametres_systeme_maj_new.PNG
