@@ -1640,13 +1640,13 @@ Vous devez juste attendre 60 secondes. Une fois ce délai passé, PicturWall vou
 
 
 
-Afin de supprimer un réseau wifi, vous devez seulement appuyer sur le paramètre "Activer la connexion à un wifi", une popup va s'afficher :
+Afin de supprimer un réseau wifi, vous devez seulement appuyer sur le paramètre "Activer la connexion à un wifi", un popup va s'afficher :
 
 .. figure:: _images/parametres/systeme/parametres_systeme_wifi_supprimer.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, supression d'un réseau wifi.
    :align: center
 
-Cliquez sur "Supprimer", vous aurez une popup vous indiquant que le réseau wifi a bien été supprimé.
+Cliquez sur "Supprimer", vous aurez un popup vous indiquant que le réseau wifi a bien été supprimé.
 
 .. _animateur_parametres_systeme_resolution:
 
@@ -1723,7 +1723,7 @@ Vous devrez confirmer la demande de mise à jour :
 .. important:: Lorsque vous mettez à jour PicturWall, tous les médias, logos, paramètres seront définitivement effacés !
 
 
-Le diaporama va se couper, et le logiciel de mise à jour va s'afficher sur votre écran de projection.
+Le diaporama va se couper et le logiciel de mise à jour va s'afficher sur votre écran de projection.
 Le texte affiché à l'écran sera retranscrit sur le panel animateur. Si une mise à jour est trouvée, le panel animateur l'affichera de la sorte :
 
 .. figure:: _images/parametres/systeme/parametres_systeme_maj_new.PNG
