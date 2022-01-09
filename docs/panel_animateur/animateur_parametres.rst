@@ -1746,7 +1746,7 @@ Une fois la mise à jour confirmée, PicturWall va la dérouler automatiquement,
    :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour système en cours.
    :align: center
 
-.. important:: Dans le cas ou vous effectuez une mise à jour système, lancer l'utilitaire de mise à jour une seconde fois afin de vérifier si il y a une autre mise à jour disponible.
+.. important:: Dans le cas où vous effectuez une mise à jour système, lancez l'utilitaire de mise à jour une seconde fois afin de vérifier si il y a une autre mise à jour disponible.
 
 .. note:: Ne pas fermer la page de votre navigateur, ni mettre hors tension PicturWall lors d'une mise à jour, vous risqueriez de corrompre le système !
 
