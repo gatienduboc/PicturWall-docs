@@ -11,7 +11,6 @@ La page de gestion des utilisateurs ressemble à ceci :
 
 Cette page vous permet de gérer les utilisateurs de PicturWall. C'est-à-dire que vous pourrez bannir et "débannir" les utilisateurs.
 
-
 .. _animateur_gestion_utilisateurs_bannir:
 
 Bannir un utilisateur

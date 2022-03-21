@@ -72,7 +72,7 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Afficher un QR-Code pour faciliter la connexion au réseau wifi <animateur_parametres_projecteur_qrcode_wifi>`
     * :ref:`Afficher un QR-Code pour faciliter la connexion au panel invité <animateur_parametres_projecteur_qrcode_panel_invite>`
     * :ref:`Redémarrer le diaporama <animateur_parametres_projecteur_redemarrer_diaporama>`
-    
+
 #. :ref:`Section impression <animateur_parametres_section_impression>` comprenant les paramètres suivants :
     * :ref:`Activer le service d'impression <animateur_parametres_impression_activer>`
     * Logo:
@@ -108,7 +108,10 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Choisir sa résolution d'écran <animateur_parametres_systeme_resolution_manuel>`
     * :ref:`Mettre à jour PicturWall <animateur_parametres_systeme_maj>`
     * :ref:`Redémarrer le diaporama <animateur_parametres_systeme_redemarrer_diaporama>`
-
+#. :ref:`Section avancé <animateur_parametres_section_avance>` comprenant les paramètres suivants :
+    * :ref:`Sauvegarder les paramètres <animateur_parametres_avance_sauvegarder>`
+    * :ref:`Charger une configuration <animateur_parametres_avance_charger>`
+    * :ref:`Restauration usine <animateur_parametres_avance_reset>`
 
 .. _animateur_parametres_modifier:
 
@@ -1070,7 +1073,7 @@ Vous pourrez valider la génération du QRCode lorsque que vous cliquerez sur va
 
 .. important:: Pensez à tester votre QRCode avant d'enregistrer vos paramètres.
 
-   
+
 .. _animateur_parametres_projecteur_redemarrer_diaporama:
 
 Redémarrer le diaporama
@@ -1665,7 +1668,7 @@ Paramètre en question :
 
 Options du paramètre :
  * **Automatique** : Mode de résolution automatique (*paramètre par défaut*)
- * **Manuel** : Mode de résolution manuel 
+ * **Manuel** : Mode de résolution manuel
 
 .. important:: Lors du changement de ce paramètre, PicturWall va vous demander de redémarrer pour appliquer ce paramètre.
 
@@ -1767,3 +1770,101 @@ Option du paramètre :
  * **Redémarrer** : Redémarrer le diaporama de PicturWall
 
 .. note:: Pas de confirmation lorsque vous cliquez sur ce paramètre.
+
+
+.. _animateur_parametres_section_avance:
+
+Section avancé
+-----------------------------
+
+Vue globale de la section avancé:
+
+.. figure:: _images/parametres/avance/parametres_avance.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avancé
+   :align: center
+
+.. _animateur_parametres_avance_sauvegarder:
+
+Sauvegarder la configuration actuelle
+#################################################################
+
+Vous pouvez sauvegarder l'ensemble des paramètres de PicturWall mais également les différents médias utile à son fonctionnement.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/avance/parametres_avance_sauvegarder.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avance, Sauvegarder les paramètres de PicturWall
+   :align: center
+
+Option du paramètre :
+ * **Sauvegarder** : Lancer la sauvegarde de PicturWall
+
+La fenêtre suivante va s'ouvrir :
+
+.. figure:: _images/parametres/avance/parametres_avance_sauvegarder_ok.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, confirmation.
+   :align: center
+
+.. note:: Le téléchargement de la configuration va se lancer automatiquement une fois prête.
+
+.. _animateur_parametres_avance_charger:
+
+Charger une configuration
+#################################################################
+
+Vous pouvez importer une configuration (précedement sauvegardée) grâce à ce paramètre.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/avance/parametres_avance_charger.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avance, charger les paramètres de PicturWall
+   :align: center
+
+Option du paramètre :
+ * **Parcourir** : Sélectionner l'archive comprenant la configuration a importer
+
+
+Vous devrez confirmer la demande d'importation :
+
+.. figure:: _images/parametres/avance/parametres_avance_charger_confirmation.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avancé, charger une configuration, confirmation.
+   :align: center
+
+.. note:: Cela va importer les différents paramètres de PicturWall mais également les différents médias nécessaires à son fonctionnement.
+
+Une fois la configuration importée, la fenêtre suivante va apparaître :
+
+.. figure:: _images/parametres/avance/parametres_avance_charger_ok.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avancé, charger une configuration, paramètres chargés.
+   :align: center
+
+.. _animateur_parametres_avance_reset:
+
+Restaurer la configuration d'usine
+#################################################################
+
+Vous pouvez restaurer la configuration d'usine de PicturWall grâce à ce paramètre.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/avance/parametres_avance_reset.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avance, restauration usine de PicturWall
+   :align: center
+
+Option du paramètre :
+ * **Restaurer** : Lance la restauration des paramètres de PicturWall
+
+
+Vous devrez confirmer la demande de restauration usine :
+
+.. figure:: _images/parametres/avance/parametres_avance_reset_confirmation.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, confirmation.
+   :align: center
+
+.. note:: Cela va importer les différents paramètres de PicturWall mais ne remplacera pas les médias nécessaires à son fonctionnement.
+
+Une fois la restauration d'usine effectuée, la fenêtre suivante va apparaître :
+
+.. figure:: _images/parametres/avance/parametres_avance_reset_ok.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, paramètres chargés.
+   :align: center

@@ -1772,18 +1772,18 @@ Option du paramètre :
 .. note:: Pas de confirmation lorsque vous cliquez sur ce paramètre.
 
 
-.. _animateur_parametres_avance:
+.. _animateur_parametres_section_avance:
 
 Section avancé
 -----------------------------
 
-Vue globale de la section avancée:
+Vue globale de la section avancé:
 
 .. figure:: _images/parametres/avance/parametres_avance.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé
    :align: center
 
-.. _animateur_parametres_avance_sauvegarde:
+.. _animateur_parametres_avance_sauvegarder:
 
 Sauvegarder la configuration actuelle
 #################################################################
@@ -1801,7 +1801,7 @@ Option du paramètre :
 
 La fenêtre suivante va s'ouvrir :
 
-.. figure:: _images/parametres/avance/parametres_sauvegarde_confirmation.PNG
+.. figure:: _images/parametres/avance/parametres_avance_sauvegarder_ok.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, confirmation.
    :align: center
 
@@ -1826,7 +1826,7 @@ Option du paramètre :
 
 Vous devrez confirmer la demande d'importation :
 
-.. figure:: _images/parametres/avance/parametres_charger_confirmation.PNG
+.. figure:: _images/parametres/avance/parametres_avance_charger_confirmation.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé, charger une configuration, confirmation.
    :align: center
 
@@ -1834,7 +1834,7 @@ Vous devrez confirmer la demande d'importation :
 
 Une fois la configuration importée, la fenêtre suivante va apparaître :
 
-.. figure:: _images/parametres/avance/parametres_charger_ok.PNG
+.. figure:: _images/parametres/avance/parametres_avance_charger_ok.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé, charger une configuration, paramètres chargés.
    :align: center
 
@@ -1857,7 +1857,7 @@ Option du paramètre :
 
 Vous devrez confirmer la demande de restauration usine :
 
-.. figure:: _images/parametres/avance/parametres_reset_confirmation.PNG
+.. figure:: _images/parametres/avance/parametres_avance_reset_confirmation.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, confirmation.
    :align: center
 
@@ -1865,6 +1865,6 @@ Vous devrez confirmer la demande de restauration usine :
 
 Une fois la restauration d'usine effectuée, la fenêtre suivante va apparaître :
 
-.. figure:: _images/parametres/avance/parametres_reset_ok.PNG
+.. figure:: _images/parametres/avance/parametres_avance_reset_ok.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, paramètres chargés.
    :align: center

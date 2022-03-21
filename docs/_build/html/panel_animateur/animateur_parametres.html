@@ -88,7 +88,7 @@
               
             
             
-              <p class="caption" role="heading"><span class="caption-text">Panel invité:</span></p>
+              <p class="caption"><span class="caption-text">Panel invité:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html">Présentation du panel invité</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#se-rendre-sur-le-panel-invite">Se rendre sur le panel invité ?</a></li>
@@ -96,7 +96,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#traduire-le-panel-invite">Traduire le panel invité</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#imprimer-apres-coup">Imprimer après coup</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Panel animateur:</span></p>
+<p class="caption"><span class="caption-text">Panel animateur:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Présentation du panel animateur</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="animateur_tri_medias.html">Page tri des médias</a></li>
@@ -204,6 +204,12 @@
 <li class="toctree-l4"><a class="reference internal" href="#choisir-sa-resolution-d-ecran">Choisir sa résolution d’écran</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mettre-a-jour-picturwall">Mettre à jour PicturWall</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#animateur-parametres-systeme-redemarrer-diaporama">Redémarrer le diaporama</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#section-avance">Section avancé</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sauvegarder-la-configuration-actuelle">Sauvegarder la configuration actuelle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#charger-une-configuration">Charger une configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#restaurer-la-configuration-d-usine">Restaurer la configuration d’usine</a></li>
 </ul>
 </li>
 </ul>
@@ -322,6 +328,12 @@
 <li class="toctree-l3"><a class="reference internal" href="#animateur-parametres-systeme-redemarrer-diaporama">Redémarrer le diaporama</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#section-avance">Section avancé</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sauvegarder-la-configuration-actuelle">Sauvegarder la configuration actuelle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#charger-une-configuration">Charger une configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#restaurer-la-configuration-d-usine">Restaurer la configuration d’usine</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
@@ -329,7 +341,7 @@
 <li class="toctree-l1"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Diaporama:</span></p>
+<p class="caption"><span class="caption-text">Diaporama:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html">Présentation du diaporama</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#mettre-en-place-le-diaporama">Mettre en place le diaporama</a></li>
@@ -597,6 +609,15 @@
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-resolution-manuel"><span class="std std-ref">Choisir sa résolution d’écran</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-maj"><span class="std std-ref">Mettre à jour PicturWall</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-redemarrer-diaporama"><span class="std std-ref">Redémarrer le diaporama</span></a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><a class="reference internal" href="#animateur-parametres-section-avance"><span class="std std-ref">Section avancé</span></a> comprenant les paramètres suivants :</dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="#animateur-parametres-avance-sauvegarder"><span class="std std-ref">Sauvegarder les paramètres</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-avance-charger"><span class="std std-ref">Charger une configuration</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-avance-reset"><span class="std std-ref">Restauration usine</span></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -2069,6 +2090,87 @@ Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Pas de confirmation lorsque vous cliquez sur ce paramètre.</p>
+</div>
+</div>
+</div>
+<div class="section" id="section-avance">
+<span id="animateur-parametres-section-avance"></span><h2>Section avancé<a class="headerlink" href="#section-avance" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Vue globale de la section avancé:</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avancé" src="../_images/parametres_avance.PNG" />
+</div>
+<div class="section" id="sauvegarder-la-configuration-actuelle">
+<span id="animateur-parametres-avance-sauvegarder"></span><h3>Sauvegarder la configuration actuelle<a class="headerlink" href="#sauvegarder-la-configuration-actuelle" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Vous pouvez sauvegarder l’ensemble des paramètres de PicturWall mais également les différents médias utile à son fonctionnement.</p>
+<p>Paramètre en question :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avance, Sauvegarder les paramètres de PicturWall" src="../_images/parametres_avance_sauvegarder.PNG" />
+</div>
+<dl class="simple">
+<dt>Option du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>Sauvegarder</strong> : Lancer la sauvegarde de PicturWall</p></li>
+</ul>
+</dd>
+</dl>
+<p>La fenêtre suivante va s’ouvrir :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, confirmation." src="../_images/parametres_avance_sauvegarder_ok.PNG" />
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Le téléchargement de la configuration va se lancer automatiquement une fois prête.</p>
+</div>
+</div>
+<div class="section" id="charger-une-configuration">
+<span id="animateur-parametres-avance-charger"></span><h3>Charger une configuration<a class="headerlink" href="#charger-une-configuration" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Vous pouvez importer une configuration (précedement sauvegardée) grâce à ce paramètre.</p>
+<p>Paramètre en question :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avance, charger les paramètres de PicturWall" src="../_images/parametres_avance_charger.PNG" />
+</div>
+<dl class="simple">
+<dt>Option du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>Parcourir</strong> : Sélectionner l’archive comprenant la configuration a importer</p></li>
+</ul>
+</dd>
+</dl>
+<p>Vous devrez confirmer la demande d’importation :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avancé, charger une configuration, confirmation." src="../_images/parametres_avance_charger_confirmation.PNG" />
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cela va importer les différents paramètres de PicturWall mais également les différents médias nécessaires à son fonctionnement.</p>
+</div>
+<p>Une fois la configuration importée, la fenêtre suivante va apparaître :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avancé, charger une configuration, paramètres chargés." src="../_images/parametres_avance_charger_ok.PNG" />
+</div>
+</div>
+<div class="section" id="restaurer-la-configuration-d-usine">
+<span id="animateur-parametres-avance-reset"></span><h3>Restaurer la configuration d’usine<a class="headerlink" href="#restaurer-la-configuration-d-usine" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Vous pouvez restaurer la configuration d’usine de PicturWall grâce à ce paramètre.</p>
+<p>Paramètre en question :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avance, restauration usine de PicturWall" src="../_images/parametres_avance_reset.PNG" />
+</div>
+<dl class="simple">
+<dt>Option du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>Restaurer</strong> : Lance la restauration des paramètres de PicturWall</p></li>
+</ul>
+</dd>
+</dl>
+<p>Vous devrez confirmer la demande de restauration usine :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, confirmation." src="../_images/parametres_avance_reset_confirmation.PNG" />
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cela va importer les différents paramètres de PicturWall mais ne remplacera pas les médias nécessaires à son fonctionnement.</p>
+</div>
+<p>Une fois la restauration d’usine effectuée, la fenêtre suivante va apparaître :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, paramètres chargés." src="../_images/parametres_avance_reset_ok.PNG" />
 </div>
 </div>
 </div>
