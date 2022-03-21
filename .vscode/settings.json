@@ -9,8 +9,10 @@
     ],
     "spellright.groupDictionaries": false,
     "spellright.language": [
-        "fr"
+        "fr-FR"
     ],
     "restructuredtext.preview.docutils.disabled": true,
-    "restructuredtext.linter.disabled": true
+    "restructuredtext.linter.disabled": true,
+    "esbonio.sphinx.confDir": "",
+    "files.trimTrailingWhitespace": true
 }
