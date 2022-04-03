@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Page envoi de fichiers &mdash; Documentation Documentation de PicturWall 1.22</title>
+  <title>Page Debug &mdash; Documentation Documentation de PicturWall 1.22</title>
   
 
   
@@ -42,8 +42,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Page sauvegarder les médias" href="animateur_sauvegarde.html" />
-    <link rel="prev" title="Page paramètre" href="animateur_parametres.html" /> 
+    <link rel="next" title="Présentation du diaporama" href="../diaporama/index.html" />
+    <link rel="prev" title="Page changelogs" href="animateur_changelogs.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -105,11 +105,15 @@
 <li class="toctree-l2"><a class="reference internal" href="animateur_gestion_utilisateurs.html">Page gestion des utilisateurs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_gestion_impressions.html">Page gestion des impressions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Page envoi de fichiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Page Debug</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#acceder-a-la-page-de-debug">Accéder à la page de Debug</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exporter-un-journal-d-evenement-logs">Exporter un journal d’évènement (logs)</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#se-rendre-sur-le-panel-animateur">Se rendre sur le panel animateur ?</a></li>
@@ -119,7 +123,7 @@
 <li class="toctree-l1"><a class="reference internal" href="animateur_gestion_utilisateurs.html">Page gestion des utilisateurs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_gestion_impressions.html">Page gestion des impressions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Page envoi de fichiers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
@@ -185,13 +189,13 @@
         
           <li><a href="index.html">Présentation du panel animateur</a> &raquo;</li>
         
-      <li>Page envoi de fichiers</li>
+      <li>Page Debug</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/panel_animateur/animateur_envoi_fichiers.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+            <a href="../_sources/panel_animateur/animateur_debug.rst.txt" rel="nofollow"> Afficher la source de la page</a>
           
         
       </li>
@@ -204,20 +208,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="page-envoi-de-fichiers">
-<span id="animateur-envoi-medias"></span><h1>Page envoi de fichiers<a class="headerlink" href="#page-envoi-de-fichiers" title="Lien permanent vers ce titre">¶</a></h1>
-<p>La page des envois de fichiers ressemble à ceci :</p>
+  <div class="section" id="page-debug">
+<span id="animateur-debug"></span><h1>Page Debug<a class="headerlink" href="#page-debug" title="Lien permanent vers ce titre">¶</a></h1>
+<p>La page de debug de PicturWall ressemble à ceci :</p>
 <div class="figure align-center">
-<img alt="Panel animateur de PicturWall, page gestion des fichiers animateur." src="../_images/envoi_medias.PNG" />
+<img alt="Panel animateur de PicturWall, page Debug de PicturWall." src="../_images/debug.PNG" />
 </div>
-<p>Cette page vous permet d’envoyer des images, des vidéos, et même des fichiers ZIP.</p>
+<p>Cette page vous permet d’exporter les journaux d’évènements (logs) de PicturWall. De plus, elle vous donne une indication sur le bon fonctionnement des différents services.</p>
+<p>Le SAV peut vous demander une capture d’écran de cette page afin d’établir un premier diagnostic.</p>
+<div class="section" id="acceder-a-la-page-de-debug">
+<span id="animateur-debug-menu"></span><h2>Accéder à la page de Debug<a class="headerlink" href="#acceder-a-la-page-de-debug" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Pour arriver sur la page de debug, vous allez devoir cliquer sur la petite flèche vers le bas qui se situe dans le menu, à droite de votre adresse mail :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page Debug de PicturWall, accéder à la page, menu." src="../_images/debug_menu_1.PNG" />
+</div>
+<p>Cliquez ensuite sur « Debug » :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page Debug de PicturWall, accéder à la page, menu." src="../_images/debug_menu_2.PNG" />
+</div>
+</div>
+<div class="section" id="exporter-un-journal-d-evenement-logs">
+<span id="animateur-debug-export-service"></span><h2>Exporter un journal d’évènement (logs)<a class="headerlink" href="#exporter-un-journal-d-evenement-logs" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Afin d’exporter un journal d’évènements (logs) vous avez simplement à cliquer sur le lien « Logs » à droite du service correspondant.</p>
+<p>Vous verez apparaître la confirmation suivante :</p>
+<div class="figure align-center">
+<img alt="Panel animateur de PicturWall, page Debug de PicturWall, téléchargement log service web." src="../_images/debug_save.PNG" />
+</div>
+<p>Le fichier (au format .zip) sera directement téléchargé sur votre ordinateur. Vous devrez simplement fournir l’archive au SAV pour qu’il puisse vous aider à régler votre problème.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Le fichier zip doit directement contenir les médias à sa racine. Le fichier ne doit pas dépasser les 100 Mo.</p>
+<p>Le nom du service à exporter vous sera donné par le SAV.</p>
 </div>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Les médias envoyés via cette page sont automatiquement approuvés.</p>
 </div>
 </div>
 
@@ -227,8 +248,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="animateur_sauvegarde.html" class="btn btn-neutral float-right" title="Page sauvegarder les médias" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="animateur_parametres.html" class="btn btn-neutral float-left" title="Page paramètre" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../diaporama/index.html" class="btn btn-neutral float-right" title="Présentation du diaporama" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="animateur_changelogs.html" class="btn btn-neutral float-left" title="Page changelogs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
     </div>
 
   <hr/>

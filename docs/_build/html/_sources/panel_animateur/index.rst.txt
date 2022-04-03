@@ -38,6 +38,7 @@ Voici les points que nous allons détailler lors de cette documentation :
     animateur_sauvegarde
     animateur_reset
     animateur_changelogs
+    animateur_debug
 
 Se rendre sur le panel animateur ?
 =======================================
