@@ -34,6 +34,7 @@ Cette documentation sera regroupée en 3 grands thèmes :
    panel_animateur/animateur_sauvegarde
    panel_animateur/animateur_reset
    panel_animateur/animateur_changelogs
+   panel_animateur/debug
 
 .. toctree::
    :maxdepth: 2
