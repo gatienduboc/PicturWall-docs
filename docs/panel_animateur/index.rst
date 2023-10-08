@@ -37,6 +37,8 @@ Voici les points que nous allons détailler lors de cette documentation :
     animateur_envoi_fichiers
     animateur_sauvegarde
     animateur_reset
+    animateur_overlays_affichage
+    animateur_overlays_gestion
     animateur_changelogs
     animateur_debug
 

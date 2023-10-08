@@ -11,7 +11,7 @@
     "spellright.language": [
         "fr-FR"
     ],
-    "restructuredtext.preview.docutils.disabled": true,
+    "restructuredtext.preview.docutils.disabled": false,
     "restructuredtext.linter.disabled": true,
     "esbonio.sphinx.confDir": "",
     "files.trimTrailingWhitespace": true

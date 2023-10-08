@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Documentation de PicturWall'
-copyright = '2021, Gatien DUBOC'
+copyright = '2023, Gatien DUBOC'
 author = 'Gatien DUBOC'
 
 # The full version, including alpha/beta/rc tags
-release = '1.22'
+release = '1.40'
 
 
 # -- General configuration ---------------------------------------------------
