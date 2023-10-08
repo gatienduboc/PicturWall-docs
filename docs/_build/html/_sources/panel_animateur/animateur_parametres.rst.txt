@@ -84,6 +84,14 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
         * :ref:`Autoriser les utilisateurs à imprimer dès l'envoi <animateur_parametres_impression_utilisateur_envoi>`
         * :ref:`Autoriser les utilisateurs à imprimer après l'envoi <animateur_parametres_impression_utilisateur_envoi_differe>`
     * :ref:`Nombre d'impressions maximum <animateur_parametres_impression_max>`
+    *  Overlays :
+        * :ref:`Choix de l'overlay à utiliser <animateur_parametres_impression_overlays_choix>`
+        * :ref:`Edition des overlays <animateur_parametres_impression_overlays_edition>`
+        * :ref:`Activer l'impression des commentaires <animateur_parametres_impression_overlays_commentaire>`
+        * :ref:`Texte principal de l'overlay <animateur_parametres_impression_overlays_texte_principal>`
+        * :ref:`Texte secondaire de l'overlay <animateur_parametres_impression_overlays_texte_secondaire>`
+        * :ref:`Texte "date de l'évènement" de l'overlay <animateur_parametres_impression_overlays_texte_date>`
+
     * :ref:`Supprimer l'imprimante de PicturWall <animateur_parametres_impression_supprimer>`
 #. :ref:`Section envoi réseau <animateur_parametres_section_envoi-reseau>` comprenant les paramètres suivants :
     * Dossier 'pw_add' :
@@ -1104,9 +1112,6 @@ Vue globale de la section impression :
    :alt: Panel animateur de PicturWall, page paramètres, section impression
    :align: center
 
-.. important:: Je vais bientôt sortir une vidéo sur toute la partie impression. Je vous tiens au courant.
-
-
 .. _animateur_parametres_impression_activer:
 
 Activer le service d'impression
@@ -1145,6 +1150,8 @@ Paramètre en question :
 Options du paramètre :
  * **Non** : Logo désactivé (*paramètre par défaut*)
  * **Oui** : Logo activé
+
+.. note:: La position du logo sur l'impression peut être personalisé sur la page :ref:`éditions des overlays <animateur_overlays_edition>` .
 
 
 .. _animateur_parametres_impression_logo_fichier:
@@ -1257,7 +1264,100 @@ Option du paramètre :
 
 .. note:: Si vous mettez la limite à 0: le nombre d'impressions sera illimité.
 
+.. _animateur_parametres_impression_overlays_choix :
 
+Choisir un overlay
+###################################################
+
+Vous pouvez choisir l'overlay que vous voulez appliquer aux impressions.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/impression/parametres_impression_overlays_choix.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section impression, choix des overlays
+   :align: center
+
+Options du paramètre :
+ * **Aucun overlay** : Ne pas utiliser d'overlay (*paramètre par défaut*)
+ * **Overlay** : Overlay à utiliser
+
+.. important:: Depuis le lien ":ref:`voir les overlays <animateur_overlays_affichage>`" vous aterrisez sur une page qui permet de visualiser l'ensemble des overlays disponibles, avec les textes prédéfinis sur cette page. Cela peut aider aux choix de l'overlay à utiliser pour votre prestation.
+
+.. note:: Si aucun overlay est sélectionné, les autres paramètres liés aux overlays seront masqués.
+
+.. _animateur_parametres_impression_overlays_edition :
+
+Éditer un overlay
+###################################################
+
+Une :ref:`page est dédiée <animateur_overlays_edition>` pour éditer les overlays. Elle est accessible depuis ce paramètre.
+Paramètre en question :
+
+.. figure:: _images/parametres/impression/parametres_impression_overlays_edition.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section impression, édition des overlays
+   :align: center
+
+.. danger:: Attention, cette page est à manipuler avec précaution. Vous pouvez complètement planter un overlay depuis cette dernière. Néanmoins, vous avez la possibilité de réinitialiser un overlay édité.
+
+.. _animateur_parametres_impression_overlays_commentaire :
+
+Impressions des commentaires
+###################################################
+
+Vous pouvez choisir d'autoriser, ou non l'impression des commentaires.
+Paramètre en question :
+
+.. figure:: _images/parametres/impression/parametres_impression_overlays_commentaire.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section impression, édition des overlays
+   :align: center
+
+Options du paramètre :
+ * **Non** : Les utilisateurs ne peuvent pas imprimer leurs commentaires (*paramètre par défaut*)
+ * **Oui** : Les utilisateurs peuvent imprimer leurs commentaires
+
+.. note:: Pour le placement des commentaires, voir la page : :ref:`éditions des overlays <animateur_overlays_edition>`
+
+.. _animateur_parametres_impression_overlays_texte_principal :
+
+Texte principal de l'overlay
+###################################################
+
+Texte principal de l'overlay choisi
+Paramètre en question :
+
+.. figure:: _images/parametres/impression/parametres_impression_overlays_texte_principal.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section impression, texte principal de l'overlay
+   :align: center
+
+.. note:: Pour le placement du texte, voir la page : :ref:`éditions des overlays <animateur_overlays_edition>`
+
+.. _animateur_parametres_impression_overlays_texte_secondaire :
+
+Texte secondaire de l'overlay
+###################################################
+
+Texte secondaire de l'overlay choisi
+Paramètre en question :
+
+.. figure:: _images/parametres/impression/parametres_impression_overlays_texte_secondaire.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section impression, texte secondaire de l'overlay
+   :align: center
+
+.. note:: Pour le placement du texte, voir la page : :ref:`éditions des overlays <animateur_overlays_edition>`
+
+   .. _animateur_parametres_impression_overlays_texte_date :
+
+Texte "date de l'évènement" de l'overlay
+###################################################
+
+Texte "date de l'évènement" de l'overlay choisi
+Paramètre en question :
+
+.. figure:: _images/parametres/impression/parametres_impression_overlays_texte_date.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section impression, texte date de l'évènement de l'overlay
+   :align: center
+
+.. note:: Pour le placement du texte, voir la page : :ref:`éditions des overlays <animateur_overlays_edition>`
 
 .. _animateur_parametres_impression_supprimer:
 
@@ -1274,10 +1374,6 @@ Paramètre en question :
 
 Options du paramètre :
  * **Supprimer** : Supprimer l'imprimante
-
-
-
-
 
 .. _animateur_parametres_section_envoi-reseau:
 

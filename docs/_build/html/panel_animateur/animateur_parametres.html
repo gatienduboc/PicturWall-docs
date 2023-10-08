@@ -131,6 +131,12 @@
 <li class="toctree-l4"><a class="reference internal" href="#autoriser-les-utilisateurs-a-imprimer-des-l-envoi">Autoriser les utilisateurs à imprimer dès l’envoi</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#autoriser-les-utilisateurs-a-imprimer-apres-l-envoi">Autoriser les utilisateurs à imprimer après l’envoi</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#nombre-d-impressions-maximum">Nombre d’impressions maximum</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#choisir-un-overlay">Choisir un overlay</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#editer-un-overlay">Éditer un overlay</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#impressions-des-commentaires">Impressions des commentaires</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#texte-principal-de-l-overlay">Texte principal de l’overlay</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#texte-secondaire-de-l-overlay">Texte secondaire de l’overlay</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#texte-date-de-l-evenement-de-l-overlay">Texte « date de l’évènement » de l’overlay</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#supprimer-l-imprimante-de-picturwall">Supprimer l’imprimante de PicturWall</a></li>
 </ul>
 </li>
@@ -172,6 +178,8 @@
 <li class="toctree-l2"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_overlays_affichage.html">Page affichage des overlays</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_overlays_edition.html">Page gestion avancée des Overlays</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
 </ul>
@@ -254,6 +262,12 @@
 <li class="toctree-l3"><a class="reference internal" href="#autoriser-les-utilisateurs-a-imprimer-des-l-envoi">Autoriser les utilisateurs à imprimer dès l’envoi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#autoriser-les-utilisateurs-a-imprimer-apres-l-envoi">Autoriser les utilisateurs à imprimer après l’envoi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nombre-d-impressions-maximum">Nombre d’impressions maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#choisir-un-overlay">Choisir un overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editer-un-overlay">Éditer un overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#impressions-des-commentaires">Impressions des commentaires</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#texte-principal-de-l-overlay">Texte principal de l’overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#texte-secondaire-de-l-overlay">Texte secondaire de l’overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#texte-date-de-l-evenement-de-l-overlay">Texte « date de l’évènement » de l’overlay</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#supprimer-l-imprimante-de-picturwall">Supprimer l’imprimante de PicturWall</a></li>
 </ul>
 </li>
@@ -295,6 +309,8 @@
 <li class="toctree-l1"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_overlays_affichage.html">Page affichage des overlays</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_overlays_edition.html">Page gestion avancée des Overlays</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
 </ul>
@@ -475,6 +491,18 @@
 </dl>
 </li>
 <li><p><a class="reference internal" href="#animateur-parametres-impression-max"><span class="std std-ref">Nombre d’impressions maximum</span></a></p></li>
+<li><dl class="simple">
+<dt>Overlays :</dt><dd><ul>
+<li><p><a class="reference internal" href="#animateur-parametres-impression-overlays-choix"><span class="std std-ref">Choix de l’overlay à utiliser</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-impression-overlays-edition"><span class="std std-ref">Edition des overlays</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-impression-overlays-commentaire"><span class="std std-ref">Activer l’impression des commentaires</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-impression-overlays-texte-principal"><span class="std std-ref">Texte principal de l’overlay</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-impression-overlays-texte-secondaire"><span class="std std-ref">Texte secondaire de l’overlay</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-impression-overlays-texte-date"><span class="std std-ref">Texte « date de l’évènement » de l’overlay</span></a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
 <li><p><a class="reference internal" href="#animateur-parametres-impression-supprimer"><span class="std std-ref">Supprimer l’imprimante de PicturWall</span></a></p></li>
 </ul>
 </dd>
@@ -1421,10 +1449,6 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section impression" src="../_images/parametres_impression.PNG" />
 </figure>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Je vais bientôt sortir une vidéo sur toute la partie impression. Je vous tiens au courant.</p>
-</div>
 <section id="activer-le-service-d-impression">
 <span id="animateur-parametres-impression-activer"></span><h3>Activer le service d’impression<a class="headerlink" href="#activer-le-service-d-impression" title="Link to this heading"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, le service d’impression</p>
@@ -1462,6 +1486,10 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </ul>
 </dd>
 </dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La position du logo sur l’impression peut être personalisé sur la page <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">éditions des overlays</span></a> .</p>
+</div>
 </section>
 <section id="choisir-le-logo-d-impression">
 <span id="animateur-parametres-impression-logo-fichier"></span><h3>Choisir le logo d’impression<a class="headerlink" href="#choisir-le-logo-d-impression" title="Link to this heading"></a></h3>
@@ -1511,7 +1539,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Vous pouvez spécifier le nombre d’impressions maximum pour un utilisateur particulier depuis la page <a class="reference internal" href="animateur_overlays_gestion.html#animateur-gestion-impressions-limite"><span class="std std-ref">gestion des impressions</span></a>.</p>
+<p>Vous pouvez spécifier le nombre d’impressions maximum pour un utilisateur particulier depuis la page <span class="xref std std-ref">gestion des impressions</span>.</p>
 </div>
 </section>
 <section id="autoriser-les-utilisateurs-a-imprimer-des-l-envoi">
@@ -1560,6 +1588,96 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Si vous mettez la limite à 0: le nombre d’impressions sera illimité.</p>
+</div>
+</section>
+<section id="choisir-un-overlay">
+<span id="animateur-parametres-impression-overlays-choix"></span><h3>Choisir un overlay<a class="headerlink" href="#choisir-un-overlay" title="Link to this heading"></a></h3>
+<p>Vous pouvez choisir l’overlay que vous voulez appliquer aux impressions.</p>
+<p>Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section impression, choix des overlays" src="../_images/parametres_impression_overlays_choix.PNG" />
+</figure>
+<dl class="simple">
+<dt>Options du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>Aucun overlay</strong> : Ne pas utiliser d’overlay (<em>paramètre par défaut</em>)</p></li>
+<li><p><strong>Overlay</strong> : Overlay à utiliser</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Depuis le lien « <a class="reference internal" href="animateur_overlays_affichage.html#animateur-overlays-affichage"><span class="std std-ref">voir les overlays</span></a> » vous aterrisez sur une page qui permet de visualiser l’ensemble des overlays disponibles, avec les textes prédéfinis sur cette page. Cela peut aider aux choix de l’overlay à utiliser pour votre prestation.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si aucun overlay est sélectionné, les autres paramètres liés aux overlays seront masqués.</p>
+</div>
+</section>
+<section id="editer-un-overlay">
+<span id="animateur-parametres-impression-overlays-edition"></span><h3>Éditer un overlay<a class="headerlink" href="#editer-un-overlay" title="Link to this heading"></a></h3>
+<p>Une <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">page est dédiée</span></a> pour éditer les overlays. Elle est accessible depuis ce paramètre.
+Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section impression, édition des overlays" src="../_images/parametres_impression_overlays_edition.PNG" />
+</figure>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Attention, cette page est à manipuler avec précaution. Vous pouvez complètement planter un overlay depuis cette dernière. Néanmoins, vous avez la possibilité de réinitialiser un overlay édité.</p>
+</div>
+</section>
+<section id="impressions-des-commentaires">
+<span id="animateur-parametres-impression-overlays-commentaire"></span><h3>Impressions des commentaires<a class="headerlink" href="#impressions-des-commentaires" title="Link to this heading"></a></h3>
+<p>Vous pouvez choisir d’autoriser, ou non l’impression des commentaires.
+Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section impression, édition des overlays" src="../_images/parametres_impression_overlays_commentaire.PNG" />
+</figure>
+<dl class="simple">
+<dt>Options du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>Non</strong> : Les utilisateurs ne peuvent pas imprimer leurs commentaires (<em>paramètre par défaut</em>)</p></li>
+<li><p><strong>Oui</strong> : Les utilisateurs peuvent imprimer leurs commentaires</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pour le placement des commentaires, voir la page : <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">éditions des overlays</span></a></p>
+</div>
+</section>
+<section id="texte-principal-de-l-overlay">
+<span id="animateur-parametres-impression-overlays-texte-principal"></span><h3>Texte principal de l’overlay<a class="headerlink" href="#texte-principal-de-l-overlay" title="Link to this heading"></a></h3>
+<p>Texte principal de l’overlay choisi
+Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section impression, texte principal de l'overlay" src="../_images/parametres_impression_overlays_texte_principal.PNG" />
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pour le placement du texte, voir la page : <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">éditions des overlays</span></a></p>
+</div>
+</section>
+<section id="texte-secondaire-de-l-overlay">
+<span id="animateur-parametres-impression-overlays-texte-secondaire"></span><h3>Texte secondaire de l’overlay<a class="headerlink" href="#texte-secondaire-de-l-overlay" title="Link to this heading"></a></h3>
+<p>Texte secondaire de l’overlay choisi
+Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section impression, texte secondaire de l'overlay" src="../_images/parametres_impression_overlays_texte_secondaire.PNG" />
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pour le placement du texte, voir la page : <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">éditions des overlays</span></a></p>
+</div>
+</section>
+<section id="texte-date-de-l-evenement-de-l-overlay">
+<span id="animateur-parametres-impression-overlays-texte-date"></span><h3>Texte « date de l’évènement » de l’overlay<a class="headerlink" href="#texte-date-de-l-evenement-de-l-overlay" title="Link to this heading"></a></h3>
+<p>Texte « date de l’évènement » de l’overlay choisi
+Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section impression, texte date de l'évènement de l'overlay" src="../_images/parametres_impression_overlays_texte_date.PNG" />
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pour le placement du texte, voir la page : <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">éditions des overlays</span></a></p>
 </div>
 </section>
 <section id="supprimer-l-imprimante-de-picturwall">

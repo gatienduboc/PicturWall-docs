@@ -20,7 +20,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Page gestion avancée des Overlays" href="animateur_overlays_gestion.html" />
+    <link rel="next" title="Page gestion avancée des Overlays" href="animateur_overlays_edition.html" />
     <link rel="prev" title="Page remise à 0" href="animateur_reset.html" /> 
 </head>
 
@@ -63,8 +63,12 @@
 <li class="toctree-l2"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Page affichage des overlays</a></li>
-<li class="toctree-l2"><a class="reference internal" href="animateur_overlays_gestion.html">Page gestion avancée des Overlays</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Page affichage des overlays</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#acceder-a-la-page-d-affichage-des-overlays">Accéder à la page d’affichage des overlays</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#telecharger-tous-les-overlays">Télécharger tous les overlays</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_overlays_edition.html">Page gestion avancée des Overlays</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
 </ul>
@@ -79,8 +83,12 @@
 <li class="toctree-l1"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Page affichage des overlays</a></li>
-<li class="toctree-l1"><a class="reference internal" href="animateur_overlays_gestion.html">Page gestion avancée des Overlays</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Page affichage des overlays</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#acceder-a-la-page-d-affichage-des-overlays">Accéder à la page d’affichage des overlays</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#telecharger-tous-les-overlays">Télécharger tous les overlays</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_overlays_edition.html">Page gestion avancée des Overlays</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
 </ul>
@@ -124,11 +132,37 @@
              
   <section id="page-affichage-des-overlays">
 <span id="animateur-overlays-affichage"></span><h1>Page affichage des overlays<a class="headerlink" href="#page-affichage-des-overlays" title="Link to this heading"></a></h1>
-<p>La page de gestion des impressions ressemble à ceci :</p>
+<p>La page d’affichage des différents overlays ressemble à ceci :</p>
 <figure class="align-center">
-<img alt="Panel animateur de PicturWall, page gestion des impressions." src="../_images/gestion_impressions.PNG" />
+<img alt="Panel animateur de PicturWall, page affichage des overlays." src="../_images/overlays_affichage.PNG" />
 </figure>
-<p>Cette page vous permet de gérer les impressions par utilisateur. C’est-à-dire que c’est ici que vous pouvez définir le nombre d’impressions maximum de chaque utilisateur. Vous pouvez également visualiser le nombre d’impressions ici.</p>
+<p>Cette page vous permet d’afficher les différents overlays disponible avec PicturWall. Cela peut vous aider dans le choix de sélection d’overlays pour votre prestation.</p>
+<p>La page peut mettre quelques secondes à charger, puisque qu’elle génère en temps réel une image format paysage et une format portrait par overlay. Vos paramètres sont prit en compte pour chaque génération.</p>
+<p>Vous pouvez également <a class="reference internal" href="#animateur-overlays-affichage-telechargement"><span class="std std-ref">télécharger l’ensemble des overlays</span></a> pour les consulter / choisir celui qui convient à votre évènement.</p>
+<section id="acceder-a-la-page-d-affichage-des-overlays">
+<span id="animateur-overlays-affichage-menu"></span><h2>Accéder à la page d’affichage des overlays<a class="headerlink" href="#acceder-a-la-page-d-affichage-des-overlays" title="Link to this heading"></a></h2>
+<p>Pour arriver sur la page d’affichage des overlays, vous devez vous rendre sur la <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-overlays-choix"><span class="std std-ref">page de paramètres, section Impressions puis cliquer sur : voir les overlays</span></a>.</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres de PicturWall, section impression : accéder à l'affichage des overlays" src="../_images/parametres_impression.PNG" />
+</figure>
+<p>Cliquez ensuite sur « voir les overlays » :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres de PicturWall, section impression : accéder à l'affichage des overlays" src="../_images/parametres_impression_overlays_choix.PNG" />
+</figure>
+</section>
+<section id="telecharger-tous-les-overlays">
+<span id="animateur-overlays-affichage-telechargement"></span><h2>Télécharger tous les overlays<a class="headerlink" href="#telecharger-tous-les-overlays" title="Link to this heading"></a></h2>
+<p>Pour télécharger l’ensemble des overlays, vous devez cliquer sur le bouton Téléchargement :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page affichage des overlays : téléchargement des overlays." src="../_images/overlays_affichage_telechargement.PNG" />
+</figure>
+<p>Cliquez ensuite sur « oui » :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page affichage des overlays : téléchargement des overlays, confirmation création du .zip ." src="../_images/overlays_affichage_telechargement_2.PNG" />
+</figure>
+<p>Cela aura pour effet de créer un .zip, contenant l’ensemble des overlays de PicturWall, avec vos paramétrages.</p>
+<p>Le .zip se téléchargera automatiquement sur votre ordinateur une fois créé.</p>
+</section>
 </section>
 
 
@@ -136,7 +170,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
         <a href="animateur_reset.html" class="btn btn-neutral float-left" title="Page remise à 0" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="animateur_overlays_gestion.html" class="btn btn-neutral float-right" title="Page gestion avancée des Overlays" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="animateur_overlays_edition.html" class="btn btn-neutral float-right" title="Page gestion avancée des Overlays" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

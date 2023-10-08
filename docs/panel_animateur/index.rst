@@ -38,7 +38,7 @@ Voici les points que nous allons détailler lors de cette documentation :
     animateur_sauvegarde
     animateur_reset
     animateur_overlays_affichage
-    animateur_overlays_gestion
+    animateur_overlays_edition
     animateur_changelogs
     animateur_debug
 

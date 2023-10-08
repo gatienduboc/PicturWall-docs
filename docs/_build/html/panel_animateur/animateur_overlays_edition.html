@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page gestion avancée des Overlays &mdash; Documentation Documentation de PicturWall 1.40</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=1adfd443"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=d99ca74e"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Page changelogs" href="animateur_changelogs.html" />
+    <link rel="prev" title="Page affichage des overlays" href="animateur_overlays_affichage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Documentation de PicturWall
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Panel invité:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html">Présentation du panel invité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#se-rendre-sur-le-panel-invite">Se rendre sur le panel invité ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#envoyer-un-media">Envoyer un média</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#traduire-le-panel-invite">Traduire le panel invité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#imprimer-apres-coup">Imprimer après coup</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Panel animateur:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Présentation du panel animateur</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="animateur_tri_medias.html">Page tri des médias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_medias.html">Page gestion des médias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_commentaires.html">Page gestion des commentaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_utilisateurs.html">Page gestion des utilisateurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_gestion_impressions.html">Page gestion des impressions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_overlays_affichage.html">Page affichage des overlays</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Page gestion avancée des Overlays</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#selection-d-un-overlay-a-modifier">Sélection d’un overlay à modifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modifier-un-parametre-et-le-sauvegarder">Modifier un paramètre et le sauvegarder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-de-l-image-affiche">Gestion de l’image affiché</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-du-cadre">Gestion du cadre</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-du-logo">Gestion du logo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-du-commentaire">Gestion du commentaire</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-du-texte-principal">Gestion du texte principal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-du-texte-secondaire">Gestion du texte secondaire</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-de-la-date-de-l-evenement">Gestion de la « date de l’évènement »</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#se-rendre-sur-le-panel-animateur">Se rendre sur le panel animateur ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_tri_medias.html">Page tri des médias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_medias.html">Page gestion des médias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_commentaires.html">Page gestion des commentaires</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_utilisateurs.html">Page gestion des utilisateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_gestion_impressions.html">Page gestion des impressions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_envoi_fichiers.html">Page envoi de fichiers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_sauvegarde.html">Page sauvegarder les médias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_reset.html">Page remise à 0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_overlays_affichage.html">Page affichage des overlays</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Page gestion avancée des Overlays</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#selection-d-un-overlay-a-modifier">Sélection d’un overlay à modifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modifier-un-parametre-et-le-sauvegarder">Modifier un paramètre et le sauvegarder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-de-l-image-affiche">Gestion de l’image affiché</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-du-cadre">Gestion du cadre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-du-logo">Gestion du logo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-du-commentaire">Gestion du commentaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-du-texte-principal">Gestion du texte principal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-du-texte-secondaire">Gestion du texte secondaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestion-de-la-date-de-l-evenement">Gestion de la « date de l’évènement »</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_changelogs.html">Page changelogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="animateur_debug.html">Page Debug</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Diaporama:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html">Présentation du diaporama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#mettre-en-place-le-diaporama">Mettre en place le diaporama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#les-differents-modes-de-diffusion">Les différents modes de diffusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#le-bandeau-defilant">Le bandeau défilant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#les-commentaires">Les commentaires</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#l-identite-de-l-invite">L’identité de l’invité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#l-arriere-plan">L’arrière-plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#le-logo">Le logo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diaporama/index.html#les-transitions">Les transitions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Documentation de PicturWall</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Présentation du panel animateur</a></li>
+      <li class="breadcrumb-item active">Page gestion avancée des Overlays</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/panel_animateur/animateur_overlays_edition.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="page-gestion-avancee-des-overlays">
+<span id="animateur-overlays-edition"></span><h1>Page gestion avancée des Overlays<a class="headerlink" href="#page-gestion-avancee-des-overlays" title="Link to this heading"></a></h1>
+<p>La page de gestion avancée des overlays ressemble à ceci :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays." src="../_images/overlays_edition_modification.PNG" />
+</figure>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Attention, cette page est à manipuler avec précaution. Vous pouvez complètement planter un overlay depuis cette dernière. Néanmoins, vous avez la possibilité de réinitialiser un overlay édité.</p>
+</div>
+<dl class="simple">
+<dt>Cette page vous permet de gérer chaque paramètre de chaque overlay de PicturWall :</dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="#animateur-overlays-edition-image"><span class="std std-ref">Gestion de l’image affiché</span></a> : taille</p></li>
+<li><p><a class="reference internal" href="#animateur-overlays-edition-cadre"><span class="std std-ref">Gestion du cadre</span></a> : (l’image de fond) : position de l’image incorporé</p></li>
+<li><p><a class="reference internal" href="#animateur-overlays-edition-logo"><span class="std std-ref">Gestion du logo</span></a> : position</p></li>
+<li><p><a class="reference internal" href="#animateur-overlays-edition-commentaire"><span class="std std-ref">Gestion du commentaire</span></a> : position, taille, police, couleur</p></li>
+<li><p><a class="reference internal" href="#animateur-overlays-edition-texte-principal"><span class="std std-ref">Gestion du texte principal</span></a> : position, taille, police, couleur</p></li>
+<li><p><a class="reference internal" href="#animateur-overlays-edition-texte-secondaire"><span class="std std-ref">Gestion du texte secondaire</span></a> : position, taille, police, couleur</p></li>
+<li><p><a class="reference internal" href="#animateur-overlays-edition-texte-date"><span class="std std-ref">Gestion de la « date de l’évènement »</span></a> : position, taille, police, couleur</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Une vidéo sera faite pour expliquer les paramètres modifiables. Le lien se trouvera directement ici.</p>
+</div>
+<dl class="simple">
+<dt>Généralités sur les paramètres :</dt><dd><ul class="simple">
+<li><p>Les paramètres sont modifiables pour la version paysage et pour la version portrait.</p></li>
+<li><p>Les positions sont en deux dimensions : X pour l’axe des abscisse, Y pour l’axe des ordonnées (repère cartésien). Les valeurs sont en pixel.</p></li>
+<li><p>Les taille de police sont exprimés en pixel.</p></li>
+<li><p>Les couleurs de polices sont définies en héxadécimal (mais vous avez une matrice de choix disponible selon votre navigateur)</p></li>
+<li><p>Une couleur de fond par « thème » : gestion de l’image, du cadre, du logo…</p></li>
+</ul>
+</dd>
+</dl>
+<p>Image explicative sur les positions X, Y : Repère cartésien, sources:  <a class="reference external" href="https://warmaths.fr/MATH/REPERAGE/reperagepoint%20dansrepere%20cartesien.htm">Warmaths.fr</a></p>
+<figure class="align-center">
+<img alt="Image explicative sur les positions X, Y : Repère cartésien, sources Warmaths.fr" src="../_images/overlays_edition_repere_cartesien.PNG" />
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les overlays font 1800*1200 pixels, en format paysage. 1200*1800 pour le portrait.</p>
+</div>
+<section id="selection-d-un-overlay-a-modifier">
+<span id="animateur-overlays-edition-selection"></span><h2>Sélection d’un overlay à modifier<a class="headerlink" href="#selection-d-un-overlay-a-modifier" title="Link to this heading"></a></h2>
+<p>Pour modifier un overlay, vous devez déjà le sélectionner. Pour cela, utilisez la liste déroulante sous « Overlay à modifier » et sélectionnez celui qui vous intéresse :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, overlays à modifier." src="../_images/overlays_edition_a_modifier_2.PNG" />
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>L’overlay sélectionné par défaut est celui que vous avez paramétré comme étant utilisé dans <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-overlays-choix"><span class="std std-ref">Choix de l’overlay</span></a> . Il aparait en rouge dans la liste des overlays à modifier.</p>
+</div>
+<p>Cliquez ensuite sur « <em>Modifier cet overlay</em> » pour l’éditer.</p>
+<p>Votre page ressemblera maintenant à ceci :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification des paramètres." src="../_images/overlays_edition_modification.PNG" />
+</figure>
+<p>A gauche : L’ensemble des paramètres de l’overlay
+Au milieu : Une prévisualisation de l’overlay choisi en mode paysage
+Au milieu : Une prévisualisation de l’overlay choisi en mode portrait</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>L’actualisation de la prévisualisation se fait uniquement lorsque vous <a class="reference internal" href="#animateur-overlays-edition-modification"><span class="std std-ref">sauvegardez vos modifications</span></a>.</p>
+</div>
+</section>
+<section id="modifier-un-parametre-et-le-sauvegarder">
+<span id="animateur-overlays-edition-modification"></span><h2>Modifier un paramètre et le sauvegarder<a class="headerlink" href="#modifier-un-parametre-et-le-sauvegarder" title="Link to this heading"></a></h2>
+<p>Une fois que vous avez <a class="reference internal" href="#animateur-overlays-edition-selection"><span class="std std-ref">sélectionné votre overlay</span></a>, vous pouvez éditer ses paramètres.</p>
+<p>Pour cela, cliquez sur la paramètre que vous voulez éditer :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification d'un paramètre." src="../_images/overlays_edition_modification_parametre.PNG" />
+</figure>
+<p>Puis cliquez sur le bouton « Sauvegarder les modifications ».</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>L’actualisation de la prévisualisation se fait uniquement lorsque vous sauvegardez vos modifications.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Si vous voulez revenir à la configuration d’origine de cet overlay, il vous suffit de cliquer sur le bouton « Restaurer les paramètres usines pour cet overlay »</p>
+</div>
+</section>
+<section id="gestion-de-l-image-affiche">
+<span id="animateur-overlays-edition-image"></span><h2>Gestion de l’image affiché<a class="headerlink" href="#gestion-de-l-image-affiche" title="Link to this heading"></a></h2>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre de l'image." src="../_images/overlays_edition_image.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport à l’image incorporé :</dt><dd><ul class="simple">
+<li><p>Sa taille (X,Y) mode portrait et paysage.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="gestion-du-cadre">
+<span id="animateur-overlays-edition-cadre"></span><h2>Gestion du cadre<a class="headerlink" href="#gestion-du-cadre" title="Link to this heading"></a></h2>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du cadre." src="../_images/overlays_edition_cadre.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport au cadre :</dt><dd><ul class="simple">
+<li><p>La Position (X,Y) de l’image à incorporer.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="gestion-du-logo">
+<span id="animateur-overlays-edition-logo"></span><h2>Gestion du logo<a class="headerlink" href="#gestion-du-logo" title="Link to this heading"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>L’envoi du logo se fait sur la <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-logo-fichier"><span class="std std-ref">page paramètre, section impression, choisir le logo à imprimer</span></a> !</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Veuillez activer <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-logo-activer"><span class="std std-ref">Imprimer le logo sur les photos</span></a> pour apposer votre logo sur chaque photo imprimé !</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du logo." src="../_images/overlays_edition_logo.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport au logo :</dt><dd><ul class="simple">
+<li><p>Sa position (X,Y) mode portrait et paysage.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="gestion-du-commentaire">
+<span id="animateur-overlays-edition-commentaire"></span><h2>Gestion du commentaire<a class="headerlink" href="#gestion-du-commentaire" title="Link to this heading"></a></h2>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Veuillez activer <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-overlays-commentaire"><span class="std std-ref">l’impression des commentaires</span></a> si vous voulez que les invités puissent imprimer leur commentaire !</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du commentaire." src="../_images/overlays_edition_commentaire.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport au commentaire :</dt><dd><ul class="simple">
+<li><p>Sa position (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa taille (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa police.</p></li>
+<li><p>Sa couleur.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="gestion-du-texte-principal">
+<span id="animateur-overlays-edition-texte-principal"></span><h2>Gestion du texte principal<a class="headerlink" href="#gestion-du-texte-principal" title="Link to this heading"></a></h2>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>L’écriture du texte principale se fait sur la <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-overlays-texte-principal"><span class="std std-ref">page paramètre, section impression</span></a> !</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du texte pricipal." src="../_images/overlays_edition_texte_principal.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport au texte principal :</dt><dd><ul class="simple">
+<li><p>Sa position (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa taille (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa police.</p></li>
+<li><p>Sa couleur.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="gestion-du-texte-secondaire">
+<span id="animateur-overlays-edition-texte-secondaire"></span><h2>Gestion du texte secondaire<a class="headerlink" href="#gestion-du-texte-secondaire" title="Link to this heading"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Selon l’overlay modifié, il n’y a pas de texte secondaire associé !</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>L’écriture du texte secondaire se fait sur la <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-overlays-texte-secondaire"><span class="std std-ref">page paramètre, section impression</span></a> !</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du texte secondaire." src="../_images/overlays_edition_texte_secondaire.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport au texte secondaire :</dt><dd><ul class="simple">
+<li><p>Sa position (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa taille (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa police.</p></li>
+<li><p>Sa couleur.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="gestion-de-la-date-de-l-evenement">
+<span id="animateur-overlays-edition-texte-date"></span><h2>Gestion de la « date de l’évènement »<a class="headerlink" href="#gestion-de-la-date-de-l-evenement" title="Link to this heading"></a></h2>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>L’écriture de la date de l’évènement se fait sur la <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-overlays-texte-date"><span class="std std-ref">page paramètre, section impression</span></a> !</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre de la date de l'évènement." src="../_images/overlays_edition_texte_date.PNG" />
+</figure>
+<dl class="simple">
+<dt>Voici les paramètres modifiables par rapport à la date de l’évènement :</dt><dd><ul class="simple">
+<li><p>Sa position (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa taille (X,Y) mode portrait et paysage.</p></li>
+<li><p>Sa police.</p></li>
+<li><p>Sa couleur.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="animateur_overlays_affichage.html" class="btn btn-neutral float-left" title="Page affichage des overlays" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="animateur_changelogs.html" class="btn btn-neutral float-right" title="Page changelogs" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2023, Gatien DUBOC.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
