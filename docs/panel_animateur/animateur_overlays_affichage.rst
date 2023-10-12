@@ -11,7 +11,7 @@ La page d'affichage des différents overlays ressemble à ceci :
 
 Cette page vous permet d'afficher les différents overlays disponible avec PicturWall. Cela peut vous aider dans le choix de sélection d'overlays pour votre prestation.
 
-La page peut mettre quelques secondes à charger, puisque qu'elle génère en temps réel une image format paysage et une format portrait par overlay. Vos paramètres sont prit en compte pour chaque génération.
+La page peut mettre quelques secondes à charger, puisque qu'elle génère en temps réel une image format paysage et une format portrait par overlay. Vos paramètres sont pris en compte pour chaque génération.
 
 Vous pouvez également :ref:`télécharger l'ensemble des overlays <animateur_overlays_affichage_telechargement>` pour les consulter / choisir celui qui convient à votre évènement.
 

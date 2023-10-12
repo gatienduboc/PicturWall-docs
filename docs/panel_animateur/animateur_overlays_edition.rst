@@ -14,7 +14,7 @@ La page de gestion avancée des overlays ressemble à ceci :
 
 Cette page vous permet de gérer chaque paramètre de chaque overlay de PicturWall :
  * :ref:`Gestion de l'image affiché <animateur_overlays_edition_image>` : taille
- * :ref:`Gestion du cadre <animateur_overlays_edition_cadre>` : (l'image de fond) : position de l'image incorporé
+ * :ref:`Gestion du cadre <animateur_overlays_edition_cadre>` : (l'image de fond) : position de l'image incorporée
  * :ref:`Gestion du logo <animateur_overlays_edition_logo>` : position
  * :ref:`Gestion du commentaire <animateur_overlays_edition_commentaire>` : position, taille, police, couleur
  * :ref:`Gestion du texte principal <animateur_overlays_edition_texte_principal>` : position, taille, police, couleur
@@ -26,8 +26,8 @@ Cette page vous permet de gérer chaque paramètre de chaque overlay de PicturWa
 
 Généralités sur les paramètres :
  * Les paramètres sont modifiables pour la version paysage et pour la version portrait.
- * Les positions sont en deux dimensions : X pour l'axe des abscisse, Y pour l'axe des ordonnées (repère cartésien). Les valeurs sont en pixel.
- * Les taille de police sont exprimés en pixel.
+ * Les positions sont en deux dimensions : X pour l'axe des abscisses, Y pour l'axe des ordonnées (repère cartésien). Les valeurs sont en pixel.
+ * Les tailles de polices sont exprimées en pixel.
  * Les couleurs de polices sont définies en héxadécimal (mais vous avez une matrice de choix disponible selon votre navigateur)
  * Une couleur de fond par "thème" : gestion de l'image, du cadre, du logo...
 
@@ -100,7 +100,7 @@ Gestion de l'image affiché
    :alt: Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre de l'image.
    :align: center
 
-Voici les paramètres modifiables par rapport à l'image incorporé :
+Voici les paramètres modifiables par rapport à l'image incorporée :
  * Sa taille (X,Y) mode portrait et paysage.
 
 .. _animateur_overlays_edition_cadre:
@@ -121,7 +121,7 @@ Gestion du logo
 ------------------------------------------
 
 .. note:: L'envoi du logo se fait sur la :ref:`page paramètre, section impression, choisir le logo à imprimer <animateur_parametres_impression_logo_fichier>` !
-.. important:: Veuillez activer :ref:`Imprimer le logo sur les photos <animateur_parametres_impression_logo_activer>` pour apposer votre logo sur chaque photo imprimé !
+.. important:: Veuillez activer :ref:`Imprimer le logo sur les photos <animateur_parametres_impression_logo_activer>` pour apposer votre logo sur chaque photo imprimée !
 
 .. figure:: _images/overlays_edition/overlays_edition_logo.PNG
    :alt: Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du logo.
@@ -153,7 +153,7 @@ Voici les paramètres modifiables par rapport au commentaire :
 Gestion du texte principal
 ------------------------------------------
 
-.. important:: L'écriture du texte principale se fait sur la :ref:`page paramètre, section impression <animateur_parametres_impression_overlays_texte_principal>` !
+.. important:: L'écriture du texte principal se fait sur la :ref:`page paramètre, section impression <animateur_parametres_impression_overlays_texte_principal>` !
 
 .. figure:: _images/overlays_edition/overlays_edition_texte_principal.PNG
    :alt: Panel animateur de PicturWall, page gestion avancée des overlays, modification paramètre du texte pricipal.
