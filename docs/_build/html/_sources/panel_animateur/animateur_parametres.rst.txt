@@ -1281,9 +1281,9 @@ Options du paramètre :
  * **Aucun overlay** : Ne pas utiliser d'overlay (*paramètre par défaut*)
  * **Overlay** : Overlay à utiliser
 
-.. important:: Depuis le lien ":ref:`voir les overlays <animateur_overlays_affichage>`" vous aterrisez sur une page qui permet de visualiser l'ensemble des overlays disponibles, avec les textes prédéfinis sur cette page. Cela peut aider aux choix de l'overlay à utiliser pour votre prestation.
+.. important:: Depuis le lien ":ref:`voir les overlays <animateur_overlays_affichage>`" vous atterrissez sur une page qui permet de visualiser l'ensemble des overlays disponibles, avec les textes prédéfinis sur cette page. Cela peut aider au choix de l'overlay à utiliser pour votre prestation.
 
-.. note:: Si aucun overlay est sélectionné, les autres paramètres liés aux overlays seront masqués.
+.. note:: Si aucun overlay n'est sélectionné, les autres paramètres liés aux overlays seront masqués.
 
 .. _animateur_parametres_impression_overlays_edition :
 
@@ -1870,10 +1870,10 @@ Option du paramètre :
 
 .. _animateur_parametres_section_avance:
 
-Section avancé
+Section avancée
 -----------------------------
 
-Vue globale de la section avancé:
+Vue globale de la section avancée:
 
 .. figure:: _images/parametres/avance/parametres_avance.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé
