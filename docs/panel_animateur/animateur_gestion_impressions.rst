@@ -26,7 +26,7 @@ Sur PicturWall, il existe plusieurs compteurs d'impressions. Ils ressemblent à 
 * Première ligne : Nombre d'impressions au total / :ref:`Limite d'impressions totales <animateur_parametres_impression_max>`
 * Seconde ligne : Nombre de médias en or imprimés
 * Troisième ligne : Nombre d'impressions effectuées depuis un répertoire réseau (pour les photobooth fixe par exemple)
-* Quatrième ligne : Nombre d'impressions sur la file d'attente de l'imprimante
+* Quatrième ligne : Nombre d'impressions sur la file d'attente de l'imprimante, avec un lien pour :ref:`Vider la file d'attente <animateur_gestion_impressions_file_vider>`
 
 .. _animateur_gestion_impressions_limite:
 
@@ -67,3 +67,22 @@ Ensuite, vous allez voir cette fenêtre apparaître :
    :align: center
 
 Vous voyez désormais les photos imprimées par un utilisateur.
+
+.. _animateur_gestion_impressions_file_vider:
+
+Vider la file d'attente des impressions
+--------------------------------------------
+
+Vous pouvez vider manuellement la file d'attente des impressions en cas de problème ou nombre trop important.
+
+.. figure:: _images/gestion_impressions/gestion_impressions_compteur.PNG
+   :alt: Panel animateur de PicturWall, page gestion des impressions, vider la file d'attente d'impressions
+   :align: center
+
+En cliquant sur "(vider la file d'attente)" :
+
+.. figure:: _images/gestion_impressions/gestion_impressions_file_videe.PNG
+   :alt: Panel animateur de PicturWall, page gestion des impressions, vider la file d'attente d'impressions, confirmation
+   :align: center
+
+Cela va vider la file d'attente, puis redémarrer le service d'impression.

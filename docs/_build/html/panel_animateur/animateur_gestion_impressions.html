@@ -62,6 +62,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#compteur-d-impressions">Compteur d’impressions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#limite-d-impressions-par-utilisateur">Limite d’impressions par utilisateur</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#voir-impression-d-un-utilisateur">Voir impression d’un utilisateur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vider-la-file-d-attente-des-impressions">Vider la file d’attente des impressions</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
@@ -83,6 +84,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#compteur-d-impressions">Compteur d’impressions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#limite-d-impressions-par-utilisateur">Limite d’impressions par utilisateur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#voir-impression-d-un-utilisateur">Voir impression d’un utilisateur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vider-la-file-d-attente-des-impressions">Vider la file d’attente des impressions</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="animateur_parametres.html">Page paramètre</a></li>
@@ -149,7 +151,7 @@
 <li><p>Première ligne : Nombre d’impressions au total / <a class="reference internal" href="animateur_parametres.html#animateur-parametres-impression-max"><span class="std std-ref">Limite d’impressions totales</span></a></p></li>
 <li><p>Seconde ligne : Nombre de médias en or imprimés</p></li>
 <li><p>Troisième ligne : Nombre d’impressions effectuées depuis un répertoire réseau (pour les photobooth fixe par exemple)</p></li>
-<li><p>Quatrième ligne : Nombre d’impressions sur la file d’attente de l’imprimante</p></li>
+<li><p>Quatrième ligne : Nombre d’impressions sur la file d’attente de l’imprimante, avec un lien pour <a class="reference internal" href="#animateur-gestion-impressions-file-vider"><span class="std std-ref">Vider la file d’attente</span></a></p></li>
 </ul>
 </section>
 <section id="limite-d-impressions-par-utilisateur">
@@ -182,6 +184,18 @@ Ensuite, vous allez voir cette fenêtre apparaître :</p>
 <img alt="Panel animateur de PicturWall, page gestion des impressions, Impression d'un utilisateur" src="../_images/gestion_impressions_utilisateur.PNG" />
 </figure>
 <p>Vous voyez désormais les photos imprimées par un utilisateur.</p>
+</section>
+<section id="vider-la-file-d-attente-des-impressions">
+<span id="animateur-gestion-impressions-file-vider"></span><h2>Vider la file d’attente des impressions<a class="headerlink" href="#vider-la-file-d-attente-des-impressions" title="Link to this heading"></a></h2>
+<p>Vous pouvez vider manuellement la file d’attente des impressions en cas de problème ou nombre trop important.</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion des impressions, vider la file d'attente d'impressions" src="../_images/gestion_impressions_compteur.PNG" />
+</figure>
+<p>En cliquant sur « (vider la file d’attente) » :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page gestion des impressions, vider la file d'attente d'impressions, confirmation" src="../_images/gestion_impressions_file_videe.PNG" />
+</figure>
+<p>Cela va vider la file d’attente, puis redémarrer le service d’impression.</p>
 </section>
 </section>
 
