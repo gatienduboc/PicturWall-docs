@@ -120,6 +120,9 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Sauvegarder les paramètres <animateur_parametres_avance_sauvegarder>`
     * :ref:`Charger une configuration <animateur_parametres_avance_charger>`
     * :ref:`Restauration usine <animateur_parametres_avance_reset>`
+#. :ref:`Section application <animateur_parametres_section_application>` comprenant les paramètres suivants :
+    * :ref:`Activation de l'application <animateur_parametres_application_activation>`
+    * :ref:`Approbation automatique des photos <animateur_parametres_application_approbation_automatique>`
 
 .. _animateur_parametres_modifier:
 
@@ -1964,3 +1967,63 @@ Une fois la restauration d'usine effectuée, la fenêtre suivante va apparaître
 .. figure:: _images/parametres/avance/parametres_avance_reset_ok.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section avancé, restauration usine, paramètres chargés.
    :align: center
+
+.. _animateur_parametres_section_application:
+
+Section application
+-----------------------------
+
+Vue globale de la section application:
+
+.. figure:: _images/parametres/application/parametres_application.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section application
+   :align: center
+
+.. note:: Pour rappel, l'application distante sert à envoyer des photos de manières simplifiées depuis une tablette avec l'application "PicturWall Sender".
+
+
+.. _animateur_parametres_application_activation:
+
+Activer l'application
+#################################################################
+
+Afin de pouvoir utiliser l'application, vous devez l'activer.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/application/parametres_application_activation.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section application, activer l'application.
+   :align: center
+
+Options du paramètre :
+ * **Non** : L'application est désactivée (*paramètre par défaut*)
+ * **Oui** : L'application est activée
+
+.. note:: Le changement d'état peut mettre jusqu'à une minute pour être répercuté sur l'application.
+
+
+.. _animateur_parametres_application_approbation_automatique:
+
+Approbation automatique des photos
+#################################################################
+
+Les photos de l'application peuvent soit être approuvées automatiquement, soit manuellement.
+
+Si les photos sont approuvées automatiquement, elles seront affichables sur le diaporama juste après l'envoi.
+En mode manuel, l'animateur doit approuver chaque photo avant que cette dernière puisse passer sur le diaporama.
+
+
+Paramètre en question :
+
+.. figure:: _images/parametres/application/parametres_application_approbation_automatique.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section application, approbation automatique des photos.
+   :align: center
+
+Options du paramètre :
+ * **Non** : Approbation manuelle des photos
+ * **Oui** : Approbation automatique des photos (*paramètre par défaut*)
+
+
+Plus d'informations sur la :ref:`Page de tri des médias <animateur_tri_medias>`.
+
+.. note:: Même si les photos sont approuvées automatiquement, vous pouvez ensuite les retirer depuis la :ref:`page de gestion des médias <animateur_gestion_medias_media_refuser>`.
