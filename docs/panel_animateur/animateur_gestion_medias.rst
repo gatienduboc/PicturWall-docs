@@ -88,6 +88,61 @@ Pour tourner de 90° vers la droite le média, il suffit de cliquer sur |bouton_
    :scale: 75%
 .. warning:: Vous ne pouvez pas tourner une vidéo (par soucis de performance) !
 
+.. _animateur_gestion_medias_publicite:
+
+Médias publicitaire
+----------------------------
+
+Le mode publicité vous permet de sélectionner certains médias qui seront affichés à l'écran pour faire votre publicité ou pour promouvoir un produit.
+Vous pouvez choisir le nombre de médias affiché entre chaque média publicité.
+Pour cela, vous allez devoir sélectionner tous les "médias publicités". Ensuite il ne vous restera plus qu'à "activer les publicités".
+
+Afin de sélectionner les "médias publicités", vous devez cliquer sur chaque média que vous voulez considérer comme publicité. Vous arriverez sur cette fenêtre :
+
+.. figure:: _images/gestion_medias/gestion_medias_media.PNG
+   :alt: Panel animateur de PicturWall, page gestion des médias, mettre en publicité un média.
+   :align: center
+
+Pour le tager comme étant un média publicitaire, il suffit de cliquer sur |bouton_publicite|.
+
+.. |bouton_publicite| image:: _images/gestion_medias/gestion_medias_media_pub_activation.PNG
+   :alt: Gestion des médias: Media publicitaire envoyé sur PicturWall.
+   :scale: 75%
+
+.. note:: Afin de supprimer le média de la liste, il suffit de cliquer sur |bouton_publicite_desactivation|.
+
+.. |bouton_publicite_desactivation| image:: _images/gestion_medias/gestion_medias_media_pub_desactivation.PNG
+   :alt: Gestion des médias: Media publicitaire envoyé sur PicturWall, diffusion classique.
+   :scale: 75%
+
+Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cela :
+
+.. figure:: _images/gestion_medias/gestion_medias_pub_off.PNG
+   :alt: Panel animateur de PicturWall, page gestion des médias, publicité : désactivé.
+   :align: center
+
+
+Vous remarquez que les médias sélectionnés possèdent un carré rouge "Pub". Cela signifie qu'ils sont bien des médias publicité sont sélectionnés, mais que le mode publicité est inactif.
+
+Afin d'activer le mode publicité, vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur "Activer les publicités" dans la section "Publicité, Mise en avant & Médias en OR !":
+
+.. figure:: _images/gestion_medias/gestion_medias_pub_avant_or.PNG
+   :alt: Panel animateur de PicturWall, page gestion des médias, mode publicité.
+   :align: center
+
+.. admonition:: Supprimer les médias publicitaires :
+
+   Pour supprimer rapidement les médias supplémentaires, il vous suffit de cliquer sur le bouton "Suppression" situé sous la ligne "Supprimer les publicités".
+
+Une fois actif, le diaporama affichera une publicité tout les X médias. D'ailleurs, si le mode publicité est actif, les médias sélectionnés possèdent un rectangle vert "Pub" :
+
+.. figure:: _images/gestion_medias/gestion_medias_pub_on.PNG
+   :alt: Panel animateur de PicturWall, page gestion des médias, mode publicité actif.
+   :align: center
+
+.. warning:: Pensez à désactiver le mode publicité lorsque qu'aucun média n'est dans la liste.
+
+
 .. _animateur_gestion_medias_avant:
 
 Médias en avant
@@ -123,15 +178,15 @@ Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cel
 
 Vous remarquez que les médias sélectionnés sont encadrés en rouge. Cela signifie qu'ils sont bien des médias sélectionnés pour être mis en avant, mais que le mode mise en avant est inactif.
 
-Afin d'activer le mode mise en avant, vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur "Activer le mode mise en avant" dans la section "mise en avant":
+Afin d'activer le mode mise en avant, vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur "Activer le mode mise en avant" dans la section "Publicité, Mise en avant & Médias en OR !":
 
-.. figure:: _images/gestion_medias/gestion_medias_avant.PNG
+.. figure:: _images/gestion_medias/gestion_medias_pub_avant_or.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, mise en avant.
    :align: center
 
 .. admonition:: Remettre à zéro la liste des médias mis en avant :
 
-   Pour remettre rapidement à 0 la liste des médias mis en avant, il vous suffit de cliquer sur le bouton "Suppression" de la section "Mise en avant !".
+   Pour remettre rapidement à 0 la liste des médias mis en avant, il vous suffit de cliquer sur le bouton "Suppression" situé sous la ligne "Remettre à zéro la liste des médias mis en avant".
 
 Une fois actif, le diaporama affichera uniquement les médias sélectionnés. D'ailleurs, si le mode de mise en avant est actif, les médias sélectionnés seront encadrés en vert :
 
@@ -176,15 +231,15 @@ Une fois ceci fait, vous allez vous retrouver avec une page qui ressemble à cel
 
 Vous remarquez que les médias sélectionnés possèdent une étoile rouge. Cela signifie qu'ils sont bien des médias sélectionnés pour être des médias en or, mais que le mode "média en or" est inactif.
 
-Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur 'Activer le mode "médias en or"' dans la section "Mise en avant & Médias en OR" :
+Afin d'activer le mode "média en or", vous allez devoir vous rendre sur le bas de la page de gestion des médias puis cliquer sur 'Activer le mode "médias en or"' dans la section "Publicité, Mise en avant & Médias en OR !" :
 
-.. figure:: _images/gestion_medias/gestion_medias_avant_or.PNG
+.. figure:: _images/gestion_medias/gestion_medias_pub_avant_or.PNG
    :alt: Panel animateur de PicturWall, page gestion des médias, médias en or.
    :align: center
 
 .. admonition:: Remettre à zéro la liste des médias en or :
 
-   Pour remettre rapidement à 0 la liste des médias en or, il vous suffit de cliquer sur le bouton "Surpression" de la section "Mise en avant & Médias en OR !".
+   Pour remettre rapidement à 0 la liste des médias en or, il vous suffit de cliquer sur le bouton "Suppression" situé sous la ligne "Remettre à zéro la liste des 'médias en or'".
 
 Une fois actif, les invités pourront imprimer les médias sélectionnés (section :ref:`Impression après coup <invite_impression_apres_coup>`). D'ailleurs, si le mode "médias en or" est actif, les médias sélectionnés posséderont une étoile verte :
 

@@ -103,7 +103,6 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
         * :ref:`Supprimer les médias après impression depuis le dossier réseau 'pw_print' <animateur_parametres_envoi-reseau_pw-print_supprimer>`
     * :ref:`Incrémenter le nombre d'impressions depuis les dossiers réseaux <animateur_parametres_envoi-reseau_incrementer>`
     * :ref:`Autoriser le dépassement du nombre d'impressions maximum depuis les dossiers réseaux <animateur_parametres_envoi-reseau_incrementer_depassement>`
-    * :ref:`Imprimer le logo sur les médias des dossiers réseaux <animateur_parametres_envoi-reseau_logo>`
 #. :ref:`Section DNS <animateur_parametres_section_dns>` comprenant les paramètres suivants :
     * :ref:`Ajouter une URL de connexion <animateur_parametres_dns_ajouter>`
     * :ref:`Re-initialiser le serveur DNS <animateur_parametres_dns_reset>`
@@ -1520,29 +1519,6 @@ Paramètre en question :
 Options du paramètre :
  * **Non** : N'autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux (*paramètre par défaut*)
  * **Oui** : Autorise pas le dépassement du nombre d'impressions depuis les dossiers réseaux
-
-
-.. _animateur_parametres_envoi-reseau_logo:
-
-Imprimer le logo sur les médias des dossiers réseaux
-#############################################################
-
-Vous pouvez choisir d'imprimer le logo sur les médias des dossiers réseaux, ou non.
-
-Paramètre en question :
-
-.. figure:: _images/parametres/envoi_reseau/parametres_envoi_reseau_logo.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section envoi réseau, imprimer logo depuis les dossiers réseaux.
-   :align: center
-
-Options du paramètre :
- * **Non** : N'imprime pas le logo sur les médias des dossiers réseaux (*paramètre par défaut*)
- * **Oui** : Imprime le logo sur les médias des dossiers réseaux
-
-
-
-
-
 
 .. _animateur_parametres_section_dns:
 
