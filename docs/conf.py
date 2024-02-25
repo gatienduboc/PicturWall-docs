@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Documentation de PicturWall'
-copyright = '2024, Gatien DUBOC'
+copyright = '2019-2024, Gatien DUBOC'
 author = 'Gatien DUBOC'
 
 # The full version, including alpha/beta/rc tags
