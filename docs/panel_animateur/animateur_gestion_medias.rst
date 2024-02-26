@@ -94,7 +94,7 @@ Médias publicitaire
 ----------------------------
 
 Le mode publicité vous permet de sélectionner certains médias qui seront affichés à l'écran pour faire votre publicité ou pour promouvoir un produit.
-Vous pouvez choisir le nombre de médias affiché entre chaque média publicité.
+Vous pouvez choisir le nombre de médias affichés entre chaque média publicité.
 Pour cela, vous allez devoir sélectionner tous les "médias publicités". Ensuite il ne vous restera plus qu'à "activer les publicités".
 
 Afin de sélectionner les "médias publicités", vous devez cliquer sur chaque média que vous voulez considérer comme publicité. Vous arriverez sur cette fenêtre :
@@ -202,7 +202,7 @@ Une fois actif, le diaporama affichera uniquement les médias sélectionnés. D'
 Médias en or
 --------------------
 
-Comme expliqué dans la partie :ref:`Imprimer après coup <invite_impression_apres_coup>` du panel invité, les "médias en or" sont une liste de médias accessible à chaque invité pour qu'ils puissent les imprimer.
+Comme expliqué dans la partie :ref:`Imprimer après coup <invite_impression_apres_coup>` du panel invité, les "médias en or" sont une liste de médias accessibles à chaque invité pour qu'ils puissent les imprimer.
 
 Vous pouvez par exemple mettre les plus belles photos de familles dans cette partie afin que chaque invité puisse l'imprimer depuis sa page invitée.
 
@@ -289,7 +289,7 @@ Comme pour la page gestion des médias, vous aurez qu'à sélectionner un média
 Voir rapidement les nouveaux médias
 -----------------------------------------
 
-Il existe une façon de vérifier rapidement les nouveaux médias qui ont été envoyé sur PicturWall. Il existe une page qui vous montre les nouveaux médias envoyés depuis son dernier chargement.
+Il existe une façon de vérifier rapidement les nouveaux médias qui ont été envoyés sur PicturWall. Il existe une page qui vous montre les nouveaux médias envoyés depuis son dernier chargement.
 
 C'est-à-dire qu'il vous suffit de recharger la page quand vous avez une minute à perdre afin de voir uniquement les nouveaux médias.
 
@@ -320,7 +320,7 @@ Comme pour la page gestion des médias, vous pourrez interagir avec un média en
 Vidéo trop longues
 --------------------------
 
-Les vidéos qui ont été envoyés sur PicturWall et qui dépassent le temps maximum des vidéos lues se retrouvent toutes sur une page accessible depuis la gestion des médias.
+Les vidéos qui ont été envoyées sur PicturWall et qui dépassent le temps maximum des vidéos lues se retrouvent toutes sur une page accessible depuis la gestion des médias.
 
 Sur cette page, vous pourrez forcer la prise en compte d'une vidéo trop longue.
 
