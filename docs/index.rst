@@ -33,6 +33,7 @@ Cette documentation sera regroupée en 3 grands thèmes :
    panel_animateur/animateur_envoi_fichiers
    panel_animateur/animateur_sauvegarde
    panel_animateur/animateur_reset
+   panel_animateur/animateur_jeu
    panel_animateur/animateur_overlays_affichage
    panel_animateur/animateur_overlays_edition
    panel_animateur/animateur_changelogs

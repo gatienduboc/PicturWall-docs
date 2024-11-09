@@ -28,7 +28,7 @@ Ensuite, vous allez voir cette fenêtre apparaître :
    :alt: Panel animateur de PicturWall, page remise à 0 de PicturWall, confirmer la remise à 0.
    :align: center
 
-Il vous suffit de cliquer sur "Oui !" pour remettre les méidas de PicturWall à 0.
+Il vous suffit de cliquer sur "Oui !" pour remettre les médias de PicturWall à 0.
 
 .. important:: Penser à récupérer l'archive contenant tous les médias avant de remettre à 0 PicturWall.
 
