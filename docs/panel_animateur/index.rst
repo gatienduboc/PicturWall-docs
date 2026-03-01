@@ -1,8 +1,5 @@
 .. _panel-animateur:
 
-TEST V2
-=================================
-
 Présentation du panel animateur
 =================================
 
