@@ -14,5 +14,8 @@
     "restructuredtext.preview.docutils.disabled": true,
     "restructuredtext.linter.disabled": true,
     "esbonio.sphinx.confDir": "",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/readthedocs/readthedocs.org/master/readthedocs/rtd_tests/fixtures/spec/v2/schema.json": "file:///c%3A/Users/gatie/Desktop/PicturWall/PicturWall-docs/.readthedocs.yaml"
+    }
 }
