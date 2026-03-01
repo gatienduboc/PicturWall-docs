@@ -1,6 +1,6 @@
 .. _panel-animateur:
 
-TEST V2
+TEST V2 1.62
 =================================
 
 Présentation du panel animateur
