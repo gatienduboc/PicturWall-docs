@@ -30,6 +30,7 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
     * :ref:`Durée maximale des vidéos lues <animateur_parametres_videos_duree_maximale>`
     * :ref:`Possibilité de sauvegarder des vidéos plus longues <animateur_parametres_videos_sauvegarder>`
     * :ref:`Sortie sonore des vidéos <animateur_parametres_videos_sortie>`
+    * :ref:`Test de la sortie sonore des vidéos <animateur_parametres_videos_sortie_test>`
 #. :ref:`Section commentaire <animateur_parametres_section_commentaires>` comprenant les paramètres suivants :
     * :ref:`Autoriser la mise en ligne de commentaire avec le média <animateur_parametres_commentaires_avec_media>`
     * :ref:`Taille de la police du commentaire <animateur_parametres_commentaires_taille>`
@@ -106,14 +107,12 @@ Les paramètres sont découpés dans des sections, qui sont les suivantes :
 #. :ref:`Section DNS <animateur_parametres_section_dns>` comprenant les paramètres suivants :
     * :ref:`Ajouter une URL de connexion <animateur_parametres_dns_ajouter>`
     * :ref:`Re-initialiser le serveur DNS <animateur_parametres_dns_reset>`
+    * :ref:`Lister les URL de connexions personnalisées <animateur_parametres_dns_list>`
 #. :ref:`Section système <animateur_parametres_section_systeme>` comprenant les paramètres suivants :
     * :ref:`Éteindre le système <animateur_parametres_systeme_off>`
     * :ref:`Redémarrer le système <animateur_parametres_systeme_restart>`
     * :ref:`Activer le partage de connexion internet <animateur_parametres_systeme_partage_connexion>`
     * :ref:`Activer la connexion à un Wifi <animateur_parametres_systeme_wifi>`
-    * :ref:`Mode de résolution automatique/manuel <animateur_parametres_systeme_resolution>`
-    * :ref:`Choisir sa résolution d'écran <animateur_parametres_systeme_resolution_manuel>`
-    * :ref:`Mettre à jour PicturWall <animateur_parametres_systeme_maj>`
     * :ref:`Redémarrer le diaporama <animateur_parametres_systeme_redemarrer_diaporama>`
 #. :ref:`Section avancé <animateur_parametres_section_avance>` comprenant les paramètres suivants :
     * :ref:`Sauvegarder les paramètres <animateur_parametres_avance_sauvegarder>`
@@ -362,7 +361,6 @@ Sortie sonore
 
 Vous pouvez définir la sortie sonore des vidéos.
 
-Le pi doit détecter le branchement de la prise JACK, si absent, il revient automatiquement sur HDMI après validation.
 
 Paramètre en question :
 
@@ -374,7 +372,27 @@ Options du paramètre :
  * **HDMI** : Le son sort depuis la prise HDMI
  * **JACK** : Le son sort par la prise jack (*paramètre par défaut*)
 
+.. _animateur_parametres_videos_sortie_test:
 
+Test de la sortie sonore
+###################################################
+
+Vous pouvez tester la sortie sonore des vidéos.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/videos/parametres_videos_sortie_test.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section vidéos, test de la sortie sonore.
+   :align: center
+
+Options du paramètre :
+ * **TEST** : Le son sort depuis la prise configurée dans le paramètre :ref:`sortie sonore <animateur_parametres_videos_sortie>`
+
+.. note:: Le test diffuse le message suivant : "Test de la sortie sonore de PicturWall via la prise <HDMI/Jack>. Test de l'enceinte gauche, test de l'enceinte droite...
+
+.. figure:: _images/parametres/videos/parametres_videos_sortie_test_en_cours.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section vidéos, test de la sortie sonore.
+   :align: center
 
 .. _animateur_parametres_section_commentaires:
 
@@ -1531,6 +1549,32 @@ Vue globale de la section DNS :
    :alt: Panel animateur de PicturWall, page paramètres, section DNS
    :align: center
 
+
+.. _animateur_parametres_dns_reset:
+
+Réinitialiser le serveur DNS
+#################################################################
+
+Vous pouvez remettre à 0 le serveur DNS de PicturWall.
+
+Paramètre en question :
+
+.. figure:: _images/parametres/dns/parametres_dns_reset.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section dns, reset
+   :align: center
+
+Option du paramètre :
+ * **Remise à 0** : Réinitialiser le serveur DNS
+
+Cela aura pour effet de laisser seulement les URL "de base" de PicturWall:
+ * picturwall.tv
+ * picturwall.com
+ * picturwall.fr
+ * picturewall.tv
+ * picturewall.fr
+ * picturewall.com
+
+
 .. _animateur_parametres_dns_ajouter:
 
 Ajouter une URL de connexion
@@ -1563,36 +1607,32 @@ URL déjà présentes "de base" dans PicturWall:
 .. note:: N'hésitez pas à contacter le support si vous avez une question sur le serveur DNS et les URL.. C'est une notion assez 'complexe' de PicturWall.
 
 
-.. _animateur_parametres_dns_reset:
+.. _animateur_parametres_dns_list:
 
-Réinitialiser le serveur DNS
+Lister les URL de connexions personnalisées
 #################################################################
 
-Vous pouvez remettre à 0 le serveur DNS de PicturWall.
+Vous pouvez lister les URL de connexions personnalisée que vous avez ajouté.
 
 Paramètre en question :
 
-.. figure:: _images/parametres/dns/parametres_dns_reset.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section dns, reset
+.. figure:: _images/parametres/dns/parametres_dns_list.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section dns, list
    :align: center
 
 Option du paramètre :
- * **Remise à 0** : Réinitialiser le serveur DNS
+ * **Lister** : Donne la liste des URL de connexions personnalisées que vous avez ajouté
 
-Cela aura pour effet de laisser seulement les URL "de base" de PicturWall:
- * picturwall.tv
- * picturwall.com
- * picturwall.fr
- * picturewall.tv
- * picturewall.fr
- * picturewall.com
+.. figure:: _images/parametres/dns/parametres_dns_list_pleine.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section dns, liste des URL personnalisées
+   :align: center
+
+.. note:: Les URL de connexions "de base" ne sont pas listées (picturwall.tv, picturewall.fr, ...).
 
 
-
-
-
-
-
+.. figure:: _images/parametres/dns/parametres_dns_list_vide.PNG
+   :alt: Panel animateur de PicturWall, page paramètres, section dns, liste vide
+   :align: center
 
 .. _animateur_parametres_section_systeme:
 
@@ -1668,7 +1708,7 @@ Options du paramètre :
 Activer la connexion à un wifi
 #################################################################
 
-Afin de pouvoir faire les mises à jour de PicturWall mais aussi de partager votre connexion internet via le wifi PicturWall, vous devez connecter PicturWall à un réseau wifi.
+Afin de pouvoir faire les mises à jour de PicturWall, d'accéder à votre PW à distance ou de partager votre connexion internet via le wifi PicturWall, vous devez connecter PicturWall à un réseau wifi.
 
 C'est à cela que sert ce paramètre.
 
@@ -1681,8 +1721,6 @@ Paramètre en question :
 Options du paramètre :
  * **Oui** : PicturWall est actuellement connecté à un réseau Wifi
  * **Non** : PicturWall n'est pas connecté à un réseau wifi
-
-.. important:: Lors du changement de ce paramètre, PicturWall va redémarrer afin de se connecter au réseau.
 
 Pour vous connecter à un nouveau réseau, il vous suffit de cliquer sur le paramètre. Une fenêtre va s'ouvrir :
 
@@ -1704,13 +1742,13 @@ Une fois votre réseau sélectionné, cliquez sur OK. Vous arriverez sur une fen
    :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, entrer mot de passe réseau.
    :align: center
 
-Une fois que vous aurez cliqué sur "OK", PicturWall va redémarrer :
+Une fois que vous aurez cliqué sur "Connexion", PicturWall va tenter de se connecter au réseau wifi. Vous verrez une fenêtre d'attente de connexion :
 
 .. figure:: _images/parametres/systeme/parametres_systeme_wifi_connection.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, attente de connexion.
    :align: center
 
-Vous devez juste attendre 60 secondes. Une fois ce délai passé, PicturWall vous affichera un popup vous indiquant que vous êtes connectés :
+Une fois que PicturWall est connecté au réseau, il fera un test de connexion internet puis affichera cette image :
 
 .. figure:: _images/parametres/systeme/parametres_systeme_wifi_connecte.PNG
    :alt: Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, wifi connecté.
@@ -1726,107 +1764,6 @@ Afin de supprimer un réseau wifi, vous devez seulement appuyer sur le paramètr
 
 Cliquez sur "Supprimer", vous aurez un popup vous indiquant que le réseau wifi a bien été supprimé.
 
-.. _animateur_parametres_systeme_resolution:
-
-Mode de résolution automatique / manuel
-#################################################################
-
-Vous pouvez choisir de définir manuellement votre résolution d'écran avec ce paramètre.
-
-Cela peut-être utile lorsque votre vidéoprojecteur ne communique pas automatiquement sa résolution optimale à PicturWall.
-
-Paramètre en question :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_resolution.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, mode de résolution d'écran
-   :align: center
-
-Options du paramètre :
- * **Automatique** : Mode de résolution automatique (*paramètre par défaut*)
- * **Manuel** : Mode de résolution manuel
-
-.. important:: Lors du changement de ce paramètre, PicturWall va vous demander de redémarrer pour appliquer ce paramètre.
-
-.. _animateur_parametres_systeme_resolution_manuel:
-
-Choisir sa résolution d'écran
-#################################################################
-
-Vous pouvez choisir de définir votre résolution d'écran avec ce paramètre.
-
-
-Cela peut-être utile lorsque votre vidéoprojecteur ne communique pas automatiquement sa résolution optimale à PicturWall.
-
-Paramètre en question :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_resolution_manuel.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran
-   :align: center
-
-Option du paramètre :
- * **Résolution** : Mode de résolution souhaitée
-
-PicturWall va vous proposer une multitude de résolutions, en voici un exemple:
-
-.. figure:: _images/parametres/systeme/parametres_systeme_resolution_manuel_exemple.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran. Exemple de résolutions
-   :align: center
-
-.. note:: PicturWall affichera toutes les résolutions compatibles avec votre vidéo-projecteur ou votre écran. Si ce dernier ne communique pas ses résolutions, PicturWall affichera toutes les résolutions qu'il est capable de proposer.
-
-.. important:: Lors du changement de ce paramètre, vous allez devoir redémarrer pour appliquer ce paramètre.
-
-.. _animateur_parametres_systeme_maj:
-
-Mettre à jour PicturWall
-#################################################################
-
-Vous pouvez mettre à jour PicturWall depuis ce paramètre.
-
-Paramètre en question :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_maj.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, mettre à jour PicturWall
-   :align: center
-
-Option du paramètre :
- * **Mettre à jour** : Mettre à jour PicturWall
-
-Vous devrez confirmer la demande de mise à jour :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_maj_confirmation.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, confirmation.
-   :align: center
-
-.. important:: Lorsque vous mettez à jour PicturWall, tous les médias, logos, paramètres seront définitivement effacés !
-
-
-Le diaporama va se couper et le logiciel de mise à jour va s'afficher sur votre écran de projection.
-Le texte affiché à l'écran sera retranscrit sur le panel animateur. Si une mise à jour est trouvée, le panel animateur l'affichera de la sorte :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_maj_new.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, nouvelle mise à jour.
-   :align: center
-
-Si une mise à jour système est disponible, elle sera prioritaire à une mise à jour classique. Dans ce cas, elle sera affichée sous cette forme :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_maj_systeme_new.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, nouvelle mise à jour système.
-   :align: center
-
-Une fois la mise à jour confirmée, PicturWall va la dérouler automatiquement, puis va redémarrer :
-
-.. figure:: _images/parametres/systeme/parametres_systeme_maj_cours.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour en cours.
-   :align: center
-
-.. figure:: _images/parametres/systeme/parametres_systeme_maj_systeme_cours.PNG
-   :alt: Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour système en cours.
-   :align: center
-
-.. important:: Dans le cas où vous effectuez une mise à jour système, lancez l'utilitaire de mise à jour une seconde fois afin de vérifier si il y a une autre mise à jour disponible.
-
-.. note:: Ne pas fermer la page de votre navigateur, ni mettre hors tension PicturWall lors d'une mise à jour, vous risqueriez de corrompre le système !
 
 .. _animateur_parametres_systeme_redemarrer_diaporama:
 

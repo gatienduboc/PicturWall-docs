@@ -3,6 +3,8 @@ Documentation de PicturWall !
 
 Bienvenue sur la Documentation de PicturWall !
 
+Cette Documentation est adaptée pour les PicturWall V2. Si vous avez un PicturWall V1, vous pouvez consulter la documentation dédiée à cette version : `Documentation de PicturWall V1 <https://docs.picturwall.fr/fr/picturwall-v1/>`_
+
 Ici, vous retrouvez la plupart des fonctionnalités de PicturWall, mais aussi comment les utiliser. De la mise en ligne de médias jusqu'à la configuration du partage d'imprimante en passant par la mise en forme des commentaires, vous retrouverez tout ce dont vous avez besoin pour maîtriser PicturWall.
 
 Cette documentation sera regroupée en 3 grands thèmes :

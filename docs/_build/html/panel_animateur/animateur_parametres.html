@@ -1,22 +1,22 @@
+
+
 <!DOCTYPE html>
-<html class="writer-html5" lang="fr" >
+<html class="writer-html5" lang="fr" data-content_root="../">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page paramètre &mdash; Documentation Documentation de PicturWall 1.62</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
+  <title>Page paramètre &mdash; Documentation Documentation de PicturWall v2-1.62</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+
   
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=40c07ab8"></script>
-        <script src="../_static/doctools.js?v=888ff710"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/translations.js?v=d99ca74e"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=d6d7ea94"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/translations.js?v=e6b791cb"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
@@ -47,14 +47,13 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html">Présentation du panel invité</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#se-rendre-sur-le-panel-invite">Se rendre sur le panel invité ?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#envoyer-un-media">Envoyer un média</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#envoyer-un-des-media">Envoyer un/des média</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#traduire-le-panel-invite">Traduire le panel invité</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../panel_invite/index.html#imprimer-apres-coup">Imprimer après coup</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Panel animateur:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="index.html">TEST V2</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html#presentation-du-panel-animateur">Présentation du panel animateur</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Présentation du panel animateur</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="animateur_tri_medias.html">Page tri des médias</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_gestion_medias.html">Page gestion des médias</a></li>
 <li class="toctree-l2"><a class="reference internal" href="animateur_gestion_commentaires.html">Page gestion des commentaires</a></li>
@@ -76,6 +75,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#duree-maximale-des-videos-lues">Durée maximale des vidéos lues</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#sauvegarder-des-videos-plus-longues">Sauvegarder des vidéos plus longues</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#sortie-sonore">Sortie sonore</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#test-de-la-sortie-sonore">Test de la sortie sonore</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#section-commentaires">Section commentaires</a><ul>
@@ -152,8 +152,9 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#section-dns">Section DNS</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ajouter-une-url-de-connexion">Ajouter une URL de connexion</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#reinitialiser-le-serveur-dns">Réinitialiser le serveur DNS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ajouter-une-url-de-connexion">Ajouter une URL de connexion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lister-les-url-de-connexions-personnalisees">Lister les URL de connexions personnalisées</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#section-systeme">Section système</a><ul>
@@ -161,9 +162,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#redemarrer-le-systeme">Redémarrer le système</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#activer-le-partage-de-connexion-internet">Activer le partage de connexion internet</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#activer-la-connexion-a-un-wifi">Activer la connexion à un wifi</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#mode-de-resolution-automatique-manuel">Mode de résolution automatique / manuel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#choisir-sa-resolution-d-ecran">Choisir sa résolution d’écran</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#mettre-a-jour-picturwall">Mettre à jour PicturWall</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#animateur-parametres-systeme-redemarrer-diaporama">Redémarrer le diaporama</a></li>
 </ul>
 </li>
@@ -212,6 +210,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#duree-maximale-des-videos-lues">Durée maximale des vidéos lues</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sauvegarder-des-videos-plus-longues">Sauvegarder des vidéos plus longues</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sortie-sonore">Sortie sonore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-de-la-sortie-sonore">Test de la sortie sonore</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#section-commentaires">Section commentaires</a><ul>
@@ -288,8 +287,9 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#section-dns">Section DNS</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#ajouter-une-url-de-connexion">Ajouter une URL de connexion</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#reinitialiser-le-serveur-dns">Réinitialiser le serveur DNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ajouter-une-url-de-connexion">Ajouter une URL de connexion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lister-les-url-de-connexions-personnalisees">Lister les URL de connexions personnalisées</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#section-systeme">Section système</a><ul>
@@ -297,9 +297,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#redemarrer-le-systeme">Redémarrer le système</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#activer-le-partage-de-connexion-internet">Activer le partage de connexion internet</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#activer-la-connexion-a-un-wifi">Activer la connexion à un wifi</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mode-de-resolution-automatique-manuel">Mode de résolution automatique / manuel</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#choisir-sa-resolution-d-ecran">Choisir sa résolution d’écran</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mettre-a-jour-picturwall">Mettre à jour PicturWall</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#animateur-parametres-systeme-redemarrer-diaporama">Redémarrer le diaporama</a></li>
 </ul>
 </li>
@@ -352,7 +349,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="index.html">TEST V2</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Présentation du panel animateur</a></li>
       <li class="breadcrumb-item active">Page paramètre</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/panel_animateur/animateur_parametres.rst.txt" rel="nofollow"> Afficher la source de la page</a>
@@ -364,7 +361,7 @@
            <div itemprop="articleBody">
              
   <section id="page-parametre">
-<span id="animateur-parametres"></span><h1>Page paramètre<a class="headerlink" href="#page-parametre" title="Link to this heading"></a></h1>
+<span id="animateur-parametres"></span><h1>Page paramètre<a class="headerlink" href="#page-parametre" title="Lien vers cette rubrique"></a></h1>
 <p>La page de paramètres de PicturWall ressemble à ceci :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, vue globale." src="../_images/parametres.PNG" />
@@ -404,6 +401,7 @@
 <li><p><a class="reference internal" href="#animateur-parametres-videos-duree-maximale"><span class="std std-ref">Durée maximale des vidéos lues</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-videos-sauvegarder"><span class="std std-ref">Possibilité de sauvegarder des vidéos plus longues</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-videos-sortie"><span class="std std-ref">Sortie sonore des vidéos</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-videos-sortie-test"><span class="std std-ref">Test de la sortie sonore des vidéos</span></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -548,6 +546,7 @@
 <dt><a class="reference internal" href="#animateur-parametres-section-dns"><span class="std std-ref">Section DNS</span></a> comprenant les paramètres suivants :</dt><dd><ul class="simple">
 <li><p><a class="reference internal" href="#animateur-parametres-dns-ajouter"><span class="std std-ref">Ajouter une URL de connexion</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-dns-reset"><span class="std std-ref">Re-initialiser le serveur DNS</span></a></p></li>
+<li><p><a class="reference internal" href="#animateur-parametres-dns-list"><span class="std std-ref">Lister les URL de connexions personnalisées</span></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -558,9 +557,6 @@
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-restart"><span class="std std-ref">Redémarrer le système</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-partage-connexion"><span class="std std-ref">Activer le partage de connexion internet</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-wifi"><span class="std std-ref">Activer la connexion à un Wifi</span></a></p></li>
-<li><p><a class="reference internal" href="#animateur-parametres-systeme-resolution"><span class="std std-ref">Mode de résolution automatique/manuel</span></a></p></li>
-<li><p><a class="reference internal" href="#animateur-parametres-systeme-resolution-manuel"><span class="std std-ref">Choisir sa résolution d’écran</span></a></p></li>
-<li><p><a class="reference internal" href="#animateur-parametres-systeme-maj"><span class="std std-ref">Mettre à jour PicturWall</span></a></p></li>
 <li><p><a class="reference internal" href="#animateur-parametres-systeme-redemarrer-diaporama"><span class="std std-ref">Redémarrer le diaporama</span></a></p></li>
 </ul>
 </dd>
@@ -585,7 +581,7 @@
 </li>
 </ol>
 <section id="modifier-un-parametre">
-<span id="animateur-parametres-modifier"></span><h2>Modifier un paramètre<a class="headerlink" href="#modifier-un-parametre" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-modifier"></span><h2>Modifier un paramètre<a class="headerlink" href="#modifier-un-parametre" title="Lien vers cette rubrique"></a></h2>
 <p>Afin de modifier un paramètre de PicturWall, vous devez commencer par aller dans la bonne section :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, sections." src="../_images/parametres_sections.PNG" />
@@ -605,13 +601,13 @@
 </div>
 </section>
 <section id="section-generale">
-<span id="animateur-parametres-section-generale"></span><h2>Section générale<a class="headerlink" href="#section-generale" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-generale"></span><h2>Section générale<a class="headerlink" href="#section-generale" title="Lien vers cette rubrique"></a></h2>
 <p>Vue de la section générale :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section général" src="../_images/parametres_general.PNG" />
 </figure>
 <section id="approbation-automatique-des-photos">
-<span id="animateur-parametres-generale-approbation-auto-photos"></span><h3>Approbation automatique des photos<a class="headerlink" href="#approbation-automatique-des-photos" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-generale-approbation-auto-photos"></span><h3>Approbation automatique des photos<a class="headerlink" href="#approbation-automatique-des-photos" title="Lien vers cette rubrique"></a></h3>
 <p>Les photos peuvent soit être approuvées automatiquement, soit manuellement.
 Si les photos sont approuvées automatiquement, elles seront affichables sur le diaporama juste après l’envoi.
 En mode manuel, l’animateur doit approuver chaque photo avant que cette dernière puisse passer sur le diaporama.</p>
@@ -633,7 +629,7 @@ En mode manuel, l’animateur doit approuver chaque photo avant que cette derni�
 </div>
 </section>
 <section id="defilement-en-mode-aleatoire-chronologique">
-<span id="animateur-parametres-generale-defilement"></span><h3>Défilement en mode aléatoire / chronologique<a class="headerlink" href="#defilement-en-mode-aleatoire-chronologique" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-generale-defilement"></span><h3>Défilement en mode aléatoire / chronologique<a class="headerlink" href="#defilement-en-mode-aleatoire-chronologique" title="Lien vers cette rubrique"></a></h3>
 <p>Le diaporama peut défiler de manière aléatoire ou de manière chronologique.
 (Chronologique : Selon l’heure d’envoi du média).</p>
 <p>Paramètre en question :</p>
@@ -650,7 +646,7 @@ En mode manuel, l’animateur doit approuver chaque photo avant que cette derni�
 <p>Plus d’informations sur les <a class="reference internal" href="../diaporama/index.html#diaporama-mode-normal"><span class="std std-ref">Modes de défilement du diaporama</span></a>.</p>
 </section>
 <section id="mode-d-explication">
-<span id="animateur-parametres-generale-mode-explication"></span><h3>Mode d’explication<a class="headerlink" href="#mode-d-explication" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-generale-mode-explication"></span><h3>Mode d’explication<a class="headerlink" href="#mode-d-explication" title="Lien vers cette rubrique"></a></h3>
 <p>Le diaporama possède plusieurs <a class="reference internal" href="../diaporama/index.html#diaporama-modes"><span class="std std-ref">modes de diffusion</span></a>, ici nous parlons du mode d’explication.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -670,7 +666,7 @@ En mode manuel, l’animateur doit approuver chaque photo avant que cette derni�
 </div>
 </section>
 <section id="mode-de-presentation">
-<span id="animateur-parametres-generale-mode-presentation"></span><h3>Mode de présentation<a class="headerlink" href="#mode-de-presentation" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-generale-mode-presentation"></span><h3>Mode de présentation<a class="headerlink" href="#mode-de-presentation" title="Lien vers cette rubrique"></a></h3>
 <p>Le diaporama possède plusieurs <a class="reference internal" href="../diaporama/index.html#diaporama-modes"><span class="std std-ref">modes de diffusion</span></a>, ici nous parlons du mode de présentation.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -691,13 +687,13 @@ En mode manuel, l’animateur doit approuver chaque photo avant que cette derni�
 </section>
 </section>
 <section id="section-video">
-<span id="animateur-parametres-section-videos"></span><h2>Section vidéo<a class="headerlink" href="#section-video" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-videos"></span><h2>Section vidéo<a class="headerlink" href="#section-video" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section vidéo :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section vidéos" src="../_images/parametres_videos.PNG" />
 </figure>
 <section id="autoriser-les-videos">
-<span id="animateur-parametres-videos-autoriser"></span><h3>Autoriser les vidéos<a class="headerlink" href="#autoriser-les-videos" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-videos-autoriser"></span><h3>Autoriser les vidéos<a class="headerlink" href="#autoriser-les-videos" title="Lien vers cette rubrique"></a></h3>
 <p>Sur PicturWall, vous avez la possibilité d’activer, ou non, les vidéos.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -716,7 +712,7 @@ En mode manuel, l’animateur doit approuver chaque photo avant que cette derni�
 </div>
 </section>
 <section id="autoriser-le-son-sur-une-video">
-<span id="animateur-parametres-videos-son"></span><h3>Autoriser le son sur une vidéo<a class="headerlink" href="#autoriser-le-son-sur-une-video" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-videos-son"></span><h3>Autoriser le son sur une vidéo<a class="headerlink" href="#autoriser-le-son-sur-une-video" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez autoriser la diffusion du son sur les vidéos.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -735,7 +731,7 @@ En mode manuel, l’animateur doit approuver chaque photo avant que cette derni�
 </div>
 </section>
 <section id="approbation-automatique-des-videos">
-<span id="animateur-parametres-videos-approbation-auto-videos"></span><h3>Approbation automatique des vidéos<a class="headerlink" href="#approbation-automatique-des-videos" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-videos-approbation-auto-videos"></span><h3>Approbation automatique des vidéos<a class="headerlink" href="#approbation-automatique-des-videos" title="Lien vers cette rubrique"></a></h3>
 <p>Les vidéos peuvent soit être approuvées automatiquement, soit manuellement.
 Si les vidéos sont approuvées automatiquement, elles seront affichables sur le diaporama juste après l’envoi.
 En mode manuel, l’animateur doit approuver chaque vidéo avant que cette dernière puisse passer sur le diaporama.</p>
@@ -757,7 +753,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="duree-maximale-des-videos-lues">
-<span id="animateur-parametres-videos-duree-maximale"></span><h3>Durée maximale des vidéos lues<a class="headerlink" href="#duree-maximale-des-videos-lues" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-videos-duree-maximale"></span><h3>Durée maximale des vidéos lues<a class="headerlink" href="#duree-maximale-des-videos-lues" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la durée maximale des vidéos lues.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -775,7 +771,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="sauvegarder-des-videos-plus-longues">
-<span id="animateur-parametres-videos-sauvegarder"></span><h3>Sauvegarder des vidéos plus longues<a class="headerlink" href="#sauvegarder-des-videos-plus-longues" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-videos-sauvegarder"></span><h3>Sauvegarder des vidéos plus longues<a class="headerlink" href="#sauvegarder-des-videos-plus-longues" title="Lien vers cette rubrique"></a></h3>
 <p>Dans le cas ou une vidéo dépasse la <a class="reference internal" href="#animateur-parametres-videos-duree-maximale"><span class="std std-ref">durée maximale des vidéos lues</span></a> , vous avez la possibilité de sauvegarder cette vidéo pour pouvoir l’intégrer au diaporama manuellement.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -794,9 +790,8 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="sortie-sonore">
-<span id="animateur-parametres-videos-sortie"></span><h3>Sortie sonore<a class="headerlink" href="#sortie-sonore" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-videos-sortie"></span><h3>Sortie sonore<a class="headerlink" href="#sortie-sonore" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la sortie sonore des vidéos.</p>
-<p>Le pi doit détecter le branchement de la prise JACK, si absent, il revient automatiquement sur HDMI après validation.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section vidéos, sortie sonore." src="../_images/parametres_videos_sortie.PNG" />
@@ -809,15 +804,36 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dd>
 </dl>
 </section>
+<section id="test-de-la-sortie-sonore">
+<span id="animateur-parametres-videos-sortie-test"></span><h3>Test de la sortie sonore<a class="headerlink" href="#test-de-la-sortie-sonore" title="Lien vers cette rubrique"></a></h3>
+<p>Vous pouvez tester la sortie sonore des vidéos.</p>
+<p>Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section vidéos, test de la sortie sonore." src="../_images/parametres_videos_sortie_test.PNG" />
+</figure>
+<dl class="simple">
+<dt>Options du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>TEST</strong> : Le son sort depuis la prise configurée dans le paramètre <a class="reference internal" href="#animateur-parametres-videos-sortie"><span class="std std-ref">sortie sonore</span></a></p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Le test diffuse le message suivant : « Test de la sortie sonore de PicturWall via la prise &lt;HDMI/Jack&gt;. Test de l’enceinte gauche, test de l’enceinte droite…</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section vidéos, test de la sortie sonore." src="../_images/parametres_videos_sortie_test_en_cours.PNG" />
+</figure>
+</section>
 </section>
 <section id="section-commentaires">
-<span id="animateur-parametres-section-commentaires"></span><h2>Section commentaires<a class="headerlink" href="#section-commentaires" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-commentaires"></span><h2>Section commentaires<a class="headerlink" href="#section-commentaires" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section commentaires :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section commentaires" src="../_images/parametres_commentaires.PNG" />
 </figure>
 <section id="autoriser-la-mise-en-ligne-de-commentaire-avec-le-media">
-<span id="animateur-parametres-commentaires-avec-media"></span><h3>Autoriser la mise en ligne de commentaire avec le média<a class="headerlink" href="#autoriser-la-mise-en-ligne-de-commentaire-avec-le-media" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-avec-media"></span><h3>Autoriser la mise en ligne de commentaire avec le média<a class="headerlink" href="#autoriser-la-mise-en-ligne-de-commentaire-avec-le-media" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, la mise en ligne de commentaire avec le média</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -832,7 +848,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="taille-de-la-police-du-commentaire">
-<span id="animateur-parametres-commentaires-taille"></span><h3>Taille de la police du commentaire<a class="headerlink" href="#taille-de-la-police-du-commentaire" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-taille"></span><h3>Taille de la police du commentaire<a class="headerlink" href="#taille-de-la-police-du-commentaire" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la taille de la police du commentaire.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -846,7 +862,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="autoriser-la-mise-en-ligne-de-commentaire-seul">
-<span id="animateur-parametres-commentaires-seul"></span><h3>Autoriser la mise en ligne de commentaire seul<a class="headerlink" href="#autoriser-la-mise-en-ligne-de-commentaire-seul" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-seul"></span><h3>Autoriser la mise en ligne de commentaire seul<a class="headerlink" href="#autoriser-la-mise-en-ligne-de-commentaire-seul" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, la mise en ligne de commentaire seul</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -861,7 +877,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="encadrement-du-commentaire-associe-a-un-media">
-<span id="animateur-parametres-commentaires-encadrement"></span><h3>Encadrement du commentaire associé à un média<a class="headerlink" href="#encadrement-du-commentaire-associe-a-un-media" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-encadrement"></span><h3>Encadrement du commentaire associé à un média<a class="headerlink" href="#encadrement-du-commentaire-associe-a-un-media" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, l’encadrement du commentaire</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -876,7 +892,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="opacite-de-l-encadrement-des-commentaires">
-<span id="animateur-parametres-commentaires-opacite"></span><h3>Opacité de l’encadrement des commentaires<a class="headerlink" href="#opacite-de-l-encadrement-des-commentaires" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-opacite"></span><h3>Opacité de l’encadrement des commentaires<a class="headerlink" href="#opacite-de-l-encadrement-des-commentaires" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir l’opacité de l’encadrement des commentaires.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -890,7 +906,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="couleur-par-defaut-du-commentaire-associe-a-un-media">
-<span id="animateur-parametres-commentaires-couleur"></span><h3>Couleur (par défaut) du commentaire associé à un média<a class="headerlink" href="#couleur-par-defaut-du-commentaire-associe-a-un-media" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-couleur"></span><h3>Couleur (par défaut) du commentaire associé à un média<a class="headerlink" href="#couleur-par-defaut-du-commentaire-associe-a-un-media" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur par défaut du commentaire associé à un média</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -908,7 +924,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="couleur-de-fond-du-commentaire">
-<span id="animateur-parametres-commentaires-fond"></span><h3>Couleur de fond du commentaire<a class="headerlink" href="#couleur-de-fond-du-commentaire" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-fond"></span><h3>Couleur de fond du commentaire<a class="headerlink" href="#couleur-de-fond-du-commentaire" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur de fond du commentaire associé à un média</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -922,7 +938,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="afficher-le-commentaire-de-test-lors-du-chargement">
-<span id="animateur-parametres-commentaires-test"></span><h3>Afficher le « commentaire de test » lors du chargement<a class="headerlink" href="#afficher-le-commentaire-de-test-lors-du-chargement" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-commentaires-test"></span><h3>Afficher le « commentaire de test » lors du chargement<a class="headerlink" href="#afficher-le-commentaire-de-test-lors-du-chargement" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, le « commentaire de test » lors du chargement du diaporama.</p>
 <p>Il vous permet de vérifier rapidement vos paramètres de commentaires (taille, couleur, etc.) sans envoyer de média.</p>
 <p>Paramètre en question :</p>
@@ -939,7 +955,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </section>
 </section>
 <section id="section-bandeau-defilant">
-<span id="animateur-parametres-section-bandeau"></span><h2>Section bandeau défilant<a class="headerlink" href="#section-bandeau-defilant" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-bandeau"></span><h2>Section bandeau défilant<a class="headerlink" href="#section-bandeau-defilant" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section bandeau défilant :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section bandeau défilant" src="../_images/parametres_bandeau.PNG" />
@@ -949,7 +965,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 <p>Le bandeau défilant est visible sur le diaporama, <a class="reference internal" href="../diaporama/index.html#diaporama-bandeau"><span class="std std-ref">partie bandeau défilant</span></a>.</p>
 </div>
 <section id="activer-le-bandeau">
-<span id="animateur-parametres-bandeau-activer"></span><h3>Activer le bandeau<a class="headerlink" href="#activer-le-bandeau" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-activer"></span><h3>Activer le bandeau<a class="headerlink" href="#activer-le-bandeau" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, le bandeau défilant situé en haut du diaporama.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -964,7 +980,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="taille-de-la-police-du-bandeau">
-<span id="animateur-parametres-bandeau-taille"></span><h3>Taille de la police du bandeau<a class="headerlink" href="#taille-de-la-police-du-bandeau" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-taille"></span><h3>Taille de la police du bandeau<a class="headerlink" href="#taille-de-la-police-du-bandeau" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la taille de la police du bandeau défilant.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -978,7 +994,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="couleur-du-bandeau">
-<span id="animateur-parametres-bandeau-couleur"></span><h3>Couleur du bandeau<a class="headerlink" href="#couleur-du-bandeau" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-couleur"></span><h3>Couleur du bandeau<a class="headerlink" href="#couleur-du-bandeau" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur du texte du bandeau défilant.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -992,7 +1008,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="activer-l-encadrement-du-bandeau-defilant">
-<span id="animateur-parametres-bandeau-encadrement"></span><h3>Activer l’encadrement du bandeau défilant<a class="headerlink" href="#activer-l-encadrement-du-bandeau-defilant" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-encadrement"></span><h3>Activer l’encadrement du bandeau défilant<a class="headerlink" href="#activer-l-encadrement-du-bandeau-defilant" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, l’encadrement du bandeau défilant.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1007,7 +1023,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="opacite-de-l-encadrement-du-bandeau">
-<span id="animateur-parametres-bandeau-opacite"></span><h3>Opacité de l’encadrement du bandeau<a class="headerlink" href="#opacite-de-l-encadrement-du-bandeau" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-opacite"></span><h3>Opacité de l’encadrement du bandeau<a class="headerlink" href="#opacite-de-l-encadrement-du-bandeau" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir l’opacité de l’encadrement du bandeau défilant.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1025,7 +1041,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="couleur-de-fond-du-bandeau">
-<span id="animateur-parametres-bandeau-fond"></span><h3>Couleur de fond du bandeau<a class="headerlink" href="#couleur-de-fond-du-bandeau" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-fond"></span><h3>Couleur de fond du bandeau<a class="headerlink" href="#couleur-de-fond-du-bandeau" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur de fond du bandeau défilant.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1039,7 +1055,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="vitesse-de-defilement-du-bandeau">
-<span id="animateur-parametres-bandeau-vitesse"></span><h3>Vitesse de défilement du bandeau<a class="headerlink" href="#vitesse-de-defilement-du-bandeau" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-vitesse"></span><h3>Vitesse de défilement du bandeau<a class="headerlink" href="#vitesse-de-defilement-du-bandeau" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la vitesse de défilement du bandeau.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1057,7 +1073,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="texte-du-bandeau-defilant">
-<span id="animateur-parametres-bandeau-texte"></span><h3>Texte du bandeau défilant<a class="headerlink" href="#texte-du-bandeau-defilant" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-texte"></span><h3>Texte du bandeau défilant<a class="headerlink" href="#texte-du-bandeau-defilant" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir le texte du bandeau défilant.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1075,7 +1091,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="position-du-bandeau-defilant">
-<span id="animateur-parametres-bandeau-position"></span><h3>Position du bandeau défilant<a class="headerlink" href="#position-du-bandeau-defilant" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-bandeau-position"></span><h3>Position du bandeau défilant<a class="headerlink" href="#position-du-bandeau-defilant" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir de positionner le bandeau en haut ou en bas du diaporama.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1091,7 +1107,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </section>
 </section>
 <section id="section-projecteur">
-<span id="animateur-parametres-section-projecteur"></span><h2>Section projecteur<a class="headerlink" href="#section-projecteur" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-projecteur"></span><h2>Section projecteur<a class="headerlink" href="#section-projecteur" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section bandeau projecteur:</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section projecteur" src="../_images/parametres_projecteur.PNG" />
@@ -1104,7 +1120,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 <p>La partie projecteur fait référence à la partie visible du <a class="reference internal" href="../diaporama/index.html#diaporama"><span class="std std-ref">diaporama</span></a>.</p>
 </div>
 <section id="vitesse-de-defilement-des-medias">
-<span id="animateur-parametres-projecteur-vitesse"></span><h3>Vitesse de défilement des médias<a class="headerlink" href="#vitesse-de-defilement-des-medias" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-vitesse"></span><h3>Vitesse de défilement des médias<a class="headerlink" href="#vitesse-de-defilement-des-medias" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la vitesse de défilement des médias.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1122,7 +1138,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="type-de-transitions">
-<span id="animateur-parametres-projecteur-transition-type"></span><h3>Type de transitions<a class="headerlink" href="#type-de-transitions" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-transition-type"></span><h3>Type de transitions<a class="headerlink" href="#type-de-transitions" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir le type de transitions utilisées entre les médias</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1141,7 +1157,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="effet-de-fond-des-medias">
-<span id="animateur-parametres-projecteur-fond"></span><h3>Effet de fond des médias<a class="headerlink" href="#effet-de-fond-des-medias" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-fond"></span><h3>Effet de fond des médias<a class="headerlink" href="#effet-de-fond-des-medias" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir le type d’effet de fond des médias. Ce paramètre est utile pour les photos ne prenant pas toute la place du diaporama. Cela permet « de remplir » le fond du diaporama.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1157,7 +1173,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="couleur-de-fond-des-medias">
-<span id="animateur-parametres-projecteur-fond-couleur"></span><h3>Couleur de fond des médias<a class="headerlink" href="#couleur-de-fond-des-medias" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-fond-couleur"></span><h3>Couleur de fond des médias<a class="headerlink" href="#couleur-de-fond-des-medias" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur de fond des médias</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1175,7 +1191,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="fond-des-medias-personnalise">
-<span id="animateur-parametres-projecteur-fond-personnalise"></span><h3>Fond des médias personnalisé<a class="headerlink" href="#fond-des-medias-personnalise" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-fond-personnalise"></span><h3>Fond des médias personnalisé<a class="headerlink" href="#fond-des-medias-personnalise" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez envoyer votre propre image de fond de médias.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1193,7 +1209,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="duree-des-transitions">
-<span id="animateur-parametres-projecteur-transition-duree"></span><h3>Durée des transitions<a class="headerlink" href="#duree-des-transitions" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-transition-duree"></span><h3>Durée des transitions<a class="headerlink" href="#duree-des-transitions" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la durée des transitions entre les médias.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1207,7 +1223,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="activer-le-logo-en-bas-a-droite">
-<span id="animateur-parametres-projecteur-logo"></span><h3>Activer le logo en bas à droite<a class="headerlink" href="#activer-le-logo-en-bas-a-droite" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-logo"></span><h3>Activer le logo en bas à droite<a class="headerlink" href="#activer-le-logo-en-bas-a-droite" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, l’affichage du logo en bas à droite</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1226,7 +1242,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="opacite-du-logo">
-<span id="animateur-parametres-projecteur-logo-opacite"></span><h3>Opacité du logo<a class="headerlink" href="#opacite-du-logo" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-logo-opacite"></span><h3>Opacité du logo<a class="headerlink" href="#opacite-du-logo" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir l’opacité du logo.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1244,7 +1260,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="envoyer-le-logo">
-<span id="animateur-parametres-projecteur-logo-fichier"></span><h3>Envoyer le logo<a class="headerlink" href="#envoyer-le-logo" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-logo-fichier"></span><h3>Envoyer le logo<a class="headerlink" href="#envoyer-le-logo" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez envoyer votre propre logo sur PicturWall pour l’afficher sur le diaporama</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1262,7 +1278,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="afficher-prenom-et-nom-de-l-invite">
-<span id="animateur-parametres-projecteur-invite"></span><h3>Afficher prénom et nom de l’invité<a class="headerlink" href="#afficher-prenom-et-nom-de-l-invite" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-invite"></span><h3>Afficher prénom et nom de l’invité<a class="headerlink" href="#afficher-prenom-et-nom-de-l-invite" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’afficher, ou non, le prénom de l’invité.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1277,7 +1293,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="taille-de-la-police-du-prenom-et-nom-de-l-invite">
-<span id="animateur-parametres-projecteur-invite-taille"></span><h3>Taille de la police du prénom et nom de l’invité<a class="headerlink" href="#taille-de-la-police-du-prenom-et-nom-de-l-invite" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-invite-taille"></span><h3>Taille de la police du prénom et nom de l’invité<a class="headerlink" href="#taille-de-la-police-du-prenom-et-nom-de-l-invite" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la taille du prénom et nom de l’invité.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1291,7 +1307,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="couleur-du-prenom-et-nom-de-l-invite">
-<span id="animateur-parametres-projecteur-invite-couleur"></span><h3>Couleur du prénom et nom de l’invité<a class="headerlink" href="#couleur-du-prenom-et-nom-de-l-invite" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-invite-couleur"></span><h3>Couleur du prénom et nom de l’invité<a class="headerlink" href="#couleur-du-prenom-et-nom-de-l-invite" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur du prénom et nom de l’invité</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1305,7 +1321,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="choisir-le-media-d-explication">
-<span id="animateur-parametres-projecteur-media-explication"></span><h3>Choisir le média d’explication<a class="headerlink" href="#choisir-le-media-d-explication" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-media-explication"></span><h3>Choisir le média d’explication<a class="headerlink" href="#choisir-le-media-d-explication" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez envoyer votre propre image d’explication sur PicturWall pour l’afficher sur le diaporama</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1323,7 +1339,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="couleur-de-fond-du-media-d-explication">
-<span id="animateur-parametres-projecteur-media-explication-couleur"></span><h3>Couleur de fond du média d’explication<a class="headerlink" href="#couleur-de-fond-du-media-d-explication" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-media-explication-couleur"></span><h3>Couleur de fond du média d’explication<a class="headerlink" href="#couleur-de-fond-du-media-d-explication" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur de fond du média d’explication</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1341,7 +1357,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="choisir-le-media-de-presentation">
-<span id="animateur-parametres-projecteur-media-presentation"></span><h3>Choisir le média de présentation<a class="headerlink" href="#choisir-le-media-de-presentation" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-media-presentation"></span><h3>Choisir le média de présentation<a class="headerlink" href="#choisir-le-media-de-presentation" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez envoyer votre propre image de présentation sur PicturWall pour l’afficher sur le diaporama.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1359,7 +1375,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="couleur-de-fond-du-media-de-presentation">
-<span id="animateur-parametres-projecteur-media-presentation-couleur"></span><h3>Couleur de fond du média de présentation<a class="headerlink" href="#couleur-de-fond-du-media-de-presentation" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-media-presentation-couleur"></span><h3>Couleur de fond du média de présentation<a class="headerlink" href="#couleur-de-fond-du-media-de-presentation" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez définir la couleur de fond du média de présentation.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1377,7 +1393,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="qr-code-pour-simplifier-la-connexion-au-wifi">
-<span id="animateur-parametres-projecteur-qrcode-wifi"></span><h3>QR-code pour simplifier la connexion au wifi<a class="headerlink" href="#qr-code-pour-simplifier-la-connexion-au-wifi" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-qrcode-wifi"></span><h3>QR-code pour simplifier la connexion au wifi<a class="headerlink" href="#qr-code-pour-simplifier-la-connexion-au-wifi" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez afficher un QRCode sur l’image de présentation de PicturWall afin d’aider vos invités à se connecter au réseau Wifi !</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1410,7 +1426,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="qr-code-pour-simplifier-la-connexion-au-panel-invite">
-<span id="animateur-parametres-projecteur-qrcode-panel-invite"></span><h3>QR-code pour simplifier la connexion au panel invité<a class="headerlink" href="#qr-code-pour-simplifier-la-connexion-au-panel-invite" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-qrcode-panel-invite"></span><h3>QR-code pour simplifier la connexion au panel invité<a class="headerlink" href="#qr-code-pour-simplifier-la-connexion-au-panel-invite" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez afficher un QRCode sur l’image de présentation de PicturWall afin d’aider vos invités à se connecter sur le panel invité !</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1443,7 +1459,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="redemarrer-le-diaporama">
-<span id="animateur-parametres-projecteur-redemarrer-diaporama"></span><h3>Redémarrer le diaporama<a class="headerlink" href="#redemarrer-le-diaporama" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-projecteur-redemarrer-diaporama"></span><h3>Redémarrer le diaporama<a class="headerlink" href="#redemarrer-le-diaporama" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez redémarrer la partie graphique de PicturWall (en cas de plantage du diaporama par exemple)</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1462,13 +1478,13 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </section>
 </section>
 <section id="section-impression">
-<span id="animateur-parametres-section-impression"></span><h2>Section impression<a class="headerlink" href="#section-impression" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-impression"></span><h2>Section impression<a class="headerlink" href="#section-impression" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section impression :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section impression" src="../_images/parametres_impression.PNG" />
 </figure>
 <section id="activer-le-service-d-impression">
-<span id="animateur-parametres-impression-activer"></span><h3>Activer le service d’impression<a class="headerlink" href="#activer-le-service-d-impression" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-activer"></span><h3>Activer le service d’impression<a class="headerlink" href="#activer-le-service-d-impression" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, le service d’impression</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1491,7 +1507,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="imprimer-le-logo-sur-les-photos">
-<span id="animateur-parametres-impression-logo-activer"></span><h3>Imprimer le logo sur les photos<a class="headerlink" href="#imprimer-le-logo-sur-les-photos" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-logo-activer"></span><h3>Imprimer le logo sur les photos<a class="headerlink" href="#imprimer-le-logo-sur-les-photos" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’imprimer, ou non, un logo sur les photos.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1510,7 +1526,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="choisir-le-logo-d-impression">
-<span id="animateur-parametres-impression-logo-fichier"></span><h3>Choisir le logo d’impression<a class="headerlink" href="#choisir-le-logo-d-impression" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-logo-fichier"></span><h3>Choisir le logo d’impression<a class="headerlink" href="#choisir-le-logo-d-impression" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez envoyer votre propre logo qui sera imprimé en bas à droite de chaque média</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1528,7 +1544,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="autoriser-les-utilisateurs-a-imprimer">
-<span id="animateur-parametres-impression-utilisateur"></span><h3>Autoriser les utilisateurs à imprimer<a class="headerlink" href="#autoriser-les-utilisateurs-a-imprimer" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-utilisateur"></span><h3>Autoriser les utilisateurs à imprimer<a class="headerlink" href="#autoriser-les-utilisateurs-a-imprimer" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’autoriser les utilisateurs (invités) à imprimer.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1543,7 +1559,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="nombre-d-impressions-maximum-par-utilisateur">
-<span id="animateur-parametres-impression-utilisateur-max"></span><h3>Nombre d’impressions maximum par utilisateur<a class="headerlink" href="#nombre-d-impressions-maximum-par-utilisateur" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-utilisateur-max"></span><h3>Nombre d’impressions maximum par utilisateur<a class="headerlink" href="#nombre-d-impressions-maximum-par-utilisateur" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir le nombre d’impressions maximum par utilisateur.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1561,7 +1577,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="autoriser-les-utilisateurs-a-imprimer-des-l-envoi">
-<span id="animateur-parametres-impression-utilisateur-envoi"></span><h3>Autoriser les utilisateurs à imprimer dès l’envoi<a class="headerlink" href="#autoriser-les-utilisateurs-a-imprimer-des-l-envoi" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-utilisateur-envoi"></span><h3>Autoriser les utilisateurs à imprimer dès l’envoi<a class="headerlink" href="#autoriser-les-utilisateurs-a-imprimer-des-l-envoi" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’autoriser les utilisateurs (invités) à <a class="reference internal" href="../panel_invite/index.html#invite-media-imprimer"><span class="std std-ref">imprimer dès l’envoi</span></a> d’un média.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1576,7 +1592,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="autoriser-les-utilisateurs-a-imprimer-apres-l-envoi">
-<span id="animateur-parametres-impression-utilisateur-envoi-differe"></span><h3>Autoriser les utilisateurs à imprimer après l’envoi<a class="headerlink" href="#autoriser-les-utilisateurs-a-imprimer-apres-l-envoi" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-utilisateur-envoi-differe"></span><h3>Autoriser les utilisateurs à imprimer après l’envoi<a class="headerlink" href="#autoriser-les-utilisateurs-a-imprimer-apres-l-envoi" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’autoriser les utilisateurs (invités) à <a class="reference internal" href="../panel_invite/index.html#invite-impression-apres-coup"><span class="std std-ref">imprimer après coup</span></a>.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1591,7 +1607,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </dl>
 </section>
 <section id="nombre-d-impressions-maximum">
-<span id="animateur-parametres-impression-max"></span><h3>Nombre d’impressions maximum<a class="headerlink" href="#nombre-d-impressions-maximum" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-max"></span><h3>Nombre d’impressions maximum<a class="headerlink" href="#nombre-d-impressions-maximum" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir le nombre d’impressions maximum (global).</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1609,7 +1625,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="choisir-un-overlay">
-<span id="animateur-parametres-impression-overlays-choix"></span><h3>Choisir un overlay<a class="headerlink" href="#choisir-un-overlay" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-overlays-choix"></span><h3>Choisir un overlay<a class="headerlink" href="#choisir-un-overlay" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir l’overlay que vous voulez appliquer aux impressions.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1632,7 +1648,7 @@ En mode manuel, l’animateur doit approuver chaque vidéo avant que cette derni
 </div>
 </section>
 <section id="editer-un-overlay">
-<span id="animateur-parametres-impression-overlays-edition"></span><h3>Éditer un overlay<a class="headerlink" href="#editer-un-overlay" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-overlays-edition"></span><h3>Éditer un overlay<a class="headerlink" href="#editer-un-overlay" title="Lien vers cette rubrique"></a></h3>
 <p>Une <a class="reference internal" href="animateur_overlays_edition.html#animateur-overlays-edition"><span class="std std-ref">page est dédiée</span></a> pour éditer les overlays. Elle est accessible depuis ce paramètre.
 Paramètre en question :</p>
 <figure class="align-center">
@@ -1644,7 +1660,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="impressions-des-commentaires">
-<span id="animateur-parametres-impression-overlays-commentaire"></span><h3>Impressions des commentaires<a class="headerlink" href="#impressions-des-commentaires" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-overlays-commentaire"></span><h3>Impressions des commentaires<a class="headerlink" href="#impressions-des-commentaires" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’autoriser, ou non l’impression des commentaires.
 Paramètre en question :</p>
 <figure class="align-center">
@@ -1663,7 +1679,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="texte-principal-de-l-overlay">
-<span id="animateur-parametres-impression-overlays-texte-principal"></span><h3>Texte principal de l’overlay<a class="headerlink" href="#texte-principal-de-l-overlay" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-overlays-texte-principal"></span><h3>Texte principal de l’overlay<a class="headerlink" href="#texte-principal-de-l-overlay" title="Lien vers cette rubrique"></a></h3>
 <p>Texte principal de l’overlay choisi
 Paramètre en question :</p>
 <figure class="align-center">
@@ -1675,7 +1691,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="texte-secondaire-de-l-overlay">
-<span id="animateur-parametres-impression-overlays-texte-secondaire"></span><h3>Texte secondaire de l’overlay<a class="headerlink" href="#texte-secondaire-de-l-overlay" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-overlays-texte-secondaire"></span><h3>Texte secondaire de l’overlay<a class="headerlink" href="#texte-secondaire-de-l-overlay" title="Lien vers cette rubrique"></a></h3>
 <p>Texte secondaire de l’overlay choisi
 Paramètre en question :</p>
 <figure class="align-center">
@@ -1687,7 +1703,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="texte-date-de-l-evenement-de-l-overlay">
-<span id="animateur-parametres-impression-overlays-texte-date"></span><h3>Texte « date de l’évènement » de l’overlay<a class="headerlink" href="#texte-date-de-l-evenement-de-l-overlay" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-overlays-texte-date"></span><h3>Texte « date de l’évènement » de l’overlay<a class="headerlink" href="#texte-date-de-l-evenement-de-l-overlay" title="Lien vers cette rubrique"></a></h3>
 <p>Texte « date de l’évènement » de l’overlay choisi
 Paramètre en question :</p>
 <figure class="align-center">
@@ -1699,7 +1715,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="supprimer-l-imprimante-de-picturwall">
-<span id="animateur-parametres-impression-supprimer"></span><h3>Supprimer l’imprimante de PicturWall<a class="headerlink" href="#supprimer-l-imprimante-de-picturwall" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-impression-supprimer"></span><h3>Supprimer l’imprimante de PicturWall<a class="headerlink" href="#supprimer-l-imprimante-de-picturwall" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez supprimer l’imprimante de PicturWall.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1714,7 +1730,7 @@ Paramètre en question :</p>
 </section>
 </section>
 <section id="section-envoi-reseau">
-<span id="animateur-parametres-section-envoi-reseau"></span><h2>Section envoi réseau<a class="headerlink" href="#section-envoi-reseau" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-envoi-reseau"></span><h2>Section envoi réseau<a class="headerlink" href="#section-envoi-reseau" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section envoi réseau :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section envoi réseau" src="../_images/parametres_envoi_reseau.PNG" />
@@ -1724,7 +1740,7 @@ Paramètre en question :</p>
 <p>Je vais bientôt sortir une vidéo sur toute la partie envoi réseau. Je vous tiens informé.</p>
 </div>
 <section id="activer-l-envoi-de-medias-depuis-le-dossier-reseau-pw-add">
-<span id="animateur-parametres-envoi-reseau-pw-add"></span><h3>Activer l’envoi de médias depuis le dossier réseau “pw_add”<a class="headerlink" href="#activer-l-envoi-de-medias-depuis-le-dossier-reseau-pw-add" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-pw-add"></span><h3>Activer l’envoi de médias depuis le dossier réseau “pw_add”<a class="headerlink" href="#activer-l-envoi-de-medias-depuis-le-dossier-reseau-pw-add" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, l’envoi de médias depuis le dossier réseau “pw_add”.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1739,7 +1755,7 @@ Paramètre en question :</p>
 </dl>
 </section>
 <section id="approuver-automatiquement-les-medias-du-dossier-reseau-pw-add">
-<span id="animateur-parametres-envoi-reseau-pw-add-approuver"></span><h3>Approuver automatiquement les médias du dossier réseau “pw_add”<a class="headerlink" href="#approuver-automatiquement-les-medias-du-dossier-reseau-pw-add" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-pw-add-approuver"></span><h3>Approuver automatiquement les médias du dossier réseau “pw_add”<a class="headerlink" href="#approuver-automatiquement-les-medias-du-dossier-reseau-pw-add" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’approuver automatiquement, ou non, les médias envoyés depuis le dossier réseau “pw_add”.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1759,7 +1775,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="imprimer-automatiquement-les-medias-du-dossier-reseau-pw-add">
-<span id="animateur-parametres-envoi-reseau-pw-add-imprimer"></span><h3>Imprimer automatiquement les médias du dossier réseau “pw_add”<a class="headerlink" href="#imprimer-automatiquement-les-medias-du-dossier-reseau-pw-add" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-pw-add-imprimer"></span><h3>Imprimer automatiquement les médias du dossier réseau “pw_add”<a class="headerlink" href="#imprimer-automatiquement-les-medias-du-dossier-reseau-pw-add" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’imprimer automatiquement, ou non, les médias envoyés depuis le dossier réseau “pw_add”.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1774,7 +1790,7 @@ Paramètre en question :</p>
 </dl>
 </section>
 <section id="activer-l-envoi-de-medias-depuis-le-dossier-reseau-pw-print">
-<span id="animateur-parametres-envoi-reseau-pw-print"></span><h3>Activer l’envoi de médias depuis le dossier réseau “pw_print”<a class="headerlink" href="#activer-l-envoi-de-medias-depuis-le-dossier-reseau-pw-print" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-pw-print"></span><h3>Activer l’envoi de médias depuis le dossier réseau “pw_print”<a class="headerlink" href="#activer-l-envoi-de-medias-depuis-le-dossier-reseau-pw-print" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’activer, ou non, l’envoi de médias depuis le dossier réseau “pw_print”.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1789,7 +1805,7 @@ Paramètre en question :</p>
 </dl>
 </section>
 <section id="supprimer-les-medias-apres-impression-depuis-le-dossier-reseau-pw-print">
-<span id="animateur-parametres-envoi-reseau-pw-print-supprimer"></span><h3>Supprimer les médias après impression depuis le dossier réseau “pw_print”<a class="headerlink" href="#supprimer-les-medias-apres-impression-depuis-le-dossier-reseau-pw-print" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-pw-print-supprimer"></span><h3>Supprimer les médias après impression depuis le dossier réseau “pw_print”<a class="headerlink" href="#supprimer-les-medias-apres-impression-depuis-le-dossier-reseau-pw-print" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir de supprimer automatiquement, ou non, les médias envoyés depuis le dossier réseau “pw_print”.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1808,7 +1824,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="incrementer-le-nombre-d-impressions-depuis-les-dossiers-reseaux">
-<span id="animateur-parametres-envoi-reseau-incrementer"></span><h3>Incrémenter le nombre d’impressions depuis les dossiers réseaux<a class="headerlink" href="#incrementer-le-nombre-d-impressions-depuis-les-dossiers-reseaux" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-incrementer"></span><h3>Incrémenter le nombre d’impressions depuis les dossiers réseaux<a class="headerlink" href="#incrementer-le-nombre-d-impressions-depuis-les-dossiers-reseaux" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’incrémenter le nombre d’impressions depuis les dossiers réseaux, ou non.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1823,7 +1839,7 @@ Paramètre en question :</p>
 </dl>
 </section>
 <section id="autoriser-le-depassement-du-nombre-d-impressions-maximum-depuis-les-dossiers-reseaux">
-<span id="animateur-parametres-envoi-reseau-incrementer-depassement"></span><h3>Autoriser le dépassement du nombre d’impressions maximum depuis les dossiers réseaux<a class="headerlink" href="#autoriser-le-depassement-du-nombre-d-impressions-maximum-depuis-les-dossiers-reseaux" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-envoi-reseau-incrementer-depassement"></span><h3>Autoriser le dépassement du nombre d’impressions maximum depuis les dossiers réseaux<a class="headerlink" href="#autoriser-le-depassement-du-nombre-d-impressions-maximum-depuis-les-dossiers-reseaux" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez choisir d’autoriser le dépassement du nombre d’impressions depuis les dossiers réseaux, ou non.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1839,13 +1855,36 @@ Paramètre en question :</p>
 </section>
 </section>
 <section id="section-dns">
-<span id="animateur-parametres-section-dns"></span><h2>Section DNS<a class="headerlink" href="#section-dns" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-dns"></span><h2>Section DNS<a class="headerlink" href="#section-dns" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section DNS :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section DNS" src="../_images/parametres_dns.PNG" />
 </figure>
+<section id="reinitialiser-le-serveur-dns">
+<span id="animateur-parametres-dns-reset"></span><h3>Réinitialiser le serveur DNS<a class="headerlink" href="#reinitialiser-le-serveur-dns" title="Lien vers cette rubrique"></a></h3>
+<p>Vous pouvez remettre à 0 le serveur DNS de PicturWall.</p>
+<p>Paramètre en question :</p>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section dns, reset" src="../_images/parametres_dns_reset.PNG" />
+</figure>
+<dl class="simple">
+<dt>Option du paramètre :</dt><dd><ul class="simple">
+<li><p><strong>Remise à 0</strong> : Réinitialiser le serveur DNS</p></li>
+</ul>
+</dd>
+<dt>Cela aura pour effet de laisser seulement les URL « de base » de PicturWall:</dt><dd><ul class="simple">
+<li><p>picturwall.tv</p></li>
+<li><p>picturwall.com</p></li>
+<li><p>picturwall.fr</p></li>
+<li><p>picturewall.tv</p></li>
+<li><p>picturewall.fr</p></li>
+<li><p>picturewall.com</p></li>
+</ul>
+</dd>
+</dl>
+</section>
 <section id="ajouter-une-url-de-connexion">
-<span id="animateur-parametres-dns-ajouter"></span><h3>Ajouter une URL de connexion<a class="headerlink" href="#ajouter-une-url-de-connexion" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-dns-ajouter"></span><h3>Ajouter une URL de connexion<a class="headerlink" href="#ajouter-une-url-de-connexion" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez très bien ajouter des URL de connexion à PicturWall. Comment cela fonctionne ?</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1881,38 +1920,39 @@ Paramètre en question :</p>
 <p>N’hésitez pas à contacter le support si vous avez une question sur le serveur DNS et les URL.. C’est une notion assez “complexe” de PicturWall.</p>
 </div>
 </section>
-<section id="reinitialiser-le-serveur-dns">
-<span id="animateur-parametres-dns-reset"></span><h3>Réinitialiser le serveur DNS<a class="headerlink" href="#reinitialiser-le-serveur-dns" title="Link to this heading"></a></h3>
-<p>Vous pouvez remettre à 0 le serveur DNS de PicturWall.</p>
+<section id="lister-les-url-de-connexions-personnalisees">
+<span id="animateur-parametres-dns-list"></span><h3>Lister les URL de connexions personnalisées<a class="headerlink" href="#lister-les-url-de-connexions-personnalisees" title="Lien vers cette rubrique"></a></h3>
+<p>Vous pouvez lister les URL de connexions personnalisée que vous avez ajouté.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section dns, reset" src="../_images/parametres_dns_reset.PNG" />
+<img alt="Panel animateur de PicturWall, page paramètres, section dns, list" src="../_images/parametres_dns_list.PNG" />
 </figure>
 <dl class="simple">
 <dt>Option du paramètre :</dt><dd><ul class="simple">
-<li><p><strong>Remise à 0</strong> : Réinitialiser le serveur DNS</p></li>
-</ul>
-</dd>
-<dt>Cela aura pour effet de laisser seulement les URL « de base » de PicturWall:</dt><dd><ul class="simple">
-<li><p>picturwall.tv</p></li>
-<li><p>picturwall.com</p></li>
-<li><p>picturwall.fr</p></li>
-<li><p>picturewall.tv</p></li>
-<li><p>picturewall.fr</p></li>
-<li><p>picturewall.com</p></li>
+<li><p><strong>Lister</strong> : Donne la liste des URL de connexions personnalisées que vous avez ajouté</p></li>
 </ul>
 </dd>
 </dl>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section dns, liste des URL personnalisées" src="../_images/parametres_dns_list_pleine.PNG" />
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les URL de connexions « de base » ne sont pas listées (picturwall.tv, picturewall.fr, …).</p>
+</div>
+<figure class="align-center">
+<img alt="Panel animateur de PicturWall, page paramètres, section dns, liste vide" src="../_images/parametres_dns_list_vide.PNG" />
+</figure>
 </section>
 </section>
 <section id="section-systeme">
-<span id="animateur-parametres-section-systeme"></span><h2>Section système<a class="headerlink" href="#section-systeme" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-systeme"></span><h2>Section système<a class="headerlink" href="#section-systeme" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section système:</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section système" src="../_images/parametres_systeme.PNG" />
 </figure>
 <section id="eteindre-le-systeme">
-<span id="animateur-parametres-systeme-off"></span><h3>Éteindre le système<a class="headerlink" href="#eteindre-le-systeme" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-systeme-off"></span><h3>Éteindre le système<a class="headerlink" href="#eteindre-le-systeme" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez éteindre PicturWall depuis ce paramètre. C’est la façon propre d’éteindre PicturWall.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1930,7 +1970,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="redemarrer-le-systeme">
-<span id="animateur-parametres-systeme-restart"></span><h3>Redémarrer le système<a class="headerlink" href="#redemarrer-le-systeme" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-systeme-restart"></span><h3>Redémarrer le système<a class="headerlink" href="#redemarrer-le-systeme" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez redémarrer PicturWall depuis ce paramètre.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1948,7 +1988,7 @@ Paramètre en question :</p>
 </div>
 </section>
 <section id="activer-le-partage-de-connexion-internet">
-<span id="animateur-parametres-systeme-partage-connexion"></span><h3>Activer le partage de connexion internet<a class="headerlink" href="#activer-le-partage-de-connexion-internet" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-systeme-partage-connexion"></span><h3>Activer le partage de connexion internet<a class="headerlink" href="#activer-le-partage-de-connexion-internet" title="Lien vers cette rubrique"></a></h3>
 <p>Grâce à ce paramètre, vous pouvez partager votre connexion sur le Wifi de PicturWall.
 C’est à dire que si vous connectez PicturWall à un réseau 4G ou Wifi, il pourra être partagé sur le wifi PicturWall.</p>
 <p>Cela permettra à vos invités de continuer à surfer sur internet alors qu’ils sont connectés à PicturWall ! De plus, cela évite d’avoir le message: « ce wifi n’est pas connecté à internet » sur certains téléphones.</p>
@@ -1969,8 +2009,8 @@ C’est à dire que si vous connectez PicturWall à un réseau 4G ou Wifi, il po
 </div>
 </section>
 <section id="activer-la-connexion-a-un-wifi">
-<span id="animateur-parametres-systeme-wifi"></span><h3>Activer la connexion à un wifi<a class="headerlink" href="#activer-la-connexion-a-un-wifi" title="Link to this heading"></a></h3>
-<p>Afin de pouvoir faire les mises à jour de PicturWall mais aussi de partager votre connexion internet via le wifi PicturWall, vous devez connecter PicturWall à un réseau wifi.</p>
+<span id="animateur-parametres-systeme-wifi"></span><h3>Activer la connexion à un wifi<a class="headerlink" href="#activer-la-connexion-a-un-wifi" title="Lien vers cette rubrique"></a></h3>
+<p>Afin de pouvoir faire les mises à jour de PicturWall, d’accéder à votre PW à distance ou de partager votre connexion internet via le wifi PicturWall, vous devez connecter PicturWall à un réseau wifi.</p>
 <p>C’est à cela que sert ce paramètre.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -1983,10 +2023,6 @@ C’est à dire que si vous connectez PicturWall à un réseau 4G ou Wifi, il po
 </ul>
 </dd>
 </dl>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Lors du changement de ce paramètre, PicturWall va redémarrer afin de se connecter au réseau.</p>
-</div>
 <p>Pour vous connecter à un nouveau réseau, il vous suffit de cliquer sur le paramètre. Une fenêtre va s’ouvrir :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi." src="../_images/parametres_systeme_wifi_network.PNG" />
@@ -2003,11 +2039,11 @@ C’est à dire que si vous connectez PicturWall à un réseau 4G ou Wifi, il po
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, entrer mot de passe réseau." src="../_images/parametres_systeme_wifi_network_mdp.PNG" />
 </figure>
-<p>Une fois que vous aurez cliqué sur « OK », PicturWall va redémarrer :</p>
+<p>Une fois que vous aurez cliqué sur « Connexion », PicturWall va tenter de se connecter au réseau wifi. Vous verrez une fenêtre d’attente de connexion :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, attente de connexion." src="../_images/parametres_systeme_wifi_connection.PNG" />
 </figure>
-<p>Vous devez juste attendre 60 secondes. Une fois ce délai passé, PicturWall vous affichera un popup vous indiquant que vous êtes connectés :</p>
+<p>Une fois que PicturWall est connecté au réseau, il fera un test de connexion internet puis affichera cette image :</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section système, connexion à un réseau wifi, wifi connecté." src="../_images/parametres_systeme_wifi_connecte.PNG" />
 </figure>
@@ -2017,101 +2053,8 @@ C’est à dire que si vous connectez PicturWall à un réseau 4G ou Wifi, il po
 </figure>
 <p>Cliquez sur « Supprimer », vous aurez un popup vous indiquant que le réseau wifi a bien été supprimé.</p>
 </section>
-<section id="mode-de-resolution-automatique-manuel">
-<span id="animateur-parametres-systeme-resolution"></span><h3>Mode de résolution automatique / manuel<a class="headerlink" href="#mode-de-resolution-automatique-manuel" title="Link to this heading"></a></h3>
-<p>Vous pouvez choisir de définir manuellement votre résolution d’écran avec ce paramètre.</p>
-<p>Cela peut-être utile lorsque votre vidéoprojecteur ne communique pas automatiquement sa résolution optimale à PicturWall.</p>
-<p>Paramètre en question :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, mode de résolution d'écran" src="../_images/parametres_systeme_resolution.PNG" />
-</figure>
-<dl class="simple">
-<dt>Options du paramètre :</dt><dd><ul class="simple">
-<li><p><strong>Automatique</strong> : Mode de résolution automatique (<em>paramètre par défaut</em>)</p></li>
-<li><p><strong>Manuel</strong> : Mode de résolution manuel</p></li>
-</ul>
-</dd>
-</dl>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Lors du changement de ce paramètre, PicturWall va vous demander de redémarrer pour appliquer ce paramètre.</p>
-</div>
-</section>
-<section id="choisir-sa-resolution-d-ecran">
-<span id="animateur-parametres-systeme-resolution-manuel"></span><h3>Choisir sa résolution d’écran<a class="headerlink" href="#choisir-sa-resolution-d-ecran" title="Link to this heading"></a></h3>
-<p>Vous pouvez choisir de définir votre résolution d’écran avec ce paramètre.</p>
-<p>Cela peut-être utile lorsque votre vidéoprojecteur ne communique pas automatiquement sa résolution optimale à PicturWall.</p>
-<p>Paramètre en question :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran" src="../_images/parametres_systeme_resolution_manuel.PNG" />
-</figure>
-<dl class="simple">
-<dt>Option du paramètre :</dt><dd><ul class="simple">
-<li><p><strong>Résolution</strong> : Mode de résolution souhaitée</p></li>
-</ul>
-</dd>
-</dl>
-<p>PicturWall va vous proposer une multitude de résolutions, en voici un exemple:</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, choix de la résolution d'écran. Exemple de résolutions" src="../_images/parametres_systeme_resolution_manuel_exemple.PNG" />
-</figure>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>PicturWall affichera toutes les résolutions compatibles avec votre vidéo-projecteur ou votre écran. Si ce dernier ne communique pas ses résolutions, PicturWall affichera toutes les résolutions qu’il est capable de proposer.</p>
-</div>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Lors du changement de ce paramètre, vous allez devoir redémarrer pour appliquer ce paramètre.</p>
-</div>
-</section>
-<section id="mettre-a-jour-picturwall">
-<span id="animateur-parametres-systeme-maj"></span><h3>Mettre à jour PicturWall<a class="headerlink" href="#mettre-a-jour-picturwall" title="Link to this heading"></a></h3>
-<p>Vous pouvez mettre à jour PicturWall depuis ce paramètre.</p>
-<p>Paramètre en question :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, mettre à jour PicturWall" src="../_images/parametres_systeme_maj.PNG" />
-</figure>
-<dl class="simple">
-<dt>Option du paramètre :</dt><dd><ul class="simple">
-<li><p><strong>Mettre à jour</strong> : Mettre à jour PicturWall</p></li>
-</ul>
-</dd>
-</dl>
-<p>Vous devrez confirmer la demande de mise à jour :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, confirmation." src="../_images/parametres_systeme_maj_confirmation.PNG" />
-</figure>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Lorsque vous mettez à jour PicturWall, tous les médias, logos, paramètres seront définitivement effacés !</p>
-</div>
-<p>Le diaporama va se couper et le logiciel de mise à jour va s’afficher sur votre écran de projection.
-Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une mise à jour est trouvée, le panel animateur l’affichera de la sorte :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, nouvelle mise à jour." src="../_images/parametres_systeme_maj_new.PNG" />
-</figure>
-<p>Si une mise à jour système est disponible, elle sera prioritaire à une mise à jour classique. Dans ce cas, elle sera affichée sous cette forme :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, nouvelle mise à jour système." src="../_images/parametres_systeme_maj_systeme_new.PNG" />
-</figure>
-<p>Une fois la mise à jour confirmée, PicturWall va la dérouler automatiquement, puis va redémarrer :</p>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour en cours." src="../_images/parametres_systeme_maj_cours.PNG" />
-</figure>
-<figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section système, Mettre à jour PicturWall, mise à jour système en cours." src="../_images/parametres_systeme_maj_systeme_cours.PNG" />
-</figure>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Dans le cas où vous effectuez une mise à jour système, lancez l’utilitaire de mise à jour une seconde fois afin de vérifier si il y a une autre mise à jour disponible.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Ne pas fermer la page de votre navigateur, ni mettre hors tension PicturWall lors d’une mise à jour, vous risqueriez de corrompre le système !</p>
-</div>
-</section>
 <section id="animateur-parametres-systeme-redemarrer-diaporama">
-<span id="id1"></span><h3>Redémarrer le diaporama<a class="headerlink" href="#animateur-parametres-systeme-redemarrer-diaporama" title="Link to this heading"></a></h3>
+<span id="id1"></span><h3>Redémarrer le diaporama<a class="headerlink" href="#animateur-parametres-systeme-redemarrer-diaporama" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez redémarrer la partie graphique de PicturWall (en cas de plantage du diaporama par exemple)</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -2130,13 +2073,13 @@ Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une 
 </section>
 </section>
 <section id="section-avancee">
-<span id="animateur-parametres-section-avance"></span><h2>Section avancée<a class="headerlink" href="#section-avancee" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-avance"></span><h2>Section avancée<a class="headerlink" href="#section-avancee" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section avancée:</p>
 <figure class="align-center">
 <img alt="Panel animateur de PicturWall, page paramètres, section avancé" src="../_images/parametres_avance.PNG" />
 </figure>
 <section id="sauvegarder-la-configuration-actuelle">
-<span id="animateur-parametres-avance-sauvegarder"></span><h3>Sauvegarder la configuration actuelle<a class="headerlink" href="#sauvegarder-la-configuration-actuelle" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-avance-sauvegarder"></span><h3>Sauvegarder la configuration actuelle<a class="headerlink" href="#sauvegarder-la-configuration-actuelle" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez sauvegarder l’ensemble des paramètres de PicturWall mais également les différents médias utile à son fonctionnement.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -2158,7 +2101,7 @@ Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une 
 </div>
 </section>
 <section id="charger-une-configuration">
-<span id="animateur-parametres-avance-charger"></span><h3>Charger une configuration<a class="headerlink" href="#charger-une-configuration" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-avance-charger"></span><h3>Charger une configuration<a class="headerlink" href="#charger-une-configuration" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez importer une configuration (précedement sauvegardée) grâce à ce paramètre.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -2184,7 +2127,7 @@ Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une 
 </figure>
 </section>
 <section id="restaurer-la-configuration-d-usine">
-<span id="animateur-parametres-avance-reset"></span><h3>Restaurer la configuration d’usine<a class="headerlink" href="#restaurer-la-configuration-d-usine" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-avance-reset"></span><h3>Restaurer la configuration d’usine<a class="headerlink" href="#restaurer-la-configuration-d-usine" title="Lien vers cette rubrique"></a></h3>
 <p>Vous pouvez restaurer la configuration d’usine de PicturWall grâce à ce paramètre.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
@@ -2211,21 +2154,21 @@ Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une 
 </section>
 </section>
 <section id="section-application">
-<span id="animateur-parametres-section-application"></span><h2>Section application<a class="headerlink" href="#section-application" title="Link to this heading"></a></h2>
+<span id="animateur-parametres-section-application"></span><h2>Section application<a class="headerlink" href="#section-application" title="Lien vers cette rubrique"></a></h2>
 <p>Vue globale de la section application:</p>
 <figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section application" src="../_images/parametres_application.PNG" />
+<img alt="Panel animateur de PicturWall, page paramètres, section application" src="../_images/parametres_application.png" />
 </figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Pour rappel, l’application distante sert à envoyer des photos de manières simplifiées depuis une tablette avec l’application « PicturWall Sender ».</p>
 </div>
 <section id="activer-l-application">
-<span id="animateur-parametres-application-activation"></span><h3>Activer l’application<a class="headerlink" href="#activer-l-application" title="Link to this heading"></a></h3>
+<span id="animateur-parametres-application-activation"></span><h3>Activer l’application<a class="headerlink" href="#activer-l-application" title="Lien vers cette rubrique"></a></h3>
 <p>Afin de pouvoir utiliser l’application, vous devez l’activer.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section application, activer l'application." src="../_images/parametres_application_activation.PNG" />
+<img alt="Panel animateur de PicturWall, page paramètres, section application, activer l'application." src="../_images/parametres_application_activation.png" />
 </figure>
 <dl class="simple">
 <dt>Options du paramètre :</dt><dd><ul class="simple">
@@ -2240,13 +2183,13 @@ Le texte affiché à l’écran sera retranscrit sur le panel animateur. Si une 
 </div>
 </section>
 <section id="animateur-parametres-application-approbation-automatique">
-<span id="id2"></span><h3>Approbation automatique des photos<a class="headerlink" href="#animateur-parametres-application-approbation-automatique" title="Link to this heading"></a></h3>
+<span id="id2"></span><h3>Approbation automatique des photos<a class="headerlink" href="#animateur-parametres-application-approbation-automatique" title="Lien vers cette rubrique"></a></h3>
 <p>Les photos de l’application peuvent soit être approuvées automatiquement, soit manuellement.</p>
 <p>Si les photos sont approuvées automatiquement, elles seront affichables sur le diaporama juste après l’envoi.
 En mode manuel, l’animateur doit approuver chaque photo avant que cette dernière puisse passer sur le diaporama.</p>
 <p>Paramètre en question :</p>
 <figure class="align-center">
-<img alt="Panel animateur de PicturWall, page paramètres, section application, approbation automatique des photos." src="../_images/parametres_application_approbation_automatique.PNG" />
+<img alt="Panel animateur de PicturWall, page paramètres, section application, approbation automatique des photos." src="../_images/parametres_application_approbation_automatique.png" />
 </figure>
 <dl class="simple">
 <dt>Options du paramètre :</dt><dd><ul class="simple">

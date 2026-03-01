@@ -30,17 +30,17 @@ Ensuite, vous acceptez les conditions d'utilisations, et vous cliquez sur |bouto
 
 .. _invite_media:
 
-Envoyer un média
-===================
-L'envoi de média sur PicturWall est très simple :
+Envoyer un/des média
+===========================
+L'envoi de média(s) sur PicturWall est très simple :
 
-* Sélectionner votre média dans votre galerie photo ou prendre la photo en direct !
+* Choisir votre/vos média(s) dans votre galerie photo !
 * Écrire un :ref:`Commentaire <invite_media_commentaire>` (optionnel)
-* Cocher (ou non) la case pour :ref:`"imprimer le souvenir" <invite_media_imprimer>` !
-
+* Cocher (ou non) la case pour :ref:`imprimer la photo <invite_media_imprimer>` !
+* Cliquer sur "Envoyer" !
 
 .. figure:: _images/invite_medias.PNG
-   :alt: Envoyer un média sur PicturWall.
+   :alt: Envoyer un/des médias sur PicturWall.
    :align: center
 
 .. _invite_media_commentaire:
@@ -55,9 +55,7 @@ Commentaire
 Avec PicturWall, vous avez la possibilité d'ajouter un commentaire avec l'envoi de votre souvenir.
 Celui-ci s'affichera sur le :ref:`diaporama <diaporama_commentaire>`, en haut de l'écran.
 
-Le commentaire doit être composé d'au moins 5 caractères.
-
-De plus, vous pouvez y ajouter un smiley, via l'icône associé à droite de la barre de commentaire |bouton_smiley|.
+Le commentaire doit être composé d'au moins 3 caractères.
 
 Pour finir, vous pouvez personnaliser la couleur du commentaire envoyé grâce au sélecteur de couleur |bouton_commentaire_couleur|.
 
@@ -68,16 +66,16 @@ Pour finir, vous pouvez personnaliser la couleur du commentaire envoyé grâce a
 
 .. _invite_media_imprimer:
 
-Imprimer le souvenir
----------------------
+Imprimer la photo
+-------------------------
 
 .. figure:: _images/invite_medias_imprimer.PNG
-   :alt: Imprimer le souvenir via PicturWall (fonction photobooth)
+   :alt: Imprimer la photo via PicturWall (fonction photobooth)
    :align: center
 
 .. important:: Pour que cette case soit visible, il faut :ref:`activer le service d'impression <animateur_parametres_impression_activer>`.
 
-Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leur souvenir !
+Grâce à PicturWall, les invités peuvent eux-mêmes imprimer leurs photos !
 
 Bien sûr, tout est prévu sur le :ref:`panel animateur <animateur_parametres_section_impression>` pour que vous puissiez définir une :ref:`limite d'impressions par utilisateur <animateur_parametres_impression_utilisateur_max>` et une limite :ref:`d'impression globale <animateur_parametres_impression_max>`.
 
@@ -98,7 +96,7 @@ Pour passer de l'un à l'autre, vous avez juste à cliquer sur le drapeau corres
    :alt: Traduire le panel invité
    :align: center
 
-.. admonition:: Ajouter une langue 
+.. admonition:: Ajouter une langue
 
     Afin d'jaouter une langue au panel invité, veuillez en faire la demande à Gatien en passant via le formulaire de contact du site web.
 
@@ -157,9 +155,6 @@ Vous pouvez imprimer ce type de média comme tous les autres.
 
 .. |bouton_envoyer| image:: _images/invite_bouton_envoyer.PNG
     :alt: Bouton envoyer.
-
-.. |bouton_smiley| image:: _images/invite_bouton_smiley.PNG
-    :alt: Ajouter un smiley au commentaire.
 
 .. |bouton_commentaire_couleur| image:: _images/invite_bouton_commentaire_couleur.PNG
     :alt: Ajouter une couleur au commentaire.
