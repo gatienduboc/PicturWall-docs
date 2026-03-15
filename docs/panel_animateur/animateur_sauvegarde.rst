@@ -3,7 +3,7 @@
 Page sauvegarder les médias
 ================================
 
-La page de sauvegarde des utilisateurs ressemble à ceci :
+La page de sauvegarde des médias ressemble à ceci :
 
 .. figure:: _images/sauvegarde/sauvegarde.PNG
    :alt: Panel animateur de PicturWall, page sauvegarde des médias.
@@ -14,6 +14,7 @@ Cette page vous permet de sauvegarder l'ensemble des médias (et commentaires) d
 Vous pouvez télécharger :
  * Tous les médias et commentaires
  * Les médias acceptés
+ * Les médias avec les cadres photos générés pour l'impression
  * Les médias refusés
  * Les médias de personnes bannis
  * Tous les commentaires
@@ -38,15 +39,17 @@ Ensuite, vous allez voir cette fenêtre apparaître :
 
 Afin de créer l'archive, il suffit de cliquer sur "Oui !".
 
-.. important:: Une fois ceci fait, il faut patienter jusqu'à l'apparition de la ligne "Voulez-vous récupérer tous les médias sur l'ordinateur ?".
+.. important:: Si une clé USB est branchée sur PicturWall, les fichiers vont directement se téléverser dessus. Vous verrez l'indication 'Déjà sur cla clé' lorsque le .zip sera téléversé".
+
+
+Dans le cas où aucune clé USB n'est branchée, vous allez avoir la fenêtre suivante :
 
 .. figure:: _images/sauvegarde/sauvegarde_OK.PNG
    :alt: Panel animateur de PicturWall, page gestion des sauvegarde, récupération de l'archive
    :align: center
 
-Afin de récupérer l'archive contenant tous les médias, il suffit de cliquer sur "Oui !".
+Afin de récupérer l'archive contenant tous les médias, il suffit de cliquer sur "Téléchargement !".
 
-Vous pouvez désormais cliquer sur le bouton "Téléchargement" de la ligne "Voulez-vous récupérer tous les médias sur l'ordinateur ?"..
 Vous allez voir apparaître cette fenêtre :
 
 .. figure:: _images/sauvegarde/sauvegarde_download.PNG
